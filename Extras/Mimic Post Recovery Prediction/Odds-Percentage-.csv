@@ -1,0 +1,157 @@
+,cui,Odds_Percentage,description
+5,C0014060,0.7604,"Encephalitis, St. Louis"
+9,C0022661,0.7471,"Kidney Failure, Chronic"
+11,C0002871,0.6403,Anemia
+4,C0020538,0.5692,Hypertensive disease
+63,C0017181,0.5247,Gastrointestinal Hemorrhage
+14,C0745138,0.4714,Hypertensive urgency
+13,C0520679,0.4447,"Sleep Apnea, Obstructive"
+2,C0035078,0.3869,Kidney Failure
+28,C0030193,0.3735,Pain
+55,C0009450,0.3469,Communicable Diseases
+61,C0000737,0.3424,Abdominal Pain
+23,C0020540,0.289,Malignant Hypertension
+67,C0011570,0.2312,Mental Depression
+8,C4551472,0.2046,Hypertrophic obstructive cardiomyopathy
+38,C0027497,0.1957,Nausea
+1,C0220981,0.1779,Metabolic acidosis
+98,C0013404,0.1779,Dyspnea
+125,C0043250,0.169,Injury wounds
+110,C0014544,0.169,Epilepsy
+10,C1335499,0.1645,Progressive Disease
+131,C1145670,0.1601,Respiratory Failure
+99,C0232491,0.1556,Chronic abdominal pain
+124,C0021845,0.1467,Intestinal Perforation
+126,C0034067,0.1423,Pulmonary Emphysema
+79,C0338908,0.1379,Mixed anxiety and depressive disorder
+80,C0005779,0.129,Blood Coagulation Disorders
+36,C0013687,0.129,effusion
+132,C0264637,0.1201,Benign hypertension (disorder)
+134,C0259768,0.1067,Wound dehiscence
+49,C0581384,0.1023,Chronic anemia
+35,C0015967,0.0889,Fever
+34,C0332448,0.0845,Infiltration
+69,C0003962,0.0845,Ascites
+84,C0004763,0.08,Barrett Esophagus
+137,C0032533,0.08,Polymyalgia Rheumatica
+21,C0024131,0.0756,Lupus Vulgaris
+108,C0032285,0.0711,Pneumonia
+147,C0004238,0.0667,Atrial Fibrillation
+68,C0150055,0.0667,Chronic pain
+144,C0403447,0.0667,Chronic Kidney Insufficiency
+146,C1956346,0.0623,Coronary Artery Disease
+145,C0149782,0.0623,Squamous cell carcinoma of lung
+149,C0018099,0.0623,Gout
+64,C0023518,0.0623,Leukocytosis
+148,C0007137,0.0623,Squamous cell carcinoma
+102,C2937358,0.0578,Cerebral Hemorrhage
+24,C0040034,0.0578,Thrombocytopenia
+112,C0013604,0.0578,Edema
+27,C0036572,0.0578,Seizures
+25,C0024141,0.0578,"Lupus Erythematosus, Systemic"
+16,C0022658,0.0534,Kidney Diseases
+74,C0011991,0.0534,Diarrhea
+32,C0003864,0.0489,Arthritis
+139,C0006826,0.0489,Malignant Neoplasms
+44,C0020598,0.0445,Hypocalcemia
+30,C1561643,0.0445,Chronic Kidney Diseases
+90,C0036690,0.0445,Septicemia
+41,C0042487,0.0445,Venous Thrombosis
+135,C0014130,0.04,Endocrine System Diseases
+43,C0020542,0.04,Pulmonary Hypertension
+151,C0016658,0.04,Fracture
+42,C0151263,0.04,nausea or abdominal pain
+150,C0235710,0.04,Chest discomfort
+87,C0040046,0.0356,Thrombophlebitis
+111,C0010201,0.0356,Chronic cough
+123,C0024117,0.0356,Chronic Obstructive Airway Disease
+113,C0015970,0.0356,Fever of Unknown Origin
+77,C0028778,0.0356,Obstruction
+29,C0278061,0.0311,Abnormal mental state
+60,C0038833,0.0311,Superior Vena Cava Syndrome
+143,C0006114,0.0311,Cerebral Edema
+95,C0031039,0.0311,Pericardial effusion
+70,C0155616,0.0267,Secondary hypertension
+71,C1306597,0.0267,Psychiatric problem
+59,C0018801,0.0267,Heart failure
+130,C0600260,0.0267,"Lung Diseases, Obstructive"
+94,C0002873,0.0267,Anemia of chronic disease
+152,C0032326,0.0267,Pneumothorax
+19,C0041582,0.0267,Ulcer
+6,C0029408,0.0267,Degenerative polyarthritis
+3,C0745136,0.0267,Hypertensive emergency
+107,C0220787,0.0222,Endotracheal aspiration
+105,C0085584,0.0222,Encephalopathies
+104,C0032290,0.0222,Aspiration Pneumonia
+114,C0010200,0.0222,Coughing
+116,C0038450,0.0222,Stridor
+78,C1849718,0.0222,"POPLITEAL PTERYGIUM SYNDROME, LETHAL TYPE"
+58,C0008031,0.0222,Chest Pain
+17,C0010828,0.0222,Cytopenia
+20,C0149871,0.0222,Deep Vein Thrombosis
+37,C0042963,0.0222,Vomiting
+72,C0018681,0.0222,Headache
+56,C0520539,0.0222,Hypertensive episode
+65,C0030312,0.0222,Pancytopenia
+138,C0035067,0.0178,Renal Artery Stenosis
+7,C0041948,0.0178,Uremia
+122,C0333173,0.0178,Pseudo-obstruction of gastrointestinal tract
+120,C0015672,0.0178,Fatigue
+119,C3714552,0.0178,Weakness
+118,C0038358,0.0178,Gastric ulcer
+39,C0001122,0.0178,Acidosis
+45,C0020625,0.0178,Hyponatremia
+46,C0022116,0.0178,Ischemia
+100,C0740991,0.0178,anemia hematocrit
+97,C0034063,0.0178,Pulmonary Edema
+140,C0085096,0.0178,Peripheral Vascular Diseases
+91,C0856054,0.0178,Mental status changes
+141,C0010054,0.0178,Coronary Arteriosclerosis
+62,C0020456,0.0178,Hyperglycemia
+129,C0155874,0.0133,Emphysematous bronchitis
+133,C0403462,0.0133,Acute-on-chronic renal failure
+31,C0745283,0.0133,INFECTIOUS PROCESS
+54,C0030305,0.0133,Pancreatitis
+128,C0022660,0.0133,"Kidney Failure, Acute"
+154,C0740304,0.0133,COPD exacerbation
+66,C0014122,0.0133,Subacute Bacterial Endocarditis
+81,C0001883,0.0133,Airway Obstruction
+88,C0031542,0.0133,Phlebitis
+12,C0027627,0.0133,Neoplasm Metastasis
+48,C0014335,0.0133,Enteritis
+75,C0019054,0.0133,Hemolysis (disorder)
+142,C0039483,0.0089,Giant Cell Arteritis
+153,C0242184,0.0089,Hypoxia
+127,C0036974,0.0089,Shock
+136,C1135120,0.0089,Breakthrough Pain
+155,C0476273,0.0089,Respiratory distress
+73,C0302148,0.0089,Blood Clot
+115,C0549616,0.0089,rectal/anal
+15,C0002878,0.0089,"Anemia, Hemolytic"
+18,C0023222,0.0089,Pain in lower limb
+117,C0016542,0.0089,Foreign Bodies
+26,C0564823,0.0089,Pain in right lower limb
+96,C2741638,0.0089,Stress ulcer
+57,C0010709,0.0089,Cyst
+51,C0748351,0.0044,respiratory compensation
+53,C0152517,0.0044,Viral gastroenteritis
+52,C0042384,0.0044,Vasculitis
+121,C0037315,0.0044,Sleep Apnea Syndromes
+50,C0019158,0.0044,Hepatitis
+47,C0031154,0.0044,Peritonitis
+40,C0151791,0.0044,"Nausea, vomiting and diarrhea"
+22,C0700594,0.0044,Radiculopathy
+33,C3203358,0.0044,Hypoventilation
+76,C0029944,0.0044,Drug Overdose
+82,C0542571,0.0044,Facial edema
+83,C0031046,0.0044,Pericarditis
+85,C0018944,0.0044,Hematoma
+86,C0546817,0.0044,Fluid overload
+89,C0037580,0.0044,Soft tissue swelling
+92,C0162529,0.0044,"Colitis, Ischemic"
+93,C0009319,0.0044,Colitis
+101,C0162569,0.0044,Hepatoerythropoietic Porphyria
+103,C0029104,0.0044,Opioid withdrawal
+106,C3714636,0.0044,Pneumonitis
+109,C0398623,0.0044,Thrombophilia
+0,C0854707,0.0044,Arsenical keratosis

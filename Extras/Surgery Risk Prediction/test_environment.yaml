@@ -1,0 +1,19 @@
+name: preop3
+channels:
+  - brittainhard
+  - anaconda
+  - conda-forge
+  
+dependencies:
+  - python=3.6
+  - scikit-learn=0.21.3
+  - pandas
+  - numpy
+  - matplotlib
+  - imbalanced-learn
+  - jupyterlab
+  - nb_conda_kernels
+  - seaborn
+  - dill=0.2.7.1
+  - pillow
+  - tqdm

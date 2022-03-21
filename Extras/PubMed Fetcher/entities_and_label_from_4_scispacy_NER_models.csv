@@ -1,0 +1,15 @@
+Entity,Label,Ner_model
+breast lesions,DISEASE,bc5dr
+malignancy,DISEASE,bc5dr
+lesions,CANCER,bionlp13cg
+biopsy-proven breast lesions,CANCER,bionlp13cg
+breast lesions,CANCER,bionlp13cg
+DCE-MRI,CANCER,bionlp13cg
+extra,IMMATERIAL_ANATOMICAL_ENTITY,bionlp13cg
+malignancy,CANCER,bionlp13cg
+MRM,CANCER,bionlp13cg
+echo-planar,SO,craft
+sequence,SO,craft
+breast,CL,craft
+DCE-MRI,PROTEIN,jnlpa
+echo-planar diffusion-weighted sequence,DNA,jnlpa

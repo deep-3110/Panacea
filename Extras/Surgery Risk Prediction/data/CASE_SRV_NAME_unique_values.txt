@@ -1,0 +1,32 @@
+Surgery, General
+Neurological Surgery
+Surgery, Thoracic
+Surgery, Plastic
+Otolaryngology
+Obstetrics and Gynecology
+Orthopaedics
+Surgery, Vascular
+Surgery, Cardiac
+Urology
+Surgery, Surgery
+Surgery, Transplant
+Surgery, Oncology
+Podiatry
+Medicine, Cardiology
+Radiation Oncology
+Surgery, Critical Care
+Medicine, Internal Medicine
+Medicine, Gastroenterology
+Ophthalmology
+Surgery, Oral and Maxillofacial
+Medicine, Critical Care Medicine
+Surgery, Pediatrics
+Pediatrics, Hematology and Oncology
+Medicine, Hematology and Oncology
+Neurology
+Dentistry-Hospital
+Radiology
+Anesthesiology
+Medicine, Pulmonary Disease
+Pediatrics, Gastroenterology
+Physical Medicine and Rehabilitation

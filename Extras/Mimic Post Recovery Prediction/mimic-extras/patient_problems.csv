@@ -1,0 +1,3251 @@
+description,cui,number
+Communicable Diseases,C0009450,41738
+Respiratory Failure,C1145670,27878
+Injury wounds,C0043250,26829
+"Kidney Failure, Acute",C0022660,22488
+Anemia,C0002871,20942
+Hypertensive disease,C0020538,19699
+Abnormal mental state,C0278061,15196
+Fever,C0015967,15192
+Atrial Fibrillation,C0004238,10507
+Pain,C0030193,10334
+Deep Vein Thrombosis,C0149871,10258
+Leukocytosis,C0023518,10078
+Gastrointestinal Hemorrhage,C0017181,8687
+Pneumonia,C0032285,8479
+Hypoxia,C0242184,7886
+Hemorrhage,C0019080,7631
+Hypothyroidism,C0020676,7502
+Kidney Failure,C0035078,7267
+Thrombocytopenia,C0040034,7143
+Hypernatremia,C0020488,6765
+Septicemia,C0036690,6711
+Sepsis,C0243026,6508
+Chronic Obstructive Airway Disease,C0024117,5934
+Degenerative polyarthritis,C0029408,5853
+Hyponatremia,C0020625,5449
+Shock,C0036974,5274
+Hyperlipidemia,C0020473,4902
+Diabetes Mellitus,C0011849,4865
+Hyperglycemia,C0020456,4773
+Mental Depression,C0011570,4769
+Seizures,C0036572,4710
+"Kidney Failure, Chronic",C0022661,4694
+Blood Coagulation Disorders,C0005779,4516
+Respiratory distress,C0476273,4389
+Barrett Esophagus,C0004763,4191
+Dyspnea,C0013404,4190
+Anxiety,C0003467,3870
+Congestive heart failure,C0018802,3861
+Malignant Neoplasms,C0006826,3523
+Heart failure,C0018801,3497
+Benign hypertension (disorder),C0264637,3338
+Diarrhea,C0011991,3276
+Gastroesophageal reflux disease,C0017168,3234
+Delirium,C0011206,3226
+Bacteremia,C0004610,3204
+Liver Cirrhosis,C0023890,3188
+Fever of Unknown Origin,C0015970,3183
+Metabolic acidosis,C0220981,2815
+effusion,C0013687,2741
+Pancreatitis,C0030305,2705
+Edema,C0013604,2696
+Constipation,C0009806,2684
+Acute-on-chronic renal failure,C0403462,2609
+Abdominal Pain,C0000737,2507
+Pulmonary Edema,C0034063,2482
+Agitation,C0085631,2430
+"Sleep Apnea, Obstructive",C0520679,2411
+Encephalopathies,C0085584,2380
+Diabetes,C0011847,2373
+Septic Shock,C0036983,2323
+Fluid overload,C0546817,2302
+Infiltration,C0332448,2299
+"Respiratory Distress Syndrome, Adult",C0035222,2203
+Acidosis,C0001122,2190
+Aspiration Pneumonia,C0032290,2135
+Pleural effusion disorder,C0032227,2086
+Ischemia,C0022116,2052
+Cardiac Arrest,C0018790,2041
+Chest Pain,C0008031,2032
+Chronic respiratory failure,C0264492,2030
+Gout,C0018099,1996
+Hypoglycemia,C0020615,1989
+Endocrine System Diseases,C0014130,1979
+Asthma,C0004096,1965
+Acute anaemia,C0740985,1907
+Urinary tract infection,C0042029,1861
+Stress ulcer,C2741638,1860
+Stress ulcer of stomach,C0400807,1858
+Acute respiratory distress,C0748355,1856
+Exanthema,C0015230,1853
+Nausea,C0027497,1789
+Cerebrovascular accident,C0038454,1785
+"Pneumonia, Bacterial",C0004626,1775
+Chronic anemia,C0581384,1729
+Chronic pain,C0150055,1725
+"Diabetes Mellitus, Non-Insulin-Dependent",C0011860,1717
+Fracture,C0016658,1662
+Pulmonary Embolism,C0034065,1624
+Chronic Kidney Diseases,C1561643,1608
+Non STEMI,C1536222,1602
+Pancytopenia,C0030312,1530
+Alcohol abuse,C0085762,1511
+Obstruction,C0028778,1501
+Weakness,C3714552,1437
+Mixed anxiety and depressive disorder,C0338908,1416
+"Diabetes Mellitus, Insulin-Dependent",C0011854,1412
+Benign Prostatic Hyperplasia,C1704272,1363
+Oliguria,C0028961,1320
+Alcohol withdrawal syndrome,C0236663,1318
+Coronary Arteriosclerosis,C0010054,1310
+Cardiomyopathies,C0878544,1301
+Hematuria,C0018965,1277
+"Shock, Cardiogenic",C0036980,1262
+Hemolysis (disorder),C0019054,1238
+Hypoxemic Respiratory Failure,C0340194,1213
+Pressure Ulcer,C0011127,1208
+Liver Failure,C0085605,1200
+Fibrillation,C0232197,1199
+Ascites,C0003962,1180
+Coughing,C0010200,1164
+Hepatitis C,C0019196,1158
+Mental disorders,C0004936,1155
+Acute onset pain,C0184567,1148
+Hypoxic respiratory failure,C3805211,1130
+Sinus Tachycardia,C0039239,1126
+Hypotensive,C0857353,1123
+Metabolic alkalosis,C0220983,1118
+Hepatic Encephalopathy,C0019151,1084
+Hemoptysis,C0019079,1078
+Trauma,C3714660,1077
+End Stage Liver Disease,C0745744,1066
+Influenza,C0021400,1039
+Diabetic Ketoacidosis,C0011880,1037
+Meningitis,C0025289,1019
+Epilepsy,C0014544,1014
+"Hematoma, Subdural",C0018946,1013
+Pericardial effusion,C0031039,1005
+Coronary Artery Disease,C1956346,998
+Cerebral Hemorrhage,C2937358,998
+Subarachnoid Hemorrhage,C0038525,992
+Dementia,C0497327,989
+Hypercalcemia,C0020437,988
+Osteoporosis,C0029456,982
+Cellulitis,C0007642,937
+Wounds and Injuries,C0043251,928
+Abscess,C0000833,920
+Complication,C0009566,917
+Cholangitis,C0008311,911
+Heparin-induced thrombocytopenia,C0272285,908
+Cholecystitis,C0008325,906
+Cardiac Arrhythmia,C0003811,887
+Multiple Myeloma,C0026764,883
+Atelectasis,C0004144,883
+Endocarditis,C0014118,883
+Traumatic injury,C3263723,880
+Vomiting,C0042963,878
+Back Pain,C0004604,872
+Hepatitis,C0019158,869
+Peripheral Vascular Diseases,C0085096,860
+Normocytic anemia,C0085577,856
+Deglutition Disorders,C0011168,849
+Acute failure,C0231176,847
+Intestinal Obstruction,C0021843,841
+Malnutrition,C0162429,827
+Aortic Valve Stenosis,C0003507,820
+"Acidosis, Respiratory",C0001127,820
+Infarction,C0021308,816
+Alkalosis,C0002063,815
+Hypercholesterolemia,C0020443,810
+Obesity,C0028754,806
+Adrenal gland hypofunction,C0001623,801
+Neutropenia,C0027947,795
+Lupus Erythematosus,C0409974,789
+Ulcer,C0041582,789
+Hematemesis,C0018926,771
+Carcinoma in Situ,C0007099,763
+Neoplasms,C0027651,749
+Glaucoma,C0017601,747
+Hematoma,C0018944,741
+Presenile dementia,C0011265,738
+Tracheobronchomalacia,C0340231,737
+Colitis,C0009319,731
+Dehydration,C0011175,723
+Psychiatric problem,C1306597,722
+Schizophrenia,C0036341,720
+Acute Kidney Tubular Necrosis,C0022672,713
+Pulmonary Hypertension,C0020542,712
+Kidney Diseases,C0022658,696
+Confusion,C0009676,692
+Pneumonitis,C3714636,688
+Acute respiratory failure,C0264490,688
+Neoplasm Metastasis,C0027627,685
+Headache,C0018681,671
+Lymphoma,C0024299,666
+Hepatorenal Syndrome,C0019212,655
+Hodgkin Disease,C0019829,652
+Syncope,C0039070,650
+Dyslipidemias,C0242339,644
+Endotracheal aspiration,C0220787,642
+Leukopenia,C0023530,640
+Mental status changes,C0856054,634
+Hematochezia,C0018932,634
+Varicosity,C0042345,623
+"Acidosis, Lactic",C0001125,613
+Diabetic Retinopathy,C0011884,607
+Upper gastrointestinal hemorrhage,C0041909,603
+Gastritis,C0017152,599
+Peripheral edema,C0085649,598
+Systemic Inflammatory Response Syndrome,C0242966,596
+MRSA - Methicillin resistant Staphylococcus aureus infection,C0343401,588
+Eosinophilia,C0014457,575
+Pathological Dilatation,C0012359,561
+Hypocalcemia,C0020598,561
+Inflammation,C0021368,560
+Ulcerative Colitis,C0009324,559
+Hyperbilirubinemia,C0020433,557
+Cytomegalovirus Infections,C0010823,551
+Malignant Hypertension,C0020540,533
+Neuropathy,C0442874,520
+"Alkalosis, Respiratory",C0002064,518
+Wheezing,C0043144,515
+"Leukemia, Myelocytic, Acute",C0023467,509
+Chronic Kidney Insufficiency,C0403447,508
+Pulmonary Emphysema,C0034067,501
+Syphilis,C0039128,497
+Aneurysm,C0002940,494
+Melena,C0025222,491
+Sepsis due to urinary tract infection,C0149801,491
+Anoxic Encephalopathy,C0003132,487
+COPD exacerbation,C0740304,482
+Small bowel obstruction,C0235329,481
+"Heart Failure, Diastolic",C1135196,480
+Hypoperfusion,C0442856,478
+Lethargy,C0023380,478
+Candidiasis,C0006840,472
+Pneumothorax,C0032326,468
+Peritonitis,C0031154,463
+Embolism,C0013922,462
+Intussusception,C0021933,460
+hypotension and shock,C0679394,458
+Parkinson Disease,C0030567,452
+Type II Mucolipidosis,C0020725,451
+Thrombus,C0087086,450
+Supraventricular tachycardia,C0039240,450
+Anion gap acidosis,C0860062,450
+Crohn Disease,C0010346,441
+Hereditary Coproporphyria,C0162531,438
+Thrombosis,C0040053,438
+Epistaxis,C0014591,431
+diastolic congestive heart failure,C2183328,430
+Graft-vs-Host Disease,C0018133,429
+Rheumatoid Arthritis,C0003873,423
+Bandemia,C0741439,421
+Febrile Neutropenia,C0746883,419
+Rhabdomyolysis,C0035410,417
+Osteomyelitis,C0029443,415
+Liver diseases,C0023895,414
+Depressed mood,C0344315,414
+"Alcoholic Intoxication, Chronic",C0001973,414
+Hypertensive urgency,C0745138,413
+Gallstone pancreatitis,C0521614,410
+Hepatitis B,C0019163,408
+ST segment elevation myocardial infarction,C1536220,408
+Hypoventilation,C3203358,408
+Aortic Aneurysm,C0003486,407
+Atrial Flutter,C0004239,407
+Acute Coronary Syndrome,C0948089,405
+Arsenical keratosis,C0854707,405
+Anemia of chronic disease,C0002873,402
+"Encephalitis, St. Louis",C0014060,400
+Sinusitis,C0037199,399
+Gastroparesis,C0152020,391
+Blood Clot,C0302148,391
+Acute leukemia,C0085669,391
+Infection,C3714514,389
+Drug Overdose,C0029944,376
+Apnea,C0003578,374
+Chronic back pain,C0740418,373
+Bipolar Disorder,C0005586,371
+Hepatoerythropoietic Porphyria,C0162569,368
+INFECTIOUS PROCESS,C0745283,366
+Ileus,C1258215,364
+Disease Progression,C0242656,361
+"Lung Diseases, Interstitial",C0206062,360
+Non-Small Cell Lung Carcinoma,C0007131,360
+Hypoalbuminemia,C0239981,357
+Diverticulitis,C0012813,356
+Thrombocytosis,C0836924,351
+Esophageal Varices,C0014867,348
+Paroxysmal atrial fibrillation,C0235480,348
+Diastolic dysfunction,C0520863,348
+asthma with copd,C0865800,348
+Microcytic anemia,C5194182,347
+Uremia,C0041948,342
+Arthritis,C0003864,340
+Vasculitis,C0042384,339
+Sore to touch,C0234233,339
+Retroperitoneal Hemorrhage,C0151705,338
+Superior Vena Cava Syndrome,C0038833,335
+Peptic Ulcer,C0030920,331
+"POPLITEAL PTERYGIUM SYNDROME, LETHAL TYPE",C1849718,330
+Hemothorax,C0019123,323
+Acute lymphocytic leukemia,C0023449,323
+Postherpetic neuralgia,C0032768,321
+"Heart Failure, Systolic",C1135191,320
+"Anemia, Macrocytic",C0002886,318
+Edema of lower extremity,C0239340,316
+Compartment syndromes,C0009492,315
+Toxic effect,C0600688,313
+Dissection of aorta,C0340643,313
+Iron deficiency anemia,C0162316,305
+Hypovolemic Shock,C0020683,304
+Chronic systolic heart failure,C1135194,303
+Atrial tachycardia,C0546959,300
+Miller Dieker syndrome,C0265219,293
+Alzheimer's Disease,C0002395,293
+Acute posthaemorrhagic anaemia,C0154298,293
+Cholelithiasis,C0008350,293
+Hypersensitivity,C0020517,288
+Airway Obstruction,C0001883,288
+Malignant neoplasm of breast,C0006142,287
+Pancreatitis Necrotizing,C0267941,286
+Abdominal Compartment Syndrome,C1142110,285
+Chronic Lymphocytic Leukemia,C0023434,283
+Lung diseases,C0024115,283
+Tremor,C0040822,281
+Sleep Apnea Syndromes,C0037315,277
+Mitral Valve Insufficiency,C0026266,270
+Fungemia,C0085082,270
+Polysubstance abuse,C0747752,269
+Refractory anemias,C0002893,268
+Contraction (finding),C1140999,263
+Mediastinal Emphysema,C0025062,263
+Peripheral Neuropathy,C0031117,263
+Lymphadenopathy,C0497156,263
+Heart Diseases,C0018799,262
+Discomfort,C2364135,262
+"Lung Diseases, Obstructive",C0600260,260
+Infectious Canine Hepatitis,C0019191,260
+Neutral Sidebent Rotated,C1704493,259
+Complete atrioventricular block,C0151517,258
+"Pancreatitis, Acute",C0001339,256
+Congestion,C0700148,254
+Pyelonephritis,C0034186,254
+"Tachycardia, Ventricular",C0042514,253
+Flare,C1517205,253
+Hypophosphatemia,C0085682,252
+Tobacco Use Disorder,C0040336,251
+"Pancreatitis, Chronic",C0149521,250
+Hyperthyroidism,C0020550,248
+Diverticulosis,C1510475,248
+Ischemic cardiomyopathy,C0349782,247
+Pulmonary Fibrosis,C0034069,246
+Angioedema,C0002994,245
+"DIARRHEA 5, WITH TUFTING ENTEROPATHY, CONGENITAL",C2750737,245
+Infectious Lung Disorder,C0876973,244
+Iron deficiency anemia secondary to chronic blood loss,C0154286,242
+Myocardial Ischemia,C0151744,241
+Vascular Diseases,C0042373,239
+Desmoplastic infantile ganglioglioma,C1321878,238
+anemia hematocrit,C0740991,238
+Hydronephrosis,C0020295,237
+"Myeloid Leukemia, Chronic",C0023473,237
+Renal Insufficiency,C1565489,236
+Sleeplessness,C0917801,236
+has nosebleeds - epistaxis,C0344367,235
+Skin and subcutaneous tissue disorders,C0178298,235
+Bronchospasm,C0006266,227
+Hip Fractures,C0019557,226
+Fatigue,C0015672,226
+Mycoses,C0026946,225
+Signs and Symptoms,C0037088,224
+Coffee ground vomiting,C1510416,223
+Encephalitis,C0014038,221
+Hyperphosphatemia (disorder),C0085681,218
+Herpes Simplex Infections,C0019348,217
+Acute hemorrhage,C0333276,216
+Chronic disease,C0008679,215
+Staphylococcal Infections,C0038160,214
+Cerebral Edema,C0006114,213
+Equilibration disorder,C0575090,213
+Status Epilepticus,C0038220,212
+Myasthenias,C0947912,211
+Acute hepatitis,C0267797,210
+Hydrocephalus,C0020255,210
+Schizoaffective Disorder,C0036337,209
+Hemodynamic instability,C0948268,208
+Contusions,C0009938,208
+Malignant neoplasm of lung,C0242379,207
+Acalculous Cholecystitis,C0267841,207
+Intestinal Perforation,C0021845,206
+"Hepatitis, Alcoholic",C0019187,206
+Hyperlipasaemia,C1963823,206
+Sarcoidosis,C0036202,206
+Carcinoma,C0007097,205
+Esophagitis,C0014868,204
+"Liver Cirrhosis, Alcoholic",C0023891,203
+Flash pulmonary oedema,C1168329,203
+Hemorrhoids,C0019112,203
+Toxic Epidermal Necrolysis,C0014518,203
+Plasma cell dyscrasia,C1136084,202
+Chronic diastolic heart failure,C2711480,201
+Impaired health,C0684336,201
+Anasarca,C0151603,200
+Restless Legs Syndrome,C0035258,200
+Critical Illness,C0010340,200
+Inappropriate ADH Syndrome,C0021141,200
+Myopathy,C0026848,199
+Empyema,C0014009,198
+Superinfection,C0038826,196
+Malignant tumor of colon,C0007102,194
+Metastatic melanoma,C0278883,192
+"Purpura, Thrombotic Thrombocytopenic",C0034155,192
+Poisoning,C0032343,191
+Dyspnea on exertion,C0231807,190
+Loose stool,C2129214,190
+Somnolence,C2830004,190
+Cardiac Flutter,C0016385,189
+Malaise,C0231218,186
+Renal Cell Carcinoma,C0007134,185
+Pericarditis,C0031046,184
+"Aortic Aneurysm, Thoracic",C0162872,183
+Duodenal Ulcer,C0013295,181
+Rib Fractures,C0035522,181
+Pneumocystis jiroveci pneumonia,C1535939,179
+Persistent fever,C0476474,179
+Hospital acquired pneumonia,C0949083,178
+Urinary Incontinence,C0042024,177
+Right upper quadrant pain,C0235299,175
+Erythema,C0041834,175
+Bronchiolitis Obliterans,C0006272,174
+Progressive Disease,C1335499,174
+Ventricular Fibrillation,C0042510,174
+Fracture of cervical spine,C0262414,173
+Immune thrombocytopenic purpura,C0398650,173
+Stupor,C0085628,173
+Wound Infection,C0043241,171
+Dependence,C0439857,171
+Cytomegalovirus viremia,C0877635,170
+Pathological accumulation of air in tissues,C0013990,170
+Thyroid Nodule,C0040137,170
+Malignant neoplasm of prostate,C0376358,169
+Dentatorubral-Pallidoluysian Atrophy,C0751781,169
+Ischemia co-occurrent and due to increased oxygen demand,C4049375,168
+Morbid obesity,C0028756,168
+Muscle strain,C0080194,168
+Intracranial Hemorrhage,C0151699,168
+Azotemia,C0242528,167
+Left Bundle-Branch Block,C0023211,167
+Blushing,C0005874,165
+Respiratory arrest,C0162297,164
+Gastroenteritis,C0017160,164
+Spinal Fractures,C0080179,163
+Chronic multifocal osteomyelitis,C0410422,163
+Tracheomalacia,C0948187,160
+bleeding/hemorrhage nos,C0497131,160
+Obstruction of biliary tree,C0400979,159
+Gastric Varix,C0017145,158
+Injury due to exposure to external cause,C0274281,158
+Severe Sepsis,C1719672,158
+melanoma,C0025202,158
+Vasospasm,C0085616,157
+Abdominal tenderness,C0232498,157
+Disseminated Intravascular Coagulation,C0012739,157
+Choledocholithiasis,C0701818,157
+anaphylaxis,C0002792,157
+Angina Pectoris,C0002962,156
+Polycythemia,C0032461,156
+Adenocarcinoma,C0001418,156
+Pulmonary aspiration,C0700198,155
+Necrosis of pancreas,C0267953,155
+"Hypotension, Orthostatic",C0020651,153
+Tissue Adhesions,C0001511,153
+Mesenteric vascular insufficiency,C1412000,152
+Pancreatic Pseudocyst,C0030299,152
+Meningioma,C0025286,152
+Muscle Rigidity,C0026837,152
+Chronic viral hepatitis,C0276623,151
+Low Back Pain,C0024031,150
+Sinus bradycardia,C0085610,150
+underlying infection,C0749769,148
+"Liver Failure, Acute",C0162557,147
+Restrictive lung disease,C0085581,147
+Hepatitis A,C0019159,147
+Incontinence,C0021167,146
+Flushing,C0016382,146
+Hypercapnic respiratory failure,C0398353,146
+Hypertensive emergency,C0745136,146
+Fibrosis,C0016059,146
+"Anemia, Hemolytic",C0002878,145
+Anemia due to blood loss,C0948824,145
+Acute Promyelocytic Leukemia,C0023487,145
+Hypertriglyceridemia,C0020557,145
+Acute toxic hepatitis,C0267827,145
+Thrombophilia,C0398623,144
+Borderline Personality Disorder,C0006012,144
+Cholestasis,C0008370,143
+Brain Injuries,C0270611,143
+Stomach Diseases,C0038354,143
+Addictive Behavior,C0085281,142
+Vaginal Hemorrhage,C2979982,142
+Liver Abscess,C0023885,141
+Acidemia,C0268030,141
+Alcohol Withdrawal Delirium,C0001957,141
+Hoarseness,C0019825,140
+Failure to Thrive,C0015544,139
+Hypomagnesemia,C0151723,139
+Upper Respiratory Infections,C0041912,138
+Multiple Sclerosis,C0026769,137
+Gangrene,C0017086,137
+Clostridium difficile colitis,C0238106,136
+Substance abuse problem,C0740858,135
+Autonomic nervous system imbalance,C0262385,135
+Icterus,C0022346,133
+Lower gastrointestinal hemorrhage,C0024050,131
+Bacteremia due to Methicillin resistant Staphylococcus aureus,C4040349,131
+Diffuse Large B-Cell Lymphoma,C0079744,130
+systolic congestive heart failure,C2039715,130
+Accidental Falls,C0000921,130
+"Lymphoma, Follicular",C0024301,129
+Acute Hypoxemic Respiratory Failure,C4039867,128
+Autoimmune Chronic Hepatitis,C0241910,128
+sepsis bacteremia,C0748622,128
+Epidural Abscess,C0270629,127
+Myocarditis,C0027059,127
+Systolic dysfunction,C0749225,127
+Drug Eruptions,C0011609,126
+Drug-induced hyperpyrexia,C1320835,125
+Thrombotic Microangiopathies,C2717961,124
+Psoriasis,C0033860,123
+Shoulder Pain,C0037011,123
+Group B streptococcal pneumonia,C0348801,122
+Polymyalgia Rheumatica,C0032533,121
+"Pneumonia, Viral",C0032310,121
+Cocaine Abuse,C0009171,121
+Chronic abdominal pain,C0232491,120
+Retinitis Pigmentosa,C0035334,120
+Herpes zoster disease,C0019360,120
+Scabies <infestation>,C0036262,120
+Lysis,C0024348,119
+Virus Diseases,C0042769,119
+Oral candidiasis,C0006849,119
+Dizziness,C0012833,118
+Anorexia,C0003123,118
+Migraine Disorders,C0149931,118
+Sundowning,C1142436,118
+Hemochromatosis,C0018995,117
+Inflammatory Response,C1155266,117
+Rupture,C3203359,117
+Transient Ischemic Attack,C0007787,116
+Pseudoaneurysm,C1510412,115
+Cardiac Tamponade,C0007177,115
+Venous Thrombosis,C0042487,114
+Carcinoma breast stage IV,C0278488,114
+"Colitis, Ischemic",C0162529,114
+Listeriosis,C0023860,113
+Symptoms,C1457887,113
+Nephrolithiasis,C0392525,113
+Spinal Cord Injuries,C0037929,113
+Anuria,C0003460,112
+Portal Vein Thrombosis,C0155773,112
+Hemolytic-Uremic Syndrome,C0019061,111
+Small cell carcinoma of lung,C0149925,111
+Thromboembolism,C0040038,110
+Hepatopulmonary Syndrome,C0600452,109
+Compression fracture,C0521169,109
+Left Ventricular Hypertrophy,C0149721,109
+Paraplegia,C0030486,108
+Multiple Trauma,C0026771,108
+Pulmonary hemorrhage,C0151701,107
+Acute Cholecystitis,C0149520,107
+Ankle Fracture,C0159877,107
+Acromegaly,C0001206,106
+Laceration,C0043246,105
+Gastrointestinal tract vascular insufficiency,C0156149,105
+Neck Pain,C0007859,104
+Renal tubular acidosis,C0001126,104
+meningitis/encephalitis,C0497299,103
+Cholangiocarcinoma,C0206698,103
+Chronic atrial fibrillation,C0694539,103
+Malignant neoplasm of ovary,C1140680,103
+Bronchitis,C0006277,102
+Tuberculosis,C0041296,102
+Atrial Premature Complexes,C0033036,102
+Acute Lung Injury,C0242488,102
+Stenosis,C1261287,102
+Chills,C0085593,102
+Mental Suffering,C0683278,101
+Portal Hypertension,C0020541,100
+Adverse reaction to drug,C0041755,99
+Arthralgia,C0003862,99
+Recurrent urinary tract infection,C0262655,98
+"Cardiomyopathy, Dilated",C0007193,98
+Tumor Lysis Syndrome,C0041364,98
+Subcutaneous Emphysema,C0038536,98
+Gastric ulcer,C0038358,97
+Chronic liver disease,C0341439,97
+Lupus Vulgaris,C0024131,97
+hypoventilation syndrome,C0745186,97
+Mange,C0024709,97
+Chronic diarrhea,C0401151,97
+Hyperparathyroidism,C0020502,96
+"Cirrhosis, Cryptogenic",C0267809,96
+Aortic Valve Insufficiency,C0003504,96
+Kidney Calculi,C0022650,96
+Malignant neoplasm of esophagus,C0546837,96
+Thiamine Deficiency,C0039841,95
+Lightheadedness,C0220870,95
+Leg Ulcer,C0023223,95
+Wound dehiscence,C0259768,94
+Ketoacidosis,C0220982,94
+Carotid Stenosis,C0007282,94
+Chronic respiratory acidosis,C0268048,94
+Myocardial Infarction,C0027051,94
+Pain in lower limb,C0023222,93
+THYROID HORMONE PLASMA MEMBRANE TRANSPORT DEFECT,C1861101,93
+Allergy to heparin,C0571776,93
+"Anemia, severe",C0238644,93
+Hypertrophy,C0020564,93
+Amyotrophic Lateral Sclerosis,C0002736,92
+Conjunctivitis,C0009763,92
+Fracture of clavicle,C0159658,91
+acute systolic congestive heart failure,C4083073,91
+Comatose,C0009421,91
+Post-Traumatic Stress Disorder,C0038436,91
+Syncopal Episode,C0751534,90
+Non-Convulsive Status Epilepticus,C0751523,90
+Vaginal Yeast Infections,C0860029,90
+Stridor,C0038450,89
+Femoral Fractures,C0015802,89
+Multiple Organ Failure,C0026766,89
+Abdominal Abscess,C0243001,89
+Duodenitis,C0013298,89
+Parainfluenza,C0030389,88
+Suicide attempt,C0038663,88
+Epigastric pain,C0232493,88
+Pancolitis,C0868908,88
+Skull Fractures,C0037304,88
+Bronchiectasis,C0006267,86
+Chest discomfort,C0235710,85
+cardiac event,C0741923,85
+Primary central nervous system lymphoma,C0280803,85
+Nonalcoholic Steatohepatitis,C3241937,85
+THROMBOCYTOPENIA 1 (disorder),C1839163,85
+Cerebrovascular Disorders,C0007820,84
+Acute on chronic systolic heart failure,C2733492,84
+Hallucinations,C0018524,84
+Atrial fibrillation and flutter,C0155709,84
+Traumatic pneumothorax,C0282015,84
+Adenoma,C0001430,83
+nausea or abdominal pain,C0151263,83
+"Hematoma, Epidural, Cranial",C0238154,82
+Paroxysmal atrioventricular block,C1882293,82
+Septic joint,C0745492,82
+Chronic low back pain,C0457949,82
+Community acquired pneumonia,C0694549,81
+Hypogammaglobulinemia,C0086438,81
+Cough with fever,C1277295,81
+Tissue damage,C0010957,81
+Streptococcal Infections,C0038395,80
+Obesity Hypoventilation Syndrome,C0031880,80
+Dehiscence,C0149663,80
+"Respiratory Distress Syndrome, Newborn",C0035220,80
+Prerenal uremia syndrome,C0554309,79
+Emphysematous bronchitis,C0155874,79
+Dieulafoy,C1395422,79
+Brain Abscess,C0006105,79
+Dermatomyositis,C0011633,79
+Dysplasia of anus,C0347129,79
+Severe malnutrition,C0311276,79
+Staphylococcal bacteremia,C0152965,79
+Malignant neoplasm of urinary bladder,C0005684,78
+Irritable Bowel Syndrome,C0022104,78
+Diabetes Insipidus,C0011848,78
+Fracture of distal end of radius and ulna,C0435630,78
+Deep thrombophlebitis,C0151950,78
+Hyposmolality syndrome,C0268005,78
+"Meningitis, Bacterial",C0085437,78
+Granulomatosis with polyangiitis,C3495801,78
+"Arthritis, Infectious",C0003869,78
+Heart Block,C0018794,77
+Psychotic Disorders,C0033975,77
+gout tophaceous,C0744466,77
+Squamous cell carcinoma,C0007137,77
+Metabolic Bone Disorder,C0005944,77
+Dermatitis,C0011603,77
+Panhypopituitarism,C0242343,76
+Hypotensive episode,C0520541,76
+Foot Ulcer,C0085119,76
+Extravasation,C0015376,75
+Liver mass,C0240225,75
+Goiter,C0018021,75
+Sepsis MRSA,C0877176,75
+Metastatic Renal Cell Carcinoma,C4721698,74
+Inflammatory disease of mucous membrane,C0333355,74
+Toxic metabolic encephalopathy,C0852400,74
+Hyponatraemic,C0857122,73
+Amyloidosis,C0002726,73
+Shoulder Dislocation,C0037005,73
+Herpes NOS,C0019340,73
+Aspergillosis,C0004030,73
+Glomerulonephritis,C0017658,73
+Hyperactive behavior,C0424295,73
+Mediastinal lymphadenopathy,C0520743,73
+Anuric renal failure,C2939070,73
+Laryngeal Edema,C0023052,73
+Transfusion-Related Acute Lung Injury,C0948343,73
+Bell Palsy,C0376175,72
+Aphasia,C0003537,72
+Spasm,C0037763,72
+Pruritus,C0033774,72
+Flail Chest,C0016196,71
+"Pancreatitis, Acute Hemorrhagic",C0267940,71
+Atrioventricular junctional rhythm,C0232208,71
+Bacterial Endocarditis,C0014121,71
+Hypertrophic obstructive cardiomyopathy,C4551472,70
+Rheumatic Heart Disease,C0035439,70
+Reactive airway disease,C3714497,70
+"Fractures, Multiple",C0016655,70
+Myelofibrosis,C0026987,69
+Skin Erosion,C3887524,69
+Injury of liver,C0160390,69
+Balo's Concentric Sclerosis,C0004712,69
+Feces color: tarry,C0474585,69
+Retroperitoneal hematoma,C0341512,68
+"Lupus Erythematosus, Systemic",C0024141,68
+Conjunctival hemorrhage,C0009760,68
+Malignant Carcinoid Syndrome,C0024586,68
+Alkalemia,C0221106,68
+Healthcare associated pneumonia,C1443237,68
+Squamous cell carcinoma of lung,C0149782,67
+Avian ventriculitis,C0302598,67
+Cerebral Palsy,C0007789,67
+Acute mental status changes,C1735907,67
+"Signs and Symptoms, Respiratory",C0037090,67
+Respiratory Insufficiency,C0035229,67
+Candidemia,C0877445,67
+Down Syndrome,C0013080,67
+Fever with chills,C0085594,67
+Renal Artery Stenosis,C0035067,67
+Central Nervous System Infection,C0007684,66
+Opportunistic Infections,C0029118,66
+"Hepatitis C, Chronic",C0524910,66
+Acute on chronic diastolic heart failure,C2732749,66
+atrial fibrillation new onset,C0741281,65
+Acute Kidney Insufficiency,C1565662,65
+Arteriopathic disease,C0852949,65
+"Heart Failure, Right-Sided",C0235527,65
+Acquired Immunodeficiency Syndrome,C0001175,65
+Discitis,C0012624,65
+acute spontaneous bacterial peritonitis,C2062979,65
+Macular degeneration,C0024437,65
+Systolic hypertension,C0221155,64
+Dental abscess,C0518988,64
+Anastomotic Leak,C0919691,64
+Cardiac pain,C0423636,64
+Leg edema,C0235886,64
+Lung Injury,C0273115,64
+Fibromyalgia,C0016053,64
+Dislocations,C0012691,63
+Malabsorption Syndrome,C0024523,63
+Tricuspid Valve Insufficiency,C0040961,63
+Metastasis from malignant tumor of prostate,C1282496,63
+Presyncope,C0700200,63
+Hypertrophic Cardiomyopathy,C0007194,63
+Atrioventricular Block,C0004245,63
+"Pneumonia, Interstitial",C0206061,63
+sacral ulcer,C0748470,62
+Neurogenic Urinary Bladder,C0005697,62
+"Tachycardia, Atrioventricular Nodal Reentry",C0039232,62
+MRSA cellulitis,C3544297,62
+Orthostasis,C0149746,62
+"Sleep Apnea, Central",C0520680,62
+Hyperkeratosis lenticularis perstans,C0263420,62
+chemically induced,C0007994,62
+Nausea and vomiting,C0027498,62
+Relapsing Fever,C0035021,62
+Dyskinetic syndrome,C0013384,62
+Acute oliguric renal failure,C0748297,61
+Cyst,C0010709,61
+Respiratory Depression,C0235063,61
+leukemia,C0023418,61
+Carcinomatosis,C0205699,61
+Eruptions,C0302295,60
+Pleural effusion associated with pulmonary infection,C0264550,60
+Guillain-Barre Syndrome,C0018378,60
+Beriberi,C0005122,60
+Withdrawal seizures,C0235097,60
+Acute heart failure,C0264714,60
+Hematoma of groin,C0585249,60
+Asterixis,C0232766,59
+Hyperuricemia,C0740394,59
+Rett Syndrome,C0035372,59
+Tooth Infection,C0877046,59
+Gangrenous cholecystitis,C0262494,59
+Skin lesion,C0037284,58
+Liver carcinoma,C2239176,58
+Orchitis,C0029191,58
+Pulmonary renal syndrome,C0549143,58
+Hemorrhagic diarrhea,C0151594,58
+Malignant neoplasm of thyroid,C0007115,58
+Necrotizing fasciitis,C0238124,58
+Pleuritic pain,C0008033,58
+copd bronchitis,C0742809,57
+Thymoma,C0040100,57
+Cone-Rod Dystrophy 2,C3489532,57
+Overlying behavior,C0233536,57
+Myoclonus,C0027066,57
+Multilobar pneumonia,C0860045,57
+Viral Encephalitis,C0243010,57
+Vascular insufficiency of intestine,C2004435,57
+Bacterial Infections,C0004623,56
+Breakthrough Pain,C1135120,56
+Lyme Disease,C0024198,56
+Transfusion Reaction,C0274435,56
+toxic ingestion,C0749596,56
+Secondary malignant neoplasm of lung,C0153676,56
+Quadriplegia,C0034372,55
+Ulcer of toe,C0577717,55
+Aspiration pneumonitis,C1761609,55
+Irradiation cystitis,C0156270,55
+Tonic - clonic seizures,C0494475,55
+"Depression, Bipolar",C0005587,54
+Alcoholic Liver Diseases,C0023896,54
+Cerebral Infarction,C0007785,54
+Epididymo-orchitis,C0149881,54
+Myalgia,C0231528,54
+Laceration of liver,C0347633,54
+Knee pain,C0231749,54
+Deficiency anemias,C0041782,54
+Chronic leukemia (category),C1279296,54
+"Hepatitis B, Chronic",C0524909,54
+Chronic cough,C0010201,53
+Sciatica,C0036396,53
+Meningism,C0025287,53
+Meningoencephalitis,C0025309,53
+Embolic Stroke,C0262469,53
+Acute-on-chronic respiratory failure,C0264491,53
+"Diarrhea and vomiting, symptom",C0474496,53
+Right bundle branch block,C0085615,53
+Dysuria,C0013428,53
+Acute Cerebrovascular Accidents,C0751956,53
+Fasciitis,C0015645,53
+Tracheal Stenosis,C0040583,53
+Malaria,C0024530,52
+bowel ischemic,C0741611,52
+Anti-Glomerular Basement Membrane Disease,C0403529,52
+Acute myocardial infarction,C0155626,52
+Blindness,C0456909,52
+Ischemic stroke,C0948008,52
+Klebsiella bacteremia,C0745527,51
+Cor pulmonale,C0034072,51
+"Angina, Unstable",C0002965,51
+Dissociation,C0086168,51
+Chest pain on breathing,C0423729,51
+Acute infectious disease,C0275518,51
+Microangiopathic hemolytic anemia,C0221021,51
+Bilateral pneumonia,C1142578,51
+Intra-Abdominal Hypertension,C2242710,51
+Acute Disease,C0001314,51
+Wound of abdomen,C4510895,51
+"Anemia, Sickle Cell",C0002895,51
+Bronchiolitis Obliterans Organizing Pneumonia,C0242770,51
+Abdominal Infection,C1112209,51
+Glucose Intolerance (disease),C0271650,51
+Anal pain,C0238637,51
+Venoocclusive disease,C0948441,50
+Facial edema,C0542571,50
+Plasma cell myeloma refractory,C4551538,50
+Hay fever,C0018621,50
+Tumor Cell Invasion,C1269955,50
+Hypos,C0858246,50
+Simian Acquired Immunodeficiency Syndrome,C0080151,50
+Compression of spinal cord,C0037926,50
+Hemiplegia,C0018991,50
+Lung Abscess,C0024110,49
+Craniocerebral Trauma,C0018674,49
+T-Cell Lymphoma,C0079772,49
+Subacute Bacterial Endocarditis,C0014122,49
+prostatitis,C0033581,49
+Auditory recruitment,C0271510,49
+facial fractures,C0743751,49
+Neuromuscular Diseases,C0027868,49
+Hashimoto Disease,C0677607,49
+Drug Interactions,C0687133,49
+Paresis,C0030552,49
+"Lymphoma, Mixed-Cell, Follicular",C0079758,49
+Mood Disorders,C0525045,49
+Viremia,C0042749,49
+Subclinical Seizure,C0751112,49
+Oropharyngeal Squamous Cell Carcinoma,C0280313,49
+Pneumonia due to methicillin resistant Staphylococcus aureus,C1142536,49
+"Shock, Hemorrhagic",C0036982,49
+Premature ventricular contractions,C0151636,48
+Funguria,C4087157,48
+Rigor - Temperature-associated observation,C0424790,48
+"Carcinoma, Transitional Cell",C0007138,48
+respiratory compensation,C0748351,48
+Hypoxic Brain Damage,C1140716,48
+Primary Myelofibrosis,C0001815,48
+Malignant neoplasm of colon stage IV,C0278484,48
+Corneal pannus,C0155094,48
+Hemoperitoneum,C0019065,48
+Dry cough,C0850149,47
+Cryoglobulinemia,C0010403,47
+Pancreatic carcinoma,C0235974,47
+Primary sclerosing cholangitis,C0566602,47
+Junctional bradycardia,C0745499,47
+"Pleural Effusion, Malignant",C0080032,47
+Abdominal discomfort,C0232487,47
+Hip joint pain,C0019559,47
+Dysarthria,C0013362,46
+Coronary heart disease,C0010068,46
+Autoimmune reaction,C0443146,46
+Iron deficiency,C0240066,46
+Wasting,C0235394,46
+Pitting edema,C0333243,46
+Leakage of bile,C0400997,46
+Thyroid Diseases,C0040128,46
+Ecchymosis,C0013491,46
+Stasis,C0333138,46
+Adverse effects,C0879626,46
+"Adenocarcinoma, metastatic",C0334277,45
+Critical limb ischemia,C1142264,45
+Intermittent pain,C1282310,45
+Intrahepatic Cholestasis,C0008372,45
+Cardiopulmonary Arrest,C0600228,45
+Intravenous Drug Abuse,C0086181,45
+Hepatic Vein Thrombosis,C0019154,45
+Blotchy,C0857057,45
+Restenosis,C0333186,44
+Alcoholic Intoxication,C0001969,44
+Oropharyngeal Dysphagia,C0267071,44
+Endocarditis of mitral valve,C0746604,44
+Exophthalmos,C0015300,44
+"Aphasia, Expressive",C0917814,44
+Obsessive-Compulsive Personality,C0009595,44
+Astrocytoma,C0004114,44
+Celiac Disease,C0007570,44
+Chronic sinusitis,C0149516,44
+Neuroleptic Malignant Syndrome,C0027849,44
+Swallowing painful,C0221150,44
+Acute pulmonary edema,C0155919,43
+Chronic constipation,C0401149,43
+Drug abuse,C0013146,43
+occult malignancy,C0741885,43
+Respiratory Tract Infections,C0035243,43
+Tularemia,C0041351,43
+Skin Ulcer,C0037299,43
+Posturing,C0872410,43
+Extrinsic allergic alveolitis,C0002390,43
+Acute cardiac pulmonary edema,C0398350,42
+Esophageal Neoplasms,C0014859,42
+Chronic inflammation,C0021376,42
+Pseudo-obstruction of gastrointestinal tract,C0333173,42
+Bacteremia due to Staphylococcus aureus,C1142423,42
+Tension Pneumothorax,C0264558,42
+Conjugated hyperbilirubinemia,C0268307,42
+Hepatosplenomegaly,C0019214,42
+cocaine use,C3496069,42
+Thyrotoxicosis,C0040156,42
+Toxic nephropathy,C0595916,42
+Withdrawal Symptoms,C0087169,42
+Tracheobronchitis,C0040586,42
+Hyperlactatemia,C0795692,41
+Ischemic hepatitis,C0473117,41
+opioid use,C0240602,41
+Bronchiolitis,C0006271,41
+Cachexia,C0006625,41
+Functional disorder,C0277785,41
+Hemopericardium,C0019064,41
+Dental Plaque,C0011389,41
+Glioblastoma,C0017636,41
+sequelae aspects,C0243088,41
+TRAUMA/INJURY PROBLEM,C0740686,41
+"Lymphoma, Non-Hodgkin",C0024305,41
+Liver hematoma,C0347630,41
+Vitamin D Deficiency,C0042870,41
+Fracture of upper limb,C0178316,41
+Metastatic Prostate Carcinoma,C0936223,41
+Colonic Pseudo-Obstruction,C0009377,41
+Varicose Ulcer,C0042344,40
+Idiopathic Pulmonary Fibrosis,C1800706,40
+Pulmonary congestion,C0242073,40
+Hyperchloremia,C0085679,40
+Sick Sinus Syndrome,C0037052,40
+Aplastic Anemia,C0002874,40
+Closed head injuries,C0085094,40
+anemia alcoholic,C0740986,40
+heroin abuse,C0600241,40
+Clostridium difficile infection,C0343386,40
+Ineffective airway clearance,C0150011,40
+"Leukoencephalopathy, Progressive Multifocal",C0023524,40
+Portal cirrhosis,C1622502,40
+Retroperitoneal mass,C0267771,40
+Pharyngitis,C0031350,40
+Phantom Limb Syndrome,C0031315,40
+Mental Retardation,C0025362,39
+Perforation of small intestine,C0151739,39
+Livedo Reticularis,C0085642,39
+Leukostasis,C0282548,39
+Prodrome,C0240805,39
+Mild dementia,C3494623,39
+Atrial fibrillation with rapid ventricular response,C1142306,39
+Traumatic dislocation of joint of finger,C0159956,39
+Urticaria,C0042109,38
+Scleroderma,C0011644,38
+Opiate Addiction,C0524662,38
+Postobstructive pneumonia,C0747690,38
+Gardner Syndrome,C0017097,38
+Stricture of artery,C0038449,38
+Opiate Addiction,C0524662,38
+Polydipsia,C0085602,38
+Breathing abnormally deep,C1321587,38
+Creutzfeldt-Jakob disease,C0022336,38
+Flatulence,C0016204,38
+Neck swelling,C0578454,38
+Spontaneous abortion,C0000786,37
+Ventricular hemorrhage,C0240059,37
+West Syndrome,C0037769,37
+Short Bowel Syndrome,C0036992,37
+Hyperfibrinolysis,C3805089,37
+Seborrheic dermatitis,C0036508,37
+Bronchomalacia,C0264353,37
+Viral hepatitis,C0042721,37
+Allergy to penicillin,C0030824,37
+Immunologic Deficiency Syndromes,C0021051,37
+Distributive shock,C2938913,37
+Cystitis,C0010692,37
+Appendicitis,C0003615,37
+Large bowel obstruction,C0460048,36
+Aortic Rupture,C0003496,36
+"Meningitis, Cryptococcal",C0085436,36
+Accelerated Idioventricular Rhythm,C0078888,36
+Corneal Ulcer,C0010043,36
+Disorder characterized by fever,C0743841,36
+Bacterial sinusitis,C1262006,36
+Sleep-Disordered Breathing,C4551689,36
+Bladder spasm,C0426390,36
+Cervical myelopathy,C0149645,36
+Ascending cholangitis,C0311273,36
+Oral Hemorrhage,C0029163,36
+Overactive Bladder,C0878773,36
+Vegetative State,C0917808,36
+Blood in stool,C1321898,35
+Necrotic debris,C0027544,35
+Pneumonia due to methicillin susceptible Staphylococcus aureus,C2349529,35
+Traumatic AND/OR non-traumatic injury,C3263722,35
+"Seizures, Focal",C0751495,35
+B-Cell Lymphomas,C0079731,35
+Pain of left hip joint,C2141922,35
+Left-Sided Heart Failure,C0023212,35
+Acute myocardial ischemia,C0746731,35
+Echinococcosis,C0013502,35
+Edema of scrotum,C0151609,35
+Little's Disease,C0023882,35
+Hiatal Hernia,C3489393,35
+Retinal Diseases,C0035309,35
+Polyuria,C0032617,35
+Metastatic Malignancy,C4698656,35
+Dissecting aneurysm of the thoracic aorta,C0729233,35
+Prosthetic valve endocarditis,C0340359,35
+Mastoiditis,C0024904,35
+Drug usage,C0242510,34
+Skin tear,C0877377,34
+"Aortic Aneurysm, Abdominal",C0162871,34
+"Sinus Thrombosis, Intracranial",C0037198,34
+Flank Pain,C0016199,34
+Mediastinitis,C0025064,34
+Surgical Wound Infection,C0038941,34
+Injury of kidney,C0160420,34
+Mycobacterium Infections,C0026918,34
+"Brain Diseases, Metabolic",C0006112,34
+"Positive-Pressure Respiration, Intrinsic",C0242676,34
+Foot pain,C0016512,34
+Vertigo,C0042571,34
+Swelling of lower limb,C0581394,33
+Diastasis,C0036679,33
+Secondary anemia NOS,C0340952,33
+Personality Disorders,C0031212,33
+Megacolon,C0025160,33
+MYELODYSPLASTIC SYNDROME,C3463824,33
+hypokinesis global,C0745157,33
+"Arthritis, Bacterial",C1692886,33
+Disorientation,C0233407,33
+bite injury,C0005658,33
+Common Variable Immunodeficiency,C0009447,33
+Autoimmune Diseases,C0004364,33
+Malignant Head and Neck Neoplasm,C0278996,33
+Chronic graft-versus-host disease,C0867389,33
+Carcinoma of lung,C0684249,33
+Post-transplant lymphoproliferative disorder,C0432487,33
+Squamous cell carcinoma of skin,C0553723,33
+Carcinoid Tumor,C0007095,33
+Influenza in Birds,C0016627,33
+"Megacolon, Toxic",C0025162,33
+Acetaminophen overdose,C0572025,33
+Enterovirus Infections,C0014378,33
+Sexually Transmitted Diseases,C0036916,33
+Pyloric Stenosis,C0034194,32
+Babesiosis,C0004576,32
+Ovarian cancer stage IV,C4721779,32
+Tongue swelling,C0236068,32
+Primary bacterial peritonitis,C0275551,32
+Acrocallosal Syndrome,C0796147,32
+Subclavian Steal Syndrome,C0038531,32
+Drug toxicity,C0013221,32
+severe back pain,C0238740,32
+Rupture of appendix,C0267628,32
+Antiphospholipid Syndrome,C0085278,32
+Ulcer of heel,C0577718,32
+Intestinal Volvulus,C0042961,32
+Tonsillar Carcinoma,C0558355,32
+Esophageal Stricture,C4551650,32
+Neurogenic shock (disorder),C0544617,32
+Tension,C0233494,32
+"Abdomen, Acute",C0000727,32
+Infectious colitis,C0277524,31
+Gram-negative bacteremia,C0744471,31
+Pain of left shoulder joint,C0241039,31
+Hyperpyrexia,C0392676,31
+Duodenal perforation,C0267356,31
+Malacia,C0024524,31
+Bronchopleural Fistula,C0238132,31
+"Malignant lymphoma, lymphocytic, intermediate differentiation, diffuse",C0334634,31
+Myositis,C0027121,31
+Liver sarcoidosis,C0744822,30
+Bacterial peritonitis,C0341503,30
+Acute alcoholism,C0699757,30
+Pleural Diseases,C0032226,30
+Pre-Eclampsia,C0032914,30
+Urinary tract obstruction,C0178879,30
+Myocardial Stunning,C0206146,30
+Muscle Cramp,C0026821,30
+stage IV esophageal cancer,C4721577,30
+combative,C0241845,30
+Lymphedema,C0024236,30
+"Infections, Hospital",C0205721,30
+Influenza-like illness,C0521839,30
+Foreign Bodies,C0016542,29
+Bladder cancer stage IV,C4721666,29
+Primary atypical pneumonia,C0702135,29
+Brain Neoplasms,C0006118,29
+Pain in right lower limb,C0564823,29
+Hand pain,C0239833,29
+Gastrointestinal Stromal Tumors,C0238198,29
+Abnormal degeneration,C0011164,29
+Pneumonia due to Klebsiella pneumoniae,C0519030,29
+Dental caries,C0011334,29
+Unipolar Depression,C0041696,29
+Toxic pneumonitis,C3714582,29
+Anoxia,C0003130,29
+Polyneuropathy,C0152025,29
+Hypoaldosteronism,C0020595,29
+Toxoplasmosis,C0040558,29
+Ruptured Appendicitis,C0854119,29
+Posterior reversible encephalopathy syndrome,C3160858,28
+Candidiasis of the esophagus,C0239295,28
+Alcohol poisoning,C0392620,28
+Hemorrhagic cerebral infarction,C0472369,28
+airway disease,C0699949,28
+Ureterolithiasis,C0041952,28
+Ventricular hypertrophy,C0340279,28
+Macrocytosis,C0085662,28
+Chronic obstructive pulmonary disease of horses,C3714496,28
+Spraying behavior,C0233601,28
+Pulmonary failure,C0948755,28
+Epigastric discomfort,C1291078,28
+Streptococcal bacteremia,C0152964,28
+Thalamic hemorrhage,C0472376,28
+Pneumocephalus,C0032268,28
+Toxic Shock Syndrome,C0600327,28
+Pain in wrist,C0221785,28
+Contraction alkalosis,C1737236,28
+Monoclonal Gammopathy of Undetermined Significance,C0026470,28
+Retroperitoneal fibrosis,C0035357,28
+Ruptured abdominal aortic aneurysm,C0265012,28
+Hypertensive crisis,C0020546,28
+Poisoning by digoxin,C0274727,28
+Bilateral upper limb edema,C5230916,28
+Surgical wound,C0332803,28
+Autonomic nervous system disorders,C1145628,28
+Demyelinating Diseases,C0011303,27
+Limb ischemia,C2945695,27
+Secondary hypertension,C0155616,27
+Cellulitis of scrotum,C0268927,27
+Rectal hemorrhage,C0267596,27
+Contact Dermatitis,C0011616,27
+Eclampsia,C0013537,27
+Malignant neoplasm of pancreas,C0346647,27
+Dermatomycoses,C0011630,27
+Ketosis,C0022638,27
+Intermittent Claudication,C0021775,27
+Prediabetes syndrome,C0362046,27
+Acute dyspnea,C0743323,27
+Refeeding Syndrome,C0860549,27
+Suprapubic pain,C0241310,27
+obstructive disease,C0746982,27
+Hemiparesis,C0018989,27
+Hydrothorax,C0020312,26
+Thrombophlebitis,C0040046,26
+Traffic accidents,C0000932,26
+Cerebral Vasospasm,C0265110,26
+Pneumoperitoneum,C0032320,26
+HIV Infections,C0019693,26
+Dry gangrene,C0333536,26
+Nephrotic Syndrome,C0027726,26
+Generalized muscle weakness,C0746674,26
+Imbalance,C1397014,26
+"Anemia, Pernicious",C0002892,26
+Rupture of bladder,C0840564,26
+Zellweger Syndrome,C0043459,26
+Drug Hypersensitivity Syndrome,C3541994,26
+Heart valve disease,C0018824,26
+Bilateral pleural effusion,C0747635,26
+Urologic Diseases,C0042075,25
+Inguinal pain,C0239783,25
+Diabetic Neuropathies,C0011882,25
+Mastodynia,C0024902,25
+Hypereosinophilia,C0745091,25
+Paraneoplastic Syndromes,C0030472,25
+Asymptomatic bacteriuria,C0262380,25
+Wernicke Encephalopathy,C0043121,25
+Leigh Disease,C0023264,25
+Sleep Disorders,C0851578,25
+"Lymphohistiocytosis, Hemophagocytic",C0024291,25
+Biventricular congestive heart failure,C0685095,25
+Lymphocytosis,C0024282,25
+Acute systolic heart failure,C2732748,25
+Metastatic non-small cell lung cancer,C0278987,25
+Pleurisy,C0032231,25
+Phlegmon,C0031557,25
+Benzodiazepine withdrawal,C2062728,25
+diarrhea persistent,C0743188,25
+Tietze's Syndrome,C0040213,25
+Vasovagal syncope,C0042420,25
+Metastatic malignant neoplasm to brain,C0220650,25
+Bullous pemphigoid,C0030805,25
+Fecal Incontinence,C0015732,25
+Chronic heart failure,C0264716,24
+Heel pain,C0231780,24
+Febrile Convulsions,C0009952,24
+Sarcoma,C1261473,24
+Colonic Neoplasms,C0009375,24
+Retroperitoneal abscess,C0237962,24
+Cervical disc disorder,C0477633,24
+Esophageal Perforation,C0014860,24
+Chest tightness,C0232292,24
+Stent thrombosis,C3897493,24
+pneumonia clinical,C0543829,24
+Hyperinsulinism,C0020459,24
+Acute vascular insufficiency,C0232353,24
+Cholangiocarcinoma non-resectable,C0862953,24
+Ketoacidosis due to acute alcohol intoxication,C0268039,24
+Bone pain,C0151825,24
+Autoimmune hemolytic anemia,C0002880,24
+Malignant neoplasm of stomach,C0024623,24
+Atrial standstill,C0541782,24
+Cross Infection,C0010356,23
+Immunoglobulin A deficiency (disorder),C0162538,23
+Obstruction of esophagus,C0239296,23
+acute aortic dissection,C0241868,23
+Acute abdominal pain,C0740577,23
+Nephritis,C0027697,23
+Fracture of temporal bone,C0272461,23
+Mycosis Fungoides,C0026948,23
+end organ damage,C0743496,23
+Yeast infection,C0750466,23
+"Pneumonia, Ventilator-Associated",C1701940,23
+gastritis h pylori,C0744310,23
+Epidermal necrosis,C1167709,23
+Diabetic foot ulcer,C1456868,23
+Electrolyte imbalance,C0342579,23
+Bilateral pulmonary infiltrates,C2939072,23
+Hypofibrinogenemia,C0553681,23
+Sweet Syndrome,C0085077,23
+Fournier's gangrene of scrotum,C0549145,23
+"Metabolic acidosis, NAG, acidifying salts",C0085569,23
+Impaction,C0333124,23
+Mydriasis,C0026961,23
+Earache,C0013456,22
+Trembling,C0234369,22
+Clostridium colitis,C1142300,22
+Sore Throat,C0242429,22
+Sclerosis,C0036429,22
+Right ventricular failure,C2939447,22
+Steatohepatitis,C2711227,22
+myocardial injury,C0746730,22
+Pancreatic Insufficiency,C0030293,22
+Coinfection,C0275524,22
+Adenocarcinoma Of Esophagus,C0279628,22
+Bronchioloalveolar Adenocarcinoma,C0007120,22
+Anginal equivalent,C0741034,22
+Membranous glomerulonephritis,C0017665,22
+Wound of skin,C0564444,22
+Laceration of tongue,C0433696,22
+Rectal Carcinoma,C0007113,22
+"Malaria, Falciparum",C0024535,22
+ovarian neoplasm,C0919267,22
+Acute exacerbation of chronic obstructive airways disease,C0340044,22
+Allergic rhinitis (disorder),C2607914,22
+Femoral Neck Fractures,C0015806,22
+Acute gastrointestinal hemorrhage,C0266807,22
+Influenza due to Influenza A virus subtype H1N1,C2076600,22
+Redness of eye,C0235267,22
+renal obstruction,C0748324,22
+Suicidal,C0438696,22
+inflammation or infection,C0679333,22
+Hypoparathyroidism,C0020626,22
+vertigo/dizziness,C0497293,22
+Hyperamylasemia,C0221773,21
+Benign mucous membrane pemphigoid with ocular involvement,C0157721,21
+Abdominal bloating,C1291077,21
+Bradyarrhythmia (disorder),C0079035,21
+Afferent Loop Syndrome,C0001727,21
+Compression fracture of vertebral column,C0262431,21
+Viral gastroenteritis,C0152517,21
+Perforation of bladder,C0434133,21
+Obstipation,C0221152,21
+Cholangiopathy,C3666017,21
+Pheochromocytoma,C0031511,21
+Hematoma of neck,C0746795,21
+Shallow breathing,C0221161,21
+Body fluid retention,C0268000,21
+Ulcer of esophagus,C0151970,21
+Pain of lower extremities,C0239376,21
+Unspecified visual loss,C3665346,21
+Large Pleural Effusion,C0747637,21
+Fungal rash,C0848648,21
+Acute cholangitis,C0267917,21
+Diffuse pain,C0520963,21
+Mesothelioma,C0025500,21
+Premature Cardiac Complex,C0340464,20
+Orbital Fractures,C0029184,20
+Autoimmune hepatitis,C4721555,20
+Rib pain,C0574068,20
+Chronic osteomyelitis,C0008707,20
+Duodenal ulcer perforation,C0740401,20
+Serotonin Syndrome,C0699828,20
+"stage, pancreatic cancer",C0280222,20
+Reactive thrombocytosis,C0457506,20
+Asthma chronic,C0877430,20
+Proctitis,C0033246,20
+Infection of foot,C0555973,20
+Bilateral hydronephrosis,C0521622,20
+Generalized erythema,C0849916,20
+Abscess of abdominal wall,C0263105,20
+Opiate Abuse,C4551628,20
+Paranoia,C1456784,20
+Opioid withdrawal,C0029104,20
+Hereditary hemochromatosis,C0392514,20
+Platelet dysfunction,C0679429,20
+Chronic pain syndrome,C1298685,20
+Oral Ulcer,C0149745,20
+Carotid Artery Diseases,C0007273,20
+Gastrointestinal symptom,C0426576,20
+"Pericarditis, Constrictive",C0031048,19
+Darkened skin,C0860447,19
+Fatty infiltration,C0333575,19
+Sicca Syndrome,C0086981,19
+Contusion of lung,C0347625,19
+Acute mitral regurgitation,C1298807,19
+Cervical spondylosis,C1384641,19
+Brainstem encephalitis,C0393483,19
+Erosive esophagitis,C0267055,19
+Poor short-term memory,C0701811,19
+Chronic conjunctivitis,C0155145,19
+Polymicrobial bacteraemia,C0238748,19
+Malfunction from artificial pacing,C0232196,19
+Splenic Rupture,C0038000,19
+Hyperammonemia,C0220994,19
+"Anemia, persistent",C0741008,19
+Reflux,C0232483,19
+Hypotonicity,C0241938,19
+Thyroid dysfunction,C0348024,19
+"Bronchitis, Chronic",C0008677,19
+Cyanosis,C0010520,19
+Bleeding ulcer,C0333291,19
+Dissociative convulsions,C0349245,18
+Eczema,C0013595,18
+Splenic hematoma,C0347634,18
+Pilonidal Cyst,C0031925,18
+Chronic lymphocytic leukemia refractory,C0278791,18
+Cerebellar hemorrhage,C0149854,18
+Essential Tremor,C0270736,18
+Bleeding tendency,C1458140,18
+Agitation mental,C0302807,18
+Enteritis,C0014335,18
+Dysbarism,C0004760,18
+Oral pain,C0221776,18
+sick sinus,C0748694,18
+Hip Dislocation,C0019554,18
+Hypochloremia (disorder),C0085680,18
+Low output state,C0856735,18
+hydronephrosis on left,C2047374,18
+Pain in calf,C0236040,18
+Superficial abrasion,C0043242,18
+Anticardiolipin antibody syndrome,C1608418,18
+Incised wound,C0000925,18
+Acid-base disorders,C0740265,18
+Fluctuation,C0231239,18
+Inflammatory Bowel Diseases,C0021390,18
+Restrictive cardiomyopathy,C0007196,18
+Coronary Occlusion,C0151814,18
+Esophageal tear,C0877393,18
+Cut of back,C0561296,18
+Hemophagocytic Syndrome,C3887558,18
+Klebs,C1401660,18
+Ankle pain,C0238656,18
+Clonic Seizures,C0234535,18
+"Encephalomyelitis, Acute Disseminated",C0014059,18
+First degree atrioventricular block,C0085614,18
+Adverse reactions,C0559546,17
+"Scoliosis, unspecified",C0036439,17
+Splenic sequestration,C1260402,17
+Corneal Abrasions,C0010032,17
+Pelvic hematoma,C0475319,17
+fever with rash,C0847014,17
+Herpes encephalitis,C0276226,17
+Laryngospasm,C0023066,17
+Acute bacterial peritonitis,C0275550,17
+Brain Death,C0006110,17
+"Septicaemia due to gram-negative organism, unspecified",C0036685,17
+Borderline hypertension,C0262395,17
+Esophageal Achalasia,C0014848,17
+Toothache,C0040460,17
+Paresthesia,C0030554,17
+Klebsiella Infections,C0022729,17
+Pneumonia due to Pseudomonas,C0155860,17
+Arachnoiditis,C0003708,17
+spells (neurological symptom),C0302539,17
+Osteosarcoma,C0029463,17
+Uterine Inertia,C0042135,17
+Collagen-vascular disease,C0262428,17
+Demyelination,C0011304,17
+Intravascular hemolysis,C0235574,17
+Parasitic Diseases,C0030499,17
+Hematoma of thigh,C0585250,17
+new onset of cough,C2220033,17
+Rectosigmoid cancer,C1327709,17
+hypertensive nephropathy,C0848548,17
+Angiodysplasia,C0085411,17
+Chest pressure,C0438716,17
+"Stenosis, Pulmonary Vein",C0340756,17
+Atypical Small Acinar Proliferation of the Prostate Gland,C1332353,17
+"Colitis, Microscopic",C0400821,17
+Hemorrhagic Stroke,C5234922,17
+Binge eating disorder,C0596170,17
+Malignant Thymoma,C1322286,17
+"Epilepsy, Temporal Lobe",C0014556,17
+Esophageal carcinoma,C0152018,17
+Pneumonitis due to fumes AND/OR vapors,C0264458,17
+Impaired judgement,C0233818,16
+Atrial thrombosis,C0340517,16
+Severe persistent asthma,C1960048,16
+Left ventricular systolic dysfunction,C1277187,16
+Decreased Immunologic Activity [PE],C1373218,16
+Rupture of esophagus,C0281839,16
+Acute sinusitis,C0149512,16
+"Nephritis, Interstitial",C0027707,16
+Fragile X Syndrome,C0016667,16
+Humeral Fractures,C0020162,16
+hip infection,C0744926,16
+Inferior Wall Myocardial Infarction,C0340305,16
+poor dentition,C0149758,16
+Malignant neoplasm of larynx,C0007107,16
+Hyperviscosity syndrome,C0221030,16
+Lymphadenitis,C0024205,16
+Ureteral obstruction,C0041956,16
+Persistent infection,C1264606,16
+Malignant neoplasm of brain,C0153633,16
+Brain Hypoxia,C1527348,16
+Neuralgia,C0027796,16
+Neurologic Symptoms,C0235031,16
+Muscular fasciculation,C0015644,16
+Dermatologic disorders,C0037274,16
+Acute congestive heart failure,C0264719,16
+Urinary symptoms,C0426359,16
+Cerebritis,C0742115,16
+Locally Advanced Melanoma,C4725077,16
+"Asthma, Exercise-Induced",C0004099,16
+Lung consolidation,C0521530,16
+Deficiency of testosterone biosynthesis,C0342527,16
+Hepatotoxicity,C0235378,16
+Autonomic Dysreflexia,C0238015,16
+Bronchial Obstruction,C0221725,16
+Pain of right shoulder joint,C0241040,16
+Left upper quadrant pain,C0238552,16
+Opiate Overdose,C0579142,15
+Systemic disease,C0442893,15
+Cervix carcinoma,C0302592,15
+HHH syndrome,C0268540,15
+Viral meningitis,C0025297,15
+Amniotic Band Syndrome,C0002636,15
+Critical illness myopathy,C1135188,15
+Osteochondritis Dissecans,C0029421,15
+Viral pericarditis,C0276139,15
+Thigh pain,C0241374,15
+Chronic iron deficiency anaemia,C0740989,15
+Simple renal cyst,C0268800,15
+acute lymphoma,C2063390,15
+Monoclonal Gammapathies,C1136085,15
+Hereditary bundle branch system defect,C1879286,15
+Diffuse hemorrhage,C0333280,15
+Obstructive Hydrocephalus,C0549423,15
+Allergy to sulfonamide,C0038757,15
+pulmonary hypoxia,C0599335,15
+MRSA wound infection,C1504508,15
+Retrosternal pain,C0151826,15
+Paraspinal abscess,C2938959,15
+Fetal Death,C0015927,15
+Central nervous system depression (disorder),C0151559,15
+Paralytic Ileus,C0030446,15
+Panic Attacks,C0086769,15
+Domestic abuse,C0413318,15
+Throat cancer,C0740339,15
+Colopathy,C0877686,15
+Pyelonephrosis,C1405901,15
+External exotoses,C0015302,15
+Hyperaldosteronism,C0020428,15
+Infantile neuronal ceroid lipofuscinosis,C0268281,15
+"Skin Diseases, Infectious",C0037278,15
+Anxiety Disorders,C0003469,15
+Long QT Syndrome,C0023976,14
+Drug-induced lupus erythematosus,C0263591,14
+Breast engorgement,C0085688,14
+Focal Infection,C0016397,14
+Edema of foot (finding),C0574002,14
+Disseminated eosinophilic collagen disease,C0263662,14
+Venous Thromboembolism,C1861172,14
+Viral syndrome,C0042740,14
+Stomach Carcinoma,C0699791,14
+Mixed sensory-motor polyneuropathy,C0271682,14
+Multiple infarcts,C0333547,14
+Depressive Symptoms,C0086132,14
+Dissecting aortic aneurysm,C0012736,14
+Thrombus of cardiac chamber,C0876998,14
+Brain Edema,C1527311,14
+Swelling of scrotum,C0282005,14
+pyelonephritis of both kidneys,C2168813,14
+Fracture of orbital floor,C0149944,14
+Arthritis Pain,C4317006,14
+"Muscular Dystrophy, Duchenne",C0013264,14
+Typhlitis,C0267537,14
+Aortic valve disorder,C1260873,14
+Recurrent pancreatitis,C4551632,14
+Photophobia,C0085636,14
+Malignant neoplasm of skin,C0007114,14
+Organized pneumonia,C0264383,14
+Metastatic Renal Cell Cancer,C0278678,14
+Carpal Tunnel Syndrome,C0007286,14
+acute stress,C0848237,14
+Stiffness,C0427008,14
+Cytopenia,C0010828,14
+"Myelinolysis, Central Pontine",C0206083,14
+Partial obstruction of small bowel,C0281936,14
+Hereditary Diseases,C0019247,14
+Subendocardial ischemia,C0264695,14
+Fungal pneumonia,C0339961,14
+Sigmoid volvulus,C0149863,14
+Pseudogout,C0033802,14
+Dejerine-Roussy Syndrome,C0221057,14
+Acute-On-Chronic Liver Failure,C3850141,14
+Diverticular Bleeding,C4505353,14
+Stomach Neoplasms,C0038356,14
+Secondary Infections,C0442886,14
+DIARRHEA 6,C3553270,14
+Drug effect disorder,C0728867,14
+Secondary Neoplasm,C2939419,14
+Hypertensive gastropathy,C4014979,14
+Chest wall pain,C0008035,14
+Glomerulosclerosis (disorder),C0178664,14
+Hypermagnesemia,C0151714,14
+Peripheral Arterial Diseases,C1704436,14
+Pulmonary Pathology,C0748168,14
+"Fetal Membranes, Premature Rupture",C0015944,14
+Fatty Liver,C0015695,14
+Facial twitching,C0858722,14
+Cholangiocarcinoma metastatic,C4087471,14
+Lytic lesion,C0221204,14
+Intracranial Aneurysm,C0007766,14
+Hyperosmolality,C0268009,14
+Mobitz type I incomplete atrioventricular block,C0264907,13
+Subcutaneous hematoma,C0520532,13
+Multiple allergies,C0740281,13
+Serous Cystadenocarcinoma,C0206701,13
+Outbursts,C1845248,13
+Left lower quadrant pain,C0238551,13
+Methemoglobinemia,C0025637,13
+Peripheral Vascular Insufficiency,C1401086,13
+Glycogen Storage Disease Type VI,C0017925,13
+Right Ventricular Hypertrophy,C0162770,13
+Prurigo nodularis,C0263353,13
+Chronic urinary tract infection,C0262421,13
+Lithium toxicity,C0238242,13
+"Cardiomyopathy, Alcoholic",C0007192,13
+Mitral Valve Stenosis,C0026269,13
+Pain in penis,C0497481,13
+Escherichia coli septicemia,C0276088,13
+Hypertensive episode,C0520539,13
+Humoral hypercalcemia of malignancy (disorder),C0149911,13
+Eosinophilic Pneumonia,C1527407,13
+Pain in right hip joint,C2202100,13
+Dyspepsia,C0013395,13
+"Arthritis, Psoriatic",C0003872,13
+Myelitis,C0026975,13
+Abdominal Cramps,C0000729,13
+Mucoepidermoid Carcinoma,C0206694,13
+Gastroparesis due to diabetes mellitus,C0267176,13
+Transient ischemia,C0022118,13
+Parkinsonian Disorders,C0242422,13
+Leukemoid Reaction,C0023501,13
+post abdominal surgery,C2062966,13
+Kidney Papillary Necrosis,C0022667,13
+External gastric fistula,C0341213,13
+Plasmodium falciparum infection,C0858318,13
+Hantavirus Infections,C0242994,13
+Diabetic Foot,C0206172,13
+Temporal Arteritis,C1956391,13
+Gastric ulcer with perforation,C0341163,13
+Blepharoptosis,C0005745,13
+Addisonian crisis,C0151467,13
+Gall Bladder Diseases,C0016977,13
+Feeling tense,C0235108,13
+Peripheral arterial stenosis,C4025272,13
+Anal Fissure,C0016167,13
+Internal hemorrhoids,C0265034,13
+Gunshot wound,C0043252,13
+Osteomyelitis of vertebra,C0452221,13
+Secretory diarrhea,C0267557,13
+Urgency of micturition,C0085606,13
+Asbestosis,C0003949,13
+Infectious Mononucleosis,C0021345,13
+Disease of capillaries,C0155765,13
+Tonic Seizures,C0270844,13
+Esophageal motility disorders,C0014858,13
+Granulomatosis,C0521173,13
+Papillary thyroid carcinoma,C0238463,13
+Impaired cognition,C0338656,13
+Sequela of disorder,C0543419,13
+Rhinorrhea,C1260880,13
+Ovarian Cysts,C0029927,13
+Fecal peritonitis,C0473119,13
+Central Apnea,C3887548,13
+Rectal pain,C0034886,13
+Benign Neoplasm,C0086692,12
+myeloproliferative syndrome,C1443043,12
+starvation acidosis,C0543507,12
+Lip swelling,C0240211,12
+Vertebral Artery Dissection,C0338586,12
+Occlusion of artery (disorder),C0264995,12
+Periorbital edema,C0151205,12
+Clonus,C0009024,12
+Comminuted Fracture type,C0476171,12
+Gynecomastia,C0018418,12
+lower extremity wound,C1408542,12
+Laceration of hand,C0432975,12
+Hunger,C0020175,12
+Word finding difficulty (disorder),C0454643,12
+Abscess of skin AND/OR subcutaneous tissue,C0149777,12
+Dieulafoy's vascular malformation,C0341217,12
+Nystagmus,C0028738,12
+Muscle Weakness,C0151786,12
+Stage IV Thyroid Gland Papillary Carcinoma AJCC v7,C0278851,12
+Splenic abscess,C0272412,12
+Arthropathy,C0022408,12
+Cardiac infection,C1096253,12
+Pancreatic Neoplasm,C0030297,12
+malignant neoplasm of breast staging,C2216702,12
+Cerebral Aneurysm,C0917996,12
+Ache,C0234238,12
+Pain in left knee,C2142181,12
+Gastrointestinal infection,C4082764,12
+"Mastocytosis, Systemic",C0221013,12
+Lice Infestations,C0030756,12
+primary respiratory alkalosis,C0740900,12
+"Tachycardia, Ectopic Atrial",C0039234,12
+Ehrlichiosis,C0085399,12
+Eosinophilic esophagitis,C0341106,12
+Edema of pharynx,C0236024,12
+Cavernous Sinus Thrombosis,C0238454,12
+Arm Pain,C0239377,12
+Muscle Spasticity,C0026838,12
+Polychondritis,C0747733,12
+Central nervous system lesion,C0742468,12
+Pruritus of vagina,C0042256,12
+Hyperchloremic metabolic acidosis,C1969073,12
+Childhood Myelodysplastic Syndrome,C2347761,12
+Chondrosarcoma,C0008479,12
+Scalp laceration,C0240937,12
+Skin necrosis,C0151799,12
+Staghorn Calculi,C0333014,12
+Decompensated cirrhosis of liver,C1619727,12
+Blepharitis,C0005741,12
+Fracture of sternum,C0238436,12
+Biliary tract infection,C0920156,12
+Cushing Syndrome,C0010481,12
+Hallucinosis,C0233777,12
+Septic thrombophlebitis,C0740341,12
+Cough weak,C2202983,12
+Facial trauma,C4061144,12
+Psychotic episodes,C0338614,12
+Neurotoxicity Syndromes,C0235032,12
+Hyperosmolar state,C0236013,12
+Attention deficit hyperactivity disorder,C1263846,12
+Rectal Prolapse,C0034888,12
+Acute exacerbation of chronic congestive heart failure,C3697063,12
+Splenic vein thrombosis,C0272416,12
+Ptosis,C0033377,12
+Otitis Externa,C0029878,11
+Lobular Neoplasia,C0861352,11
+Inhalation injury,C0745334,11
+Generalized seizures,C0234533,11
+Eschar,C0521172,11
+Granulomatous disorder,C0740451,11
+Cardiac Lymphoma,C1332850,11
+Pulmonary Alveolar Proteinosis,C0034050,11
+Paraphimosis,C0030483,11
+Heartburn,C0018834,11
+Intertrochanteric Fractures,C0162385,11
+Allergy to aspirin,C0004058,11
+Idiopathic Hypereosinophilic Syndrome,C0206141,11
+Respiratory Syncytial Virus Infections,C0035235,11
+Cat bite,C0417713,11
+Reinfection,C0205339,11
+Arthropathy associated with infection,C0157749,11
+Neurosyphilis,C0027927,11
+Retropulsion,C0277845,11
+Adult T-Cell Lymphoma/Leukemia,C0023493,11
+Atherosclerosis,C0004153,11
+Cranial nerve palsies,C0151311,11
+Superficial Thrombophlebitis,C1510431,11
+Hypoglycemic coma,C0020617,11
+Mass lesion of brain,C0742078,11
+Lesion of brain,C0221505,11
+Acute alcoholic liver disease,C0001306,11
+Struck,C0275626,11
+Abscess of thigh,C0263121,11
+Burst fracture,C0859903,11
+secondary edema,C1265805,11
+Menorrhagia,C0025323,11
+Poisoning by theophylline,C0274770,11
+Agoraphobia,C0001818,11
+Esophageal injury,C0267096,11
+femur distal fracture,C0743877,11
+Pneumonia acinetobacter,C2063075,11
+Hyperacusis,C0034880,11
+Fluctuance,C0949036,11
+Cardiovascular Diseases,C0007222,11
+Chronic cholecystitis,C0085694,11
+Sex Differentiation Disorders,C2930619,11
+Pleocytosis,C0151857,11
+"Polychondritis, Relapsing",C0032453,11
+Angiectasis,C0002959,11
+Endocarditis of tricuspid valve,C0749691,11
+Chronic lung disease,C0746102,11
+Gilles de la Tourette syndrome,C0040517,11
+Impulsive Behavior,C0021125,11
+Endocarditis of aortic valve,C1388247,11
+Myocardial Contusions,C0273112,11
+Polycystic Kidney Diseases,C0022680,11
+Nasal congestion (finding),C0027424,11
+Uterine hemorrhage,C0042134,11
+Calculus of gallbladder with cholecystitis,C0267853,11
+Colorectal Carcinoma,C0009402,11
+gastric/duodenal,C0549614,11
+Fullness abdominal,C0235318,11
+Pemphigus,C0030807,11
+Adrenal Gland Pheochromocytoma,C4551683,11
+Binswanger Disease,C0270786,11
+Metastatic Carcinoma,C1384494,10
+"Sarcoidosis, Pulmonary",C0036205,10
+Panic Disorder,C0030319,10
+Radiation Pneumonitis,C0206063,10
+Progressive Neoplastic Disease,C0677932,10
+Poisoning caused by acetaminophen,C0237963,10
+Hydrarthrosis,C1253936,10
+multiple pulmonary emboli,C0748128,10
+Hemangioma,C0018916,10
+Ataxic,C0234366,10
+Pemphigus Vulgaris,C0030809,10
+parenchymal hemorrhage,C0747264,10
+Edema of hand,C0239819,10
+Fracture of zygomatic process,C0435332,10
+encephalopathy global,C0743493,10
+High-Risk Pregnancy,C0242786,10
+Spinal Muscular Atrophy,C0026847,10
+Atypical chest pain,C0262384,10
+Difficulty sleeping,C0235162,10
+Seronegative arthritis,C0409679,10
+Fracture of pelvis,C0149531,10
+Grimaces,C0239779,10
+Choriocarcinoma,C0008497,10
+Pseudomyxoma Peritonei,C0033822,10
+Pain in toe,C0241416,10
+Pyometra,C0034215,10
+Radiculopathy,C0700594,10
+Eructation,C0014724,10
+Folliculitis,C0016436,10
+Serositis,C0036749,10
+Diabetic Nephropathy,C0011881,10
+Rectosigmoid Adenocarcinoma,C1711390,10
+Influenza-like symptoms,C0392171,10
+Polymyositis,C0085655,10
+Mass of thyroid gland,C0349453,10
+Fracture of lower leg,C1542178,10
+Stage III Rectal Cancer AJCC v6,C0278545,10
+Exhaustion,C0392674,10
+Mitral Valve Prolapse Syndrome,C0026267,10
+Hematological Disease,C0018939,10
+Pilocytic Astrocytoma,C0334583,10
+Pneumonia due to influenza,C4038890,10
+"Anemia, Megaloblastic",C0002888,10
+Diffuse alveolar damage,C1262020,10
+Diabetic foot infection,C0744130,10
+Prodromal Symptoms,C3494358,10
+Fracture with displacement,C0585059,10
+Fungal sinusitis,C1142077,10
+Tooth Fractures,C0040441,10
+"Skull Fracture, Basilar",C0748830,10
+Pyoderma Gangrenosum,C0085652,10
+Acanthosis Nigricans,C0000889,10
+Intestinal Diseases,C0021831,10
+Hyperglycemia steroid-induced,C0745098,10
+Inflammatory disorder,C1290884,10
+Hemorrhagic cystitis,C0085692,10
+Proliferative vitreoretinopathy,C0242852,10
+Primary Ciliary Dyskinesia,C4551720,10
+Hypersplenism,C0020532,10
+Rapid atrial fibrillation,C1281999,10
+Invasive Ductal Breast Carcinoma,C1134719,10
+Ventricular arrhythmia,C0085612,10
+"Hydrocephalus, Normal Pressure",C0020258,10
+Hereditary pancreatitis,C0238339,10
+medication overdose,C0746471,10
+Acute respiratory decompensation,C0748352,10
+Liver pain,C0522067,10
+Tic disorder,C0040188,9
+Environmental Exposure,C0014412,9
+Intervertebral Disc Degeneration,C0158266,9
+Pain of right ankle joint,C2200472,9
+Primary Neoplasm,C0677930,9
+Juvenile polyposis syndrome,C0345893,9
+Adenocarcinoma of the prostate metastatic,C0862636,9
+Domestic Violence,C0206073,9
+Thyroiditis,C0040147,9
+Ketonemia,C0235430,9
+THROMBOCYTOPENIA 2 (disorder),C1861185,9
+Malignant syndrome NOS,C0948281,9
+Acute diarrhea,C0740441,9
+Amnesia,C0002622,9
+Extrapyramidal Disorders,C0015371,9
+"Hyperparathyroidism, Primary",C0221002,9
+Waldenstrom Macroglobulinemia,C0024419,9
+Coronary Thrombosis,C0010072,9
+Dysautonomia,C0013363,9
+"Epilepsy, Partial, Motor",C0016399,9
+Chronic arthritis,C0263680,9
+Chest burning,C0740396,9
+Collagen Diseases,C0009326,9
+Malignant lymphoma - lymphoplasmacytic,C0334633,9
+Gastric Dilatation,C0038353,9
+Secondary malignant neoplasm of pancreas,C0346976,9
+Peritoneal Infection,C0851980,9
+"Neoplasms, Intracranial",C1527390,9
+Pinched,C0418416,9
+Malignant neoplasm of appendix,C0496779,9
+Group B Streptococcal Infection,C2020625,9
+Adenocarcinoma of colon,C0338106,9
+"Wounds, Stab",C0043255,9
+Angiomatosis,C0002992,9
+Pseudotumor Cerebri,C0033845,9
+Heart Decompensation,C1961112,9
+CNS metastases,C0686377,9
+Post MI,C0856742,9
+Acute pneumonia,C0740766,9
+"Empyema, Pleural",C0014013,9
+Myxedema coma,C0238298,9
+Chronic kidney disease stage 3,C2316787,9
+Posterior rhinorrhea,C0032781,9
+influenza A,C2062441,9
+Bacteriuria,C0004659,9
+Decrease in appetite,C0232462,9
+Myeloid Metaplasia,C0027013,9
+Has tingling sensation,C2242996,9
+Persistent Vegetative State,C0242670,9
+Fracture of bone of nasal sinus,C4041019,9
+Catheter infection,C0742006,9
+Torsades de Pointes,C0040479,9
+Ovarian vein thrombosis,C0747111,9
+Acute haemolytic anaemia,C1387528,9
+Deep pain,C0234229,9
+Torticollis,C0040485,9
+Acute viral hepatitis,C0276622,9
+Rebound tenderness,C0234246,9
+Subclinical hypothyroidism,C0271790,9
+Abscess of eyelid,C0155175,9
+Abdominal symptom,C0740651,9
+Allergic rash,C0850569,9
+Right Flank Pain,C0423640,9
+Neoplastic Processes,C0027671,9
+Cerebral atrophy,C0235946,9
+Pansinusitis,C0558362,9
+Idiopathic pneumonia syndrome,C1504431,9
+"Subdural Hematoma, Traumatic",C0475059,9
+Critical stenosis of aortic valve,C1960800,9
+Microscopic Polyarteritis,C2347126,9
+Bacterial resistance,C0151521,9
+Verbal auditory hallucinations,C0424068,9
+Cytokine Storm,C0919747,9
+Accessory Atrioventricular Bundle (disorder),C0264897,9
+Hyperglycemic Hyperosmolar Nonketotic Coma,C0020457,9
+Heroin overdose,C0572070,9
+Chronic ulcerative colitis,C2919828,9
+"Fibrosis, Liver",C0239946,9
+Onychomycosis,C0040261,9
+Injury of trachea,C0149992,9
+"Vasculitis, Leukocytoclastic, Cutaneous",C0151436,9
+Perirectal abscess,C0267566,9
+"Thrombocythemia, Essential",C0040028,9
+Mobitz type II,C0856733,9
+Facial Paresis,C0427055,8
+Respiratory alkalosis and metabolic alkalosis,C0342601,8
+Communication impairment,C0009460,8
+Nicotine Dependence,C0028043,8
+Pneumobilia,C1739097,8
+Stent occlusion,C0919560,8
+Thrombocytopenia 3,C2678311,8
+"Infarction, Anterior Cerebral Artery",C0751843,8
+Recurrent ovarian cancer,C0278689,8
+Phlebitis,C0031542,8
+Bacterial sepsis,C0684256,8
+Chronic pericarditis,C0265143,8
+Sleep disturbances,C0037317,8
+Subhepatic abscess,C0267762,8
+Carbon dioxide narcosis,C0221340,8
+Acute asthma,C0582415,8
+Chronic hypotension,C0155800,8
+Pain in right knee,C2202235,8
+CARCINOMA OF VULVA,C0677055,8
+Urinary Stress Incontinence,C0042025,8
+"Meningitis, Listeria",C0025293,8
+Acute massive pulmonary embolism,C0340535,8
+Sustained ventricular tachycardia,C0750197,8
+Diffuse Axonal Injury,C0752219,8
+Gastric hemorrhage,C0235325,8
+Thoracic Outlet Syndrome,C0039984,8
+Chronic hemorrhage,C0333278,8
+"Hypoglycemia, acute",C0745150,8
+Hematoma of scrotum,C0268936,8
+Hemosiderosis,C0019114,8
+Neurologic Signs,C0751378,8
+Decompensated liver disease,C4075847,8
+Glossalgia,C0017672,8
+Cytomegalovirus Retinitis,C0206178,8
+Trimalleolar Fractures,C0435907,8
+Stiff-Person Syndrome,C0085292,8
+Right lower zone pneumonia,C0585105,8
+Narcosis,C0234447,8
+Ventricular Dysfunction,C0242973,8
+Splenic Infarction,C0037998,8
+Vocal Cord Paralysis,C0042928,8
+Double coronary vessel disease,C0581375,8
+"Pain, Postoperative",C0030201,8
+hearing impairment,C1384666,8
+Staring,C0423086,8
+Vitreous Hemorrhage,C0042909,8
+Adrenal mass,C0342500,8
+Bone necrosis,C0029445,8
+Prader-Willi Syndrome,C0032897,8
+Fibroid Tumor,C0023267,8
+pyonephritis,C1405924,8
+demand myocardial ischemia,C2957453,8
+Hepatocellular necrosis,C1855038,8
+Decompression Sickness,C0011119,8
+Renal hematuria,C1300115,8
+Vitamin B 12 Deficiency,C0042847,8
+anticholinergic toxicity,C0237996,8
+Edema of the tongue,C0151610,8
+"Angioedemas, Hereditary",C0019243,8
+Increased work of breathing,C0859927,8
+Agitated depression,C0235136,8
+Atrial arrhythmia,C0085611,8
+"Jaundice, Obstructive",C0022354,8
+"Hallucinations, Visual",C0233763,8
+Protein-Losing Enteropathies,C0033680,8
+aodd relapse,C0683031,8
+Ludwig's Angina,C0024081,8
+Non-Q wave MI,C0860155,8
+Gonadotropin-Resistant Ovary Syndrome,C0086367,8
+"Apraxia, Developmental Verbal",C0750927,8
+Shigella Infections,C0013371,8
+Bacterial conjunctivitis,C0009768,8
+Pain in scrotum,C0236078,8
+Tobacco Dependence,C0040332,8
+"Pneumonia, Necrotizing",C0264515,8
+Acute infarct,C0333548,8
+Muscle hematoma,C0240412,8
+AGEP,C0863129,8
+Polyp of duodenum,C0347266,8
+"Mycobacterium Infections, Nontuberculous",C0026919,8
+Biloma,C1167663,8
+Pressure Chest Pain,C5239562,8
+Salmonella sepsis,C0152486,8
+Histoplasmosis,C0019655,8
+Duodenal hemorrhage,C0521595,8
+Acute respiratory alkalosis,C0268053,8
+"Aplastic anemia, idiopathic",C0348890,8
+Abscess of oral tissue,C0267003,8
+Hemangioma of liver,C0238246,8
+"Hyperparathyroidism, Secondary",C0020503,7
+Claustrophobia,C0008909,7
+Burn injury,C0006434,7
+Motor Skills Disorders,C0026613,7
+Recurrent pneumonia,C0694550,7
+Rheumatic tricuspid valve disease,C0264776,7
+Urethral stricture,C4551691,7
+Barotrauma of descent,C0413258,7
+Thalassemia,C0039730,7
+Hemopneumothorax,C0019077,7
+Primary Progressive Aphasia (disorder),C0282513,7
+Curb,C0263940,7
+Polycystic Ovary Syndrome,C0032460,7
+Liver cyst,C0267834,7
+Invasive Fungal Infections,C1262313,7
+"Renal Tubular Acidosis, Type II",C0268435,7
+Drug Induced Thrombocytopenia,C2063616,7
+Edema of vocal cord,C0392319,7
+Snoring,C0037384,7
+Communicating Hydrocephalus,C0009451,7
+Wound cellulitis,C0406832,7
+Paroxysmal supraventricular tachycardia,C0030590,7
+Occult hemorrhage,C0333282,7
+Upper Extremity Paresis,C0751409,7
+Herpes Labialis,C0019345,7
+Valvular disease,C3258293,7
+Pituitary macroadenoma,C0346308,7
+Delusions,C0011253,7
+Enterococcal infection,C0851881,7
+encephalopathy diffuse,C0743491,7
+Fracture of tibial plateau,C0262489,7
+Renal pain,C0558489,7
+rapid ventricular response,C0748243,7
+Violent,C0242151,7
+Massive hemorrhage,C0333279,7
+Severe depression,C0588008,7
+Acute mastoiditis,C0701825,7
+Drug-Induced Liver Disease,C0860207,7
+Focal glomerulosclerosis,C0017668,7
+Cerebral hyperperfusion syndrome,C1611713,7
+Paraesophageal hernia,C0267725,7
+Dyssomnias,C0700201,7
+Hilar lymphadenopathy,C0456973,7
+Enterocolitis,C0014356,7
+alcoholic cirrhosis with ascites,C3509286,7
+Propofol Infusion Syndrome,C1328409,7
+Pulmonary Valve Stenosis,C0034089,7
+"SCLEROSING CHOLANGITIS, NEONATAL",C4479344,7
+Gastric Adenocarcinoma,C0278701,7
+Diverticulitis of sigmoid colon,C1997972,7
+Acquired Factor V Deficiency,C4329256,7
+gunshot wounds of multiple sites,C0744499,7
+Hepatic Infarction,C0151731,7
+Absence attacks,C0235956,7
+Axillary lymphadenopathy,C0578735,7
+Caustic injury,C0854388,7
+"Hepatitis, Drug-Induced",C1262760,7
+Alcohol or Other Drugs use,C0237123,7
+Ischemic hand,C0585267,7
+Labile hypertension,C3665418,7
+Monocytosis,C0085702,7
+Mania acute,C0235165,7
+Fracture of scapula,C0159667,7
+Cerebellar lesion NOS,C0742035,7
+Subclinical hyperthyroidism,C1998045,7
+Seroma,C0262627,7
+Neurilemmoma,C0027809,7
+Elder Abuse,C0013772,7
+Nonspecific interstitial pneumonia,C1290344,7
+Generalized pustular psoriasis,C0343055,7
+Trigeminal Neuralgia,C0040997,7
+Cardiac Death,C0376297,7
+Metastatic Neoplasm,C2939420,7
+Shoulder arthritis,C1298682,7
+Nasal allergies,C0847614,7
+Bacterial gastroenteritis,C0558348,7
+Iron Overload,C0282193,7
+Distended bowel,C2747824,7
+acute coronary artery occlusion,C4537845,7
+Actinomycosis,C0001261,7
+Polyradiculopathy,C0032586,7
+Plexopathy,C1335437,7
+Left sided colitis,C2887821,7
+Nocturnal cough,C0231912,7
+Frostbite,C0016736,7
+Alcohol Withdrawal Seizures,C0586323,7
+Rapidly progressive dementia,C1847651,7
+Infection of toe,C0555972,7
+Primary Biliary Cholangitis,C0008312,7
+Pneumonia and influenza,C0155870,7
+Mood swings,C0085633,7
+Bone Marrow Suppression,C0280962,7
+Avascular necrosis of bone,C0027543,7
+Expiratory wheezing,C0231875,7
+Hypopituitarism,C0020635,7
+Embolic shower,C3666011,6
+Hyperosmolar Hyperglycemic State,C3888846,6
+Antibiotic-associated diarrhea,C0578159,6
+Glanders,C0017589,6
+Hepatic Infection,C1112211,6
+Schistosomiasis,C0036323,6
+Biliary Sludge,C0282074,6
+Vascular System Injuries,C0178324,6
+Steroid-induced myopathy,C0270994,6
+Punctate inner choroidopathy,C0730321,6
+"Pancreatitis, Alcoholic",C0376670,6
+Pseudomonas Infections,C0033817,6
+"Glaucoma, Neovascular",C0017609,6
+maroon stools,C2130275,6
+Pulmonary Infarction,C0034074,6
+Legionnaires' Disease,C0023241,6
+Meningeal Carcinomatosis,C0220654,6
+Mandibular Fractures,C0024692,6
+Pain of right eye,C2201627,6
+"Multiple Sclerosis, Chronic Progressive",C0393665,6
+Acute miliary tuberculosis,C0152915,6
+Spondylitis,C0038012,6
+Lymphangioleiomyomatosis,C0751674,6
+Megaloblastic anemia due to vitamin B>12< deficiency,C0815316,6
+Abdominal pain through to back,C0277969,6
+Swelling of arm,C0577598,6
+Thyroid Crisis,C0040127,6
+Staphylococcal Pneumonia,C0032308,6
+Eye pain,C0151827,6
+traumatic lumbar puncture headache,C2062586,6
+Familial Mediterranean Fever,C0031069,6
+Pelvic Pain,C0030794,6
+Spinal shock,C0597503,6
+Amiodarone poisoning,C0569293,6
+Crushing injury,C0332679,6
+Overdose of beta-adrenergic blocking drug,C0573209,6
+Three Vessel Coronary Disease,C3272265,6
+Oozing (Hemorrhage),C1446325,6
+Spastic Quadriplegia,C0426970,6
+Gastrinoma,C0017150,6
+Clumsiness,C0233844,6
+Recurrent upper respiratory tract infection,C0581381,6
+Intraoperative Complications,C0021890,6
+Polyserositis,C0151859,6
+disc disorder,C0012619,6
+Hypoestrogenism,C3671918,6
+Malignant neoplasm of vulva,C0375071,6
+Superficial contusion,C0432742,6
+Tetanus,C0039614,6
+Facial tic disorder,C0338467,6
+Eye Infection,C0015403,6
+Pseudohypoparathyroidism,C0033806,6
+Chronic congestive heart failure,C0264722,6
+Physiological Stress,C0449430,6
+Baller-Gerold syndrome,C0265308,6
+Acute diastolic heart failure,C2732951,6
+coccidiomycosis,C0262426,6
+Major Depressive Disorder,C1269683,6
+Congestion of throat,C0559687,6
+Biliary peritonitis,C0267768,6
+"Amputation, Traumatic",C0002694,6
+Bleeding gastric ulcer,C0341164,6
+Lumbar mass,C0587051,6
+Chronic fever,C0743971,6
+Atrophic,C0333641,6
+AIDS Dementia Complex,C0001849,6
+Insulin Resistance,C0021655,6
+Rheumatic Fever,C0035436,6
+"Hallucinations, Auditory",C0233762,6
+gastric distention,C0848337,6
+"Colitis, Lymphocytic",C0400822,6
+Chronic peritonitis,C0267763,6
+"Neoplasms, Second Primary",C0085183,6
+Hypotension asymptomatic,C0740481,6
+Atherosclerosis of aorta,C0155733,6
+leukopenia chronic,C0745710,6
+"Leukemia, Myeloid, Chronic-Phase",C0023474,6
+Dysmotility,C0679316,6
+Osteopenia,C0029453,6
+Reflex Sympathetic Dystrophy,C0034931,6
+Pathological fracture,C0016663,6
+Chylous Ascites,C0008732,6
+Neuroendocrine Tumors,C0206754,6
+Hepatic impairment,C0948807,6
+Myopericarditis,C0854532,6
+Aphthous Stomatitis,C0038363,6
+Poliomyelitis,C0032371,6
+"Encephalopathy, Toxic",C0149504,6
+Leptospirosis,C0023364,6
+Benzodiazepine overdose,C0572933,6
+Paroxysmal nocturnal hemoglobinuria,C0024790,6
+Flaccid paralysis,C0085620,6
+Persistent cough,C0562483,6
+Malignant neoplasm of endometrium,C0007103,6
+Bursitis,C0006444,6
+Aseptic Meningitis,C0025290,6
+Diaphragmatic Hernia,C0019284,6
+Recurrent Lymphoma,C4525062,6
+Biliary Colic,C0151824,6
+"Depression, psychotic",C0743072,6
+Anaplastic thyroid carcinoma,C0238461,6
+mass lesion,C0746408,6
+Foreign body in esophagus,C0149532,6
+Rhabdomyosarcoma,C0035412,6
+Tumor Progression,C0178874,6
+Cardiotoxicity,C0876994,6
+Neck trauma,C4061140,6
+Pulmonary arterial hypertension,C2973725,6
+"Myelitis, Transverse",C0026976,6
+Bladder Neoplasm,C0005695,6
+Central hypothyroidism,C0271801,6
+Conn Syndrome,C1384514,6
+Bladder discomfort,C0549391,6
+Malignant neoplasm of transverse colon,C0153434,6
+Arterial hemorrhage,C0340654,5
+Pain in left foot,C2141243,5
+Protein C Deficiency,C0398625,5
+Hypertensive heart disease,C0152105,5
+Cervical arthritis,C0263854,5
+Arteriospasm,C0085617,5
+"Hemophilia, NOS",C0684275,5
+Respiration Disorders,C0035204,5
+Acute-Phase Reaction,C0001349,5
+Peptic ulcer of esophagus,C0267075,5
+pancreatitis as a complication,C0940932,5
+Renal sclerosis with hypertension,C0264657,5
+Cerebellar decompression injury,C0344191,5
+Catheter related infection,C0860239,5
+Joint Subluxations,C0332768,5
+Amaurosis Fugax,C0149793,5
+Dysplasia,C0334044,5
+Recurrent disease,C0277556,5
+Assault,C0004063,5
+Neutrophilia (disorder),C3665444,5
+swelling of hands (finding),C0575805,5
+Paranoid Schizophrenia,C0036349,5
+Nicotine withdrawal,C0028047,5
+Exercise-induced angina,C0577698,5
+Allergy to cephalosporin,C0571444,5
+Cardioembolic Stroke,C1531624,5
+Convulsive Seizures,C0751494,5
+Severe hypothyroidism,C0271791,5
+Recurrent fevers,C3714772,5
+Spinal Injuries,C0037937,5
+White Coat Hypertension,C0262534,5
+Bulbar weakness,C1301959,5
+"Hamartoma Syndrome, Multiple",C0018553,5
+Fractured nasal bones,C0339848,5
+Malignant lymphoma in remission,C1960221,5
+Brown Tendon Sheath Syndrome,C0155339,5
+Alloimmunization,C0948201,5
+Fulminant Hepatitis,C0302809,5
+Abscess of esophagus,C0267056,5
+Catatonia,C0007398,5
+Stable angina,C0340288,5
+"Spontaneous, recurrent epistaxis",C3809715,5
+Acute pyelonephritis,C0520575,5
+Impacted tooth,C0040456,5
+Brain Infarction,C0751955,5
+Bradycardia-tachycardia syndrome,C0221047,5
+Clinical depression,C2362914,5
+Uremic encephalopathy,C0268707,5
+Needlestick Injuries,C0085178,5
+dryness of right eye,C2201590,5
+Generalized pruritus,C0475858,5
+Primary gout,C0149896,5
+Subclavian Steal,C0751531,5
+Pulmonary cryptococcosis,C0276688,5
+wound of scalp,C0748516,5
+Subacute Combined Degeneration,C0221065,5
+Hypocortisolism secondary to another disorder,C0271738,5
+Bronchogenic Carcinoma,C0007121,5
+"Pericardial Effusion, Chronic",C1850039,5
+Illicit drug use (finding),C0281875,5
+respiratory failure with hypoxia,C3508935,5
+Distal Renal Tubular Acidosis,C1704380,5
+Recurrent Follicular Lymphoma,C1335701,5
+Arterial thrombosis,C0151942,5
+Dystrophy,C0333606,5
+Cellulitis and abscess NOS (disorder),C0007645,5
+Renal infarction,C0035085,5
+Paranasal Sinus Disorder,C0030469,5
+Pulmonary effusion,C1608981,5
+Fracture of patella,C0159849,5
+Varicella zoster,C0740380,5
+Bladder pain,C0232849,5
+Unconjugated hyperbilirubinemia,C0268306,5
+Recurrent seizure,C0748607,5
+Relative anemia,C0271898,5
+Exfoliative dermatitis,C0011606,5
+Flashing,C0344323,5
+"Nausea, vomiting and diarrhea",C0151791,5
+Cauda Equina Syndrome,C0392548,5
+Tenderness epigastric,C0740433,5
+Vitelliform Macular Dystrophy,C0339510,5
+Substance Withdrawal Syndrome,C0038587,5
+Nervous diarrhea,C0232711,5
+"Eosinophilia, Tropical",C0014458,5
+Viral colitis,C1112249,5
+Decreased vascular flow,C0232342,5
+Airway trauma,C1301659,5
+Infection of kidney,C0021313,5
+Protein-Energy Malnutrition,C0033677,5
+Cellulitis of foot,C0558382,5
+Miosis disorder,C0026205,5
+Bradyphrenia,C0554976,5
+Postoperative infection,C0392618,5
+Wound pain,C0241745,5
+Upper chest pain,C0563278,5
+Cryptogenic pulmonary eosinophilia,C0008680,5
+Bladder neck obstruction,C0005694,5
+As If Personality,C0003944,5
+Hypoactive delirium,C3203501,5
+Secondary malignant neoplasm of colon and/or rectum,C4721579,5
+Pain in elbow,C0239266,5
+Viral meningoencephalitis,C1403880,5
+Chronic Urticaria,C0263338,5
+Pain in right arm,C0564821,5
+Sinus pain,C0522251,5
+Factitious Disorders,C0015480,5
+"Status Epilepticus, Subclinical",C0751522,5
+Overlap syndrome,C0410000,5
+Pulmonary Valve Insufficiency,C0034088,5
+Pseudomonal bacteremia,C1142140,5
+Blow -accident,C0413399,5
+Dementia associated with alcoholism,C0236656,5
+Chronically Ill,C0008715,5
+Poisoning by salicylate,C0161544,5
+Acute intermittent porphyria,C0162565,5
+Hepatic Insufficiency,C1306571,5
+Supraglottic edema,C0264316,5
+Urethral abscess,C0156278,5
+Second degree atrioventricular block,C0264906,5
+Placenta Accreta,C0032044,5
+Idiopathic pulmonary arterial hypertension,C3203102,5
+Lower respiratory tract infection,C0149725,5
+Neck stiffness,C0151315,5
+Urinary Bladder Calculi (disorder),C0005683,5
+Lupus Nephritis,C0024143,5
+"Hepatitis, Chronic",C0019189,5
+paralysis/weakness,C0497294,5
+Respiratory acidosis and metabolic acidosis,C0342602,5
+Ataxia Telangiectasia,C0004135,5
+infection of spine,C0748912,5
+"Lymphangioma, Cystic",C0206620,5
+"Squamous cell carcinoma, metastatic",C0334246,5
+alpha 1-Antitrypsin Deficiency,C0221757,5
+Atrial myxoma,C0151241,5
+Myxoma,C0027149,5
+Transient hypertension,C0152170,5
+Watershed infarct,C0333557,5
+malignant disease,C0442867,5
+Familial Periodic Paralysis,C0030443,5
+Bundle-Branch Block,C0006384,5
+Choreoathetosis,C0085583,5
+Failed renal transplant,C0403597,5
+Low Grade Lymphoma (neoplasm),C0079747,4
+Left sided chest pain,C0541828,4
+Ehlers-Danlos Syndrome,C0013720,4
+Dialysis hypotension,C1168181,4
+abdominal perforation,C0281767,4
+synovial sarcoma,C0039101,4
+Anxiety attack,C0700031,4
+Radiation mucositis,C0852882,4
+Narcotic Abuse,C0524661,4
+Thyroid cancer metastatic,C1096666,4
+Junctional arrhythmia,C0948835,4
+Acute respiratory acidosis,C0268047,4
+Analgesic nephropathy,C0149938,4
+Burning sensation,C0085624,4
+Malignant neoplasm of liver,C0345904,4
+Injury of central nervous system,C1264238,4
+Dystonia,C0013421,4
+Secondary Acute Myeloid Leukemia,C0280449,4
+Prostate tender,C0240813,4
+Painless hematuria,C0473235,4
+Dysentery,C0013369,4
+Hemorrhoidal Hemorrhage,C0265031,4
+Malaise and fatigue,C0024528,4
+Acute drug intoxication,C0456824,4
+perforated viscus,C2053066,4
+Uterine Fibroids,C0042133,4
+Brugada Syndrome (disorder),C1142166,4
+Streptococcal sore throat,C0036689,4
+Intrapartum hemorrhage,C0477854,4
+Dryness of eye,C0314719,4
+Lobar Pneumonia,C0032300,4
+Pronator drift,C1504476,4
+"Syncope, Cardiogenic",C0751535,4
+Preseptal cellulitis,C1282208,4
+Fall from bed,C0337228,4
+Ischemia of kidney,C0920646,4
+Fracture of tibia and fibula,C0159852,4
+Ulcer of penis,C0240698,4
+"Aspergillosis, Allergic Bronchopulmonary",C0004031,4
+Cystinuria,C0010691,4
+Kidney Neoplasm,C0022665,4
+Ligament injury,C0435001,4
+Hematoma of kidney,C0475022,4
+"Stress Disorders, Traumatic, Acute",C0236816,4
+Tinea cruris,C1384589,4
+Pancreatic Cyst,C0030283,4
+Single organ dysfunction,C0349410,4
+Subcutaneous crepitus,C0277964,4
+C/O - postviral syndrome,C0476214,4
+Cytomegalovirus hepatitis,C0276252,4
+Prune Belly Syndrome,C0033770,4
+Stable fracture,C0559875,4
+Infectious gastroenteritis,C0277525,4
+Sigmoiditis,C0037074,4
+Respiratory Aspiration,C1720922,4
+Hemorrhage of prostate,C0268891,4
+Cold exposure,C0231275,4
+Chronic rhinitis,C0008711,4
+Duodenal erosion,C0341244,4
+Acute eosinophilic pneumonia,C5235118,4
+Intertrigo,C0021807,4
+Hemarthrosis,C0018924,4
+"Tuberculosis, Pulmonary",C0041327,4
+Persistent air leak,C3161208,4
+Fracture of occipital bone,C0272457,4
+"Amnesia, Anterograde",C0233795,4
+Hepatitis D Infection,C0011226,4
+Orthostatic syncope,C0749201,4
+RAINE SYNDROME,C1850106,4
+Brittle diabetes,C0342302,4
+Choking,C0008301,4
+Hanging,C0544691,4
+Dural tear,C1504340,4
+Viral myocarditis,C0276138,4
+Acne Vulgaris,C0001144,4
+Liver damage,C0151763,4
+Enterococcal bacteremia,C0854504,4
+Sessile polyp,C0522621,4
+insulinoma,C0021670,4
+Paroxysmal nocturnal dyspnea,C1956415,4
+Cardiovascular syncope,C4049594,4
+"Tachycardia, Paroxysmal",C0039236,4
+Melanoma recurrent,C0278884,4
+Explosive diarrhoea,C0857098,4
+Clinical infection,C0275521,4
+Toxic effect of methyl alcohol,C0161680,4
+Hepatitis E,C0085293,4
+Infectious disease of brain,C1264609,4
+Malignant neoplasm of splenic flexure of colon,C0153440,4
+Blanching,C0948786,4
+MSSA sepsis,C3264361,4
+Erythematous rash,C0234913,4
+Hamman-Rich syndrome,C0085786,4
+Aneurysm of ascending aorta,C0856747,4
+perimenopausal bleeding,C0747484,4
+Inclusion Body Myositis (disorder),C0238190,4
+Ureteritis,C0041959,4
+Labored breathing,C0553668,4
+Motorcycle accident,C0574035,4
+Emergencies [Disease/Finding],C2745965,4
+Unwell,C0857256,4
+Diverticulosis and Diverticulitis,C0810029,4
+HIV Enteropathy,C0282616,4
+chronic nausea,C0746779,4
+Malignant Fibrous Histiocytoma,C0334463,4
+Sinus Node Dysfunction (disorder),C0428908,4
+Cutaneous Candidiasis,C0006846,4
+Starvation ketoacidosis,C0268040,4
+Recurrent aspiration pneumonia,C0747651,4
+Venous stasis,C4551518,4
+Oral herpes simplex infection,C0341012,4
+Rebound hypertension,C0520540,4
+Chronic duodenal ulcer,C0341240,4
+Laceration of spleen,C0347636,4
+"Leukemia, Myelomonocytic, Chronic",C0023480,4
+yelling,C2128834,4
+Basal pneumonia,C0577702,4
+Azotemia due to intrarenal disease,C0235446,4
+Posterior fossa compression syndrome,C0270680,4
+Abscess of labia,C0745601,4
+Pyramidal sign,C0234132,4
+Hemorrhage of penis,C0269002,4
+Sialorrhea,C0037036,4
+Psychiatric symptom,C0233401,4
+Traumatic fracture,C0877237,4
+Right sided chest pain,C0563275,4
+Hypertension complicating pregnancy,C1314753,4
+Non-cardiogenic pulmonary edema,C3241936,4
+Stage IV Esophageal Adenocarcinoma,C1142347,4
+Endometrial Carcinoma,C0476089,4
+Paroxysmal arrhythmia,C0919605,4
+Trochanteric Fractures,C0162387,4
+Metastatic Malignant Germ Cell Tumor,C4330674,4
+Primary infection NOS,C0948192,4
+Arteritis,C0003860,4
+Abscess of aortic valve,C2316362,4
+Factor V Leiden mutation,C0584960,4
+Bacterial urinary infection,C0729524,4
+Calcium pyrophosphate deposition disease,C0553730,4
+AIDS-Associated Nephropathy,C0078911,4
+Restlessness,C3887611,4
+Ischemic foot,C0578437,4
+Fracture of odontoid process,C0559777,4
+Ethylene glycol poisoning (disorder),C0413194,4
+Chorioamnionitis,C0008495,4
+Tenosynovitis,C0039520,4
+Convulsive disorder,C0234972,4
+Mobitz type II atrioventricular block,C0155700,4
+Suffocated,C0231811,4
+Recurrent cholangitis,C0267922,4
+Addison Disease,C0001403,4
+Tooth Diseases,C0040435,4
+ATRIAL ENLARGEMENT,C0741276,4
+Overdose of cocaine,C0573196,4
+Acute laryngitis,C0001327,4
+Warm skin,C0235218,4
+Parotitis,C0030583,4
+Thickening of pleura,C0264545,4
+Cervical Intraepithelial Neoplasia,C0206708,4
+Tortuous aorta,C0741171,4
+Burn of skin of body region,C0565944,4
+Hypersomnolence,C0751229,4
+Leukoencephalopathy,C0270612,4
+Vitiligo,C0042900,4
+Central Nervous System Neoplasms,C0085136,4
+Cardiac ventricular thrombosis,C0876993,4
+Disorder of pericardium,C0265122,4
+"Cardiomyopathies, Primary",C0033141,4
+rectal/anal,C0549616,3
+Chest heaviness,C0742339,3
+Excoriation,C0015256,3
+Decompensated cardiac failure,C0581377,3
+Obstructive pyelonephritis,C3693626,3
+Antithrombin III Deficiency,C0272375,3
+Pulmonary Eosinophilia,C0034068,3
+Tongue biting,C0241424,3
+Sepsis due to fungus,C0744235,3
+Panniculitis,C0030326,3
+cold left foot,C2106373,3
+Esophageal Stenosis,C0014866,3
+Exsanguination,C0232100,3
+"Rupture, Spontaneous",C0035956,3
+Hemolytic Transfusion Reaction,C0221123,3
+Saddle PE,C0856751,3
+Violence,C0042693,3
+Epiglottitis,C0014541,3
+Anticholinergic Syndrome,C0151500,3
+Brain Concussion,C0006107,3
+Abdominal sepsis,C1141926,3
+Visual seizure,C0270824,3
+Chylous effusion,C0013691,3
+Lymphatic obstruction,C0240278,3
+Leukemic infiltration of skin,C0948976,3
+Trazodone overdose,C0572833,3
+pain in hands and feet,C2032173,3
+Food Poisoning,C0016479,3
+Esophageal spasm,C0014863,3
+Allergy to atorvastatin,C4274308,3
+Effects of chemotherapy,C1264521,3
+Central line infection,C1096243,3
+Lingular pneumonia,C1960024,3
+High Grade Lymphoma (neoplasm),C0079740,3
+Sacroiliitis,C0574960,3
+Adenocarcinoma of pancreas,C0281361,3
+Recurrent abscesses,C0740693,3
+Traumatic Brain Injury,C0876926,3
+Malignant Central Nervous System Neoplasm,C0348374,3
+hemangiopericytoma,C0018922,3
+Peripheral Ischemia,C0235490,3
+Food Allergy,C0016470,3
+Hepatolenticular Degeneration,C0019202,3
+Aspirin overdose,C0572036,3
+antibiotic side-effect,C0850107,3
+Conduction disorder of the heart,C0264886,3
+cocaine induced chest pain,C0742523,3
+clinical syndromes,C0221444,3
+worsening headaches,C2203300,3
+Essential Hypertension,C0085580,3
+Poisoning by diphenhydramine,C0274567,3
+Gastrointestinal Diseases,C0017178,3
+Methotrexate poisoning,C0568062,3
+Rupture of globe,C0339052,3
+Subacute Sclerosing Panencephalitis,C0038522,3
+Lymphangitis,C0024225,3
+Demented,C0860630,3
+Acute pulmonary embolism,C2882221,3
+Sexual abuse,C0282350,3
+"MYELOPROLIFERATIVE DISORDER, CHRONIC, WITH EOSINOPHILIA",C1851585,3
+Death by strangulation,C0277631,3
+Induration,C0332534,3
+HELLP Syndrome,C0162739,3
+Methadone overdose,C0572058,3
+Fatty Liver Disease,C4529962,3
+Hemorrhage of urethra,C0241558,3
+Acute pelvic pain,C1282322,3
+Bleeding varices,C0333106,3
+"Stomatitis, Herpetic",C0038366,3
+Aortic Valve Prolapse,C0003505,3
+Myocardial dysfunction,C0340515,3
+Subgaleal haematoma,C2721649,3
+Carcinoma of ampulla of Vater,C0262401,3
+Mucinous neoplasm,C1334811,3
+Putaminal Hemorrhage,C0751741,3
+Periorbital swelling,C0424810,3
+Lactose Intolerance,C0022951,3
+Reperfusion Injury,C0035126,3
+wound of ankle,C1396654,3
+Vascular insufficiency,C0232352,3
+Candidiasis of skin and nails,C0006842,3
+Drug Allergy,C0013182,3
+progressive anemia,C0865245,3
+Despondent,C4324568,3
+Pallister W syndrome,C0796110,3
+Pulsus trigeminus,C0232119,3
+Sudden Cardiac Arrest,C1720824,3
+pain tightness,C3647127,3
+Burn of throat,C0562057,3
+cardiac symptom,C0741933,3
+Trapped lung,C2242587,3
+"Tuberculosis, Meningeal",C0041318,3
+Lowry Wood syndrome,C0796021,3
+Focal pneumonia,C1290339,3
+Mucosal ulcer,C0236053,3
+Cocaine withdrawal,C0009178,3
+Cellulitis of neck,C0263143,3
+Mixed Salivary Gland Tumor,C0026277,3
+Secondary malignant neoplasm of rectum,C0346975,3
+Mucosa-Associated Lymphoid Tissue Lymphoma,C0242647,3
+Macular rash,C0221201,3
+Autonomic neuropathy,C0259749,3
+Dilutional anemia,C0472711,3
+Hand Injuries,C0018571,3
+"Malaria, Cerebral",C0024534,3
+Sepsis-Associated Encephalopathy,C0393642,3
+Pancreatic Fistula,C0030290,3
+cervical cancer,C4048328,3
+submandibular abscess,C0749101,3
+Pneumonia moraxella,C0853849,3
+Subcutaneous nodule,C0151811,3
+Intracerebral hematoma,C0021870,3
+Right lower quadrant pain,C0694551,3
+nasal drainage,C0746759,3
+Pulmonary toxicity,C0919924,3
+Acute low back pain,C0457950,3
+Cerebral Embolism,C0007780,3
+Salicylate overdose,C0572035,3
+Herpes Zoster Ophthalmicus,C0019364,3
+Abdominal Migraine,C0270858,3
+Hallermann's Syndrome,C0018522,3
+Cerebellar Diseases,C0007760,3
+Loculated effusion,C1265808,3
+Infection induced,C0858744,3
+Chronic infectious disease,C0151317,3
+Left Flank Pain,C0423641,3
+Infective meningitis,C0729584,3
+Pityriasis Rubra Pilaris,C0032027,3
+Phyllodes Tumor,C0010701,3
+Petit mal status,C0270823,3
+Persistent vomiting,C0152165,3
+Chickenpox,C0008049,3
+Subluxation of shoulder joint,C0434744,3
+Numbness of face,C0239511,3
+Intermittent abdominal pain,C0262527,3
+Radius Fractures,C0034628,3
+Central Core Myopathy (disorder),C0751951,3
+Laceration of head,C0856548,3
+Postpoliomyelitis Syndrome,C0080040,3
+Uncontrolled pain,C0747149,3
+metabolic disturbance,C0746556,3
+Gastrointestinal Pain,C0687713,3
+Substance withdrawal,C0749126,3
+Hand rash,C0857117,3
+Cervical abscess,C0702176,3
+Adenocarcinoma of prostate,C0007112,3
+Nerve injury,C0161479,3
+Meningococcal meningitis,C0025294,3
+Systemic lupus erythematosus encephalitis,C0393968,3
+Emphysematous Cholecystitis,C0521610,3
+Abdominal bruit,C0221755,3
+Thrombosis of subclavian vein,C0749087,3
+Pimples,C0542346,3
+Diamond-Blackfan Anemia 1,C2676137,3
+Lymphocele,C0024248,3
+Popliteal artery thrombosis,C0264987,3
+Forehead swelling,C1112766,3
+Brain hemorrhage,C0553692,3
+Hyperemia,C0020452,3
+"Skull Fracture, Depressed",C0347766,3
+Acute on chronic heart failure,C4087508,3
+Pneumococcal Infections,C0032269,3
+pneumococcal empyema,C2062449,3
+Penile lesion,C0149751,3
+Radiation proctitis,C0400827,3
+Ventricular dilatation (disorder),C0264733,3
+Severe intellectual disability,C0036857,3
+BK viraemia,C5243763,3
+malignant neoplasm of large intestine metastatic to liver,C2063950,3
+Foot Drop,C0085684,3
+Mineralocorticoid deficiency,C1955743,3
+Overhydration,C0392689,3
+Water Intoxication,C0043049,3
+Extreme exhaustion,C0277794,3
+Femoral artery occlusion,C0948249,3
+Mixed Connective Tissue Disease,C0026272,3
+Gram positive sepsis,C0036686,3
+Myxedema,C0027145,3
+"Stroke, Lacunar",C3178801,3
+prothrombin gene mutation,C1260403,3
+Stomach ache,C0221512,3
+Juvenile-Onset Still Disease,C0087031,3
+Dysequilibrium syndrome,C0394006,3
+Sacral edema,C0235438,3
+Bifascicular block,C0264914,3
+Pleural plaque,C0340030,3
+Psychogenic polydipsia,C0395005,3
+Avulsion fracture,C0332758,3
+Graft failure,C1262018,3
+Ear Inflammation,C0029877,3
+numbness of right leg,C2219770,2
+Generalized Anxiety Disorder,C0270549,2
+Arterial insufficiency,C0003834,2
+metaplastic cell transformation,C1510411,2
+Mixed Oligodendroglioma-Astrocytoma,C0280793,2
+Hematologic Neoplasms,C0376545,2
+Quadriparesis,C0270790,2
+Leech infestation,C0019575,2
+Pancreatic pain,C0522071,2
+Increasing breathlessness,C0574066,2
+Pain in right foot,C2016977,2
+Ulcer of rectum,C0400839,2
+Acute on chronic pancreatitis,C0262417,2
+Adverse event,C0877248,2
+Cheyne-Stokes Respiration,C0008039,2
+Chronic anxiety,C0581386,2
+Jaw pain,C0236000,2
+Nephritic syndrome,C0268732,2
+Stercoraceous ulcer,C0333302,2
+Narcolepsy,C0027404,2
+Degloving Injuries,C0433122,2
+Chronic ulcer,C0333297,2
+Multi-infarct dementia,C0011263,2
+factors exacerbating headache,C2029723,2
+Tendon Injuries,C0039504,2
+Chronic prostatitis,C0085696,2
+Chronic disease of respiratory system,C0264220,2
+Lymphohistiocytosis,C0877564,2
+"Taste, Metallic",C0240327,2
+Acute glomerulonephritis,C0156221,2
+Other osteomyelitis,C0477686,2
+Wound erythema,C0406833,2
+Basal Ganglia Hemorrhage,C0472377,2
+Isolated thrombocytopenia,C4511035,2
+Abscess of pancreas,C0238334,2
+Hypoglycaemic episode,C0745153,2
+Developmental delay (disorder),C0424605,2
+Secondary hyperthyroidism,C1095928,2
+Jarisch Herxheimer reaction,C0259756,2
+Cardiac asthma,C1956414,2
+Rectal injury,C3495804,2
+Sensory denervation disorder,C0234213,2
+Sleep Starts,C0456512,2
+Endometritis,C0014179,2
+Avitaminosis,C0376286,2
+Confabulation,C0233800,2
+Chylothorax,C0008733,2
+Pelvic abscess,C0030785,2
+neoplasm pain,C0598047,2
+Facial Injuries,C0015459,2
+Infertility,C0021359,2
+Drug Resistant Epilepsy,C1096063,2
+"Skin Diseases, Parasitic",C0037280,2
+Purpuric rash,C0151882,2
+ischemic pain,C0745417,2
+Tonsillitis,C0040425,2
+Exposure to asbestos,C0003948,2
+Trichomonas Infections,C0040921,2
+Pseudomembrane,C0240821,2
+exercise induced,C0239313,2
+frequent passing of stools,C0848342,2
+Pain worsened,C0853946,2
+Endophthalmitis,C0014236,2
+Central Diabetes Insipidus,C0687720,2
+Ankle edema (finding),C0235439,2
+Euthyroid Sick Syndromes,C0015190,2
+Rupture of diaphragm,C0238088,2
+Cowpox,C0010232,2
+Renal transplant failure,C2170313,2
+Metabolism and nutrition disorders,C0851358,2
+Necrosis due to ionizing radiation,C1405979,2
+Spastic syndrome,C0270814,2
+Eye Injuries,C0015408,2
+"Encephalomyelitis, Eastern Equine",C0153065,2
+Brain Hemangioma,C0238814,2
+"Carcinoma, Papillary",C0007133,2
+Frontotemporal dementia,C0338451,2
+Liposarcoma recurrent,C0855061,2
+liposarcoma,C0023827,2
+Retroperitoneal liposarcoma,C2063389,2
+Paraproteinemias,C0030489,2
+Infarction of small intestine,C0341426,2
+Abdominal distress,C0235295,2
+Urticaria due to cold,C0221207,2
+Central Cord Syndrome,C0560651,2
+Interstitial Disease,C1881236,2
+Valvular regurgitation,C0042300,2
+Amyloid Neuropathies,C0206247,2
+Spontaneous pneumothorax,C0149781,2
+Non-small cell carcinoma,C1266002,2
+Prurigo,C0033771,2
+respiratory hypoxia,C0597396,2
+"Epidural Abscess, Spinal",C0238434,2
+Gliosis,C0017639,2
+"Diagnosis, Psychiatric",C0376338,2
+Tachycardia-induced cardiomyopathy,C1960445,2
+Disorder of eye,C0015397,2
+Haemorrhagic bullae,C5244019,2
+Bruxism,C0006325,2
+Chronic abscess,C0333398,2
+Severe pre-eclampsia,C0341950,2
+Gram-positive septic shock,C0349415,2
+social stress,C0871388,2
+Throat irritation,C0700184,2
+Miliaria,C0026113,2
+Cancer of Nose,C0751394,2
+resistant infection,C1269831,2
+Otomastoiditis,C0747086,2
+Cellulitis of leg,C0343024,2
+"Influenza due to Influenza virus, type B",C0276353,2
+polio syndrome,C0747725,2
+Medication overuse headache,C2349423,2
+Disorder of electrolytes,C1704431,2
+Phlegmasia cerulea dolens,C0238367,2
+Agranulocytosis,C0001824,2
+hyperglycemia hyperosmolar,C0745095,2
+Hearing loss of left ear,C0262502,2
+Esophageal carcinoma recurrent,C0854761,2
+Low Vision,C0042798,2
+Flu symptoms,C0948873,2
+Adrenal cortical hypofunction,C0405580,2
+Gray Platelet Syndrome,C0272302,2
+Farber Lipogranulomatosis,C0268255,2
+Traumatic cataract,C0154983,2
+Incisional hernia,C0267716,2
+Equine viral rhinopneumonitis,C0276242,2
+Refractory Lymphoma,C4525060,2
+Biliary Tract Hemorrhage,C0018994,2
+Pediculus capitis infestation,C0030757,2
+Abnormal renal function,C0151746,2
+Papilledema,C0030353,2
+Metastatic Rectal Adenocarcinoma,C5205581,2
+Iatrogenic pneumothorax,C0375336,2
+Dilated cardiomyopathy secondary to viral myocarditis,C0264797,2
+Movement Disorders,C0026650,2
+Glycogen storage disease type II,C0017921,2
+"Cholangitis, Sclerosing",C0008313,2
+Proctosigmoiditis,C0033252,2
+aphasic,C0234461,2
+Renal anasarca,C3875267,2
+Pustular psoriasis,C0152081,2
+Weakness of left arm,C2202995,2
+Colitis due to radiation,C0341339,2
+Larsen syndrome,C0175778,2
+"Hematoma, Subdural, Chronic",C0749095,2
+peri-menopausal,C0849668,2
+"Mineralocorticoid Excess Syndrome, Apparent",C0342488,2
+Retinitis,C0035333,2
+"MICROPHTHALMIA, SYNDROMIC 7",C0796070,2
+Chronic respiratory alkalosis,C0268054,2
+"Adenoma, Villous",C0206674,2
+Ulcerative Colitis Flare,C4053902,2
+Glioma,C0017638,2
+Peptic Ulcer Hemorrhage,C0030922,2
+Throbbing pain,C0278148,2
+Asphyxia by inhalation of food,C0417813,2
+Anal Canal Squamous Intraepithelial Neoplasia,C1332260,2
+Tooth Avulsion,C0040443,2
+Fungal infection of lung,C0151874,2
+Volvulus of colon,C0267471,2
+Traumatic blister of hand,C0587295,2
+Multinodular goiter,C0342208,2
+Acute depression,C1386135,2
+Eating disorder symptom,C0855228,2
+"Headaches, severe",C2957106,2
+Measles,C0025007,2
+Encephalomalacia,C0014068,2
+Grunting respiration,C0241902,2
+Neuromuscular inhibition,C0234119,2
+Tracheitis,C0040584,2
+Mycetoma,C0024449,2
+Chronic paranoid schizophrenia,C0270398,2
+Gurgling,C0232517,2
+Soft tissue swelling,C0037580,2
+Poisoning by bleomycin,C0274522,2
+Hypersomnia,C0917799,2
+Mucinous Adenocarcinoma,C0007130,2
+Nutritional Deficiency,C4761312,2
+multiple strokes,C2063394,2
+Hordeolum,C0019917,2
+Eyelid infection,C0549322,2
+Watery diarrhoea,C0239182,2
+Breast tenderness,C0262397,2
+Immunoglobulin deficiency,C0745242,2
+Lung hyperinflation,C1167782,2
+Gastroduodenitis,C0267166,2
+Giant Cell Arteritis,C0039483,2
+Anterior Fascicular Block,C1390029,2
+Metaphyseal chondrodysplasia Schmid type,C0265289,2
+Poisoning by lidocaine,C0274660,2
+Fat embolism (disorder),C0013928,2
+Pleural Infection,C0919907,2
+Keratosis,C0022593,2
+cellulitis superficial,C0742022,2
+Granuloma,C0018188,2
+Laryngeal Squamous Cell Carcinoma,C0280324,2
+Acute encephalopathy,C1306587,2
+Other hemoptysis,C2921131,2
+Vipoma,C0011993,2
+Reactive Lymphocytosis,C1335667,2
+Perforated diverticulum,C0341257,2
+Cystic Fibrosis,C0010674,2
+Ataxia with vitamin E deficiency,C1848533,2
+Hypergammaglobulinemia,C0020455,2
+Vaginitis,C0042267,2
+Back Injuries,C0004601,2
+Narcotic Dependence,C1527402,2
+Pityriasis Lichenoides et Varioliformis Acuta,C0162852,2
+Skin nodule,C0037287,2
+Pulmonary tularemia,C0339946,2
+Acute Erythroblastic Leukemia,C0023440,2
+Infected bursa,C1290161,2
+Acute osteomyelitis,C0158371,2
+Intra-abdominal hematoma,C0473120,2
+Pulmonary Alveolar Hemorrhage,C0852879,2
+Anaphylactoid Reaction,C0340865,2
+Injury of median nerve,C0161457,2
+Dysfunction adrenal,C0549609,2
+"Hygroma, Subdural",C0751533,2
+Withdrawal bleeding,C0152010,2
+Renal hypertension,C0020544,2
+Esophageal bleeding,C0239293,2
+bactrim allergy,C0694572,2
+Hidradenitis,C0085160,2
+Chronic pulmonary embolism,C0856722,2
+Common Cold,C0009443,2
+Terminal esophageal web,C0267081,2
+Metastatic Carcinoma to the Uterine Cervix,C0278584,2
+Mastocytosis,C0024899,2
+Nutrition Disorders,C3714509,2
+Potassium Deficiency,C0032827,2
+Dry skin,C0151908,2
+Cognition Disorders,C0009241,2
+Memory impairment,C0233794,2
+Burkitt Lymphoma,C0006413,2
+Open wound,C0332798,2
+Severe dementia,C3494652,2
+Disseminated Malignant Neoplasm,C0346957,2
+Nijmegen Breakage Syndrome,C0398791,2
+Other pneumonia,C0810287,2
+Pulmonary lymphadenopathy,C1264071,2
+Ulcer on tongue,C0235351,2
+Multiple aneurysms,C1265769,2
+anxiety acute,C0741146,2
+Pressure of speech,C0233718,2
+Fracture of multiple ribs,C0272567,2
+Proteinosis,C0268422,2
+Esophageal discomfort,C1096082,2
+Otitis Media,C0029882,2
+nervous system disorder,C0027765,2
+Raynaud Disease,C0034734,2
+Corynebacterium bacteremia,C4049309,2
+Collision,C0337196,2
+Chronic failure,C0231178,2
+Giant cell myocarditis,C0264856,2
+Adrenal Cortical Adenoma,C0206667,2
+Asymptomatic Infections,C0275522,2
+Pelviectasis,C1735894,1
+Cicatrization,C0008767,1
+associated disease,C0243083,1
+Arachnoid Cysts,C0078981,1
+Compression Pulmonary Atelectasis,C0264499,1
+"Dementia, Vascular",C0011269,1
+Atrophy of cerebellum,C0740279,1
+Pancreatic carcinoma recurrent,C0854777,1
+Columnar Cell Hyperplasia of the Breast,C1707446,1
+Intermittent hypertension (disorder),C3669043,1
+Poorly differentiated carcinoma,C0741899,1
+Physical abuse,C1621955,1
+Eye Manifestations,C0015411,1
+Cirrhosis,C1623038,1
+Adenocarcinoma of lung (disorder),C0152013,1
+Retching,C0232602,1
+"Aphasia, Progressive",C0338457,1
+Advanced Cholangiocarcinoma,C5206795,1
+Systemic inflammatory response,C3554550,1
+Nodular Sclerosis Classical Hodgkin Lymphoma,C0152268,1
+Malignant pericardial effusion,C0220655,1
+Large cell carcinoma of lung,C0345958,1
+polydrug use,C0678255,1
+Philadelphia Chromosome,C0031526,1
+acute diastolic congestive heart failure,C2215111,1
+Nevus,C0027960,1
+Other pulmonary collapse,C2887513,1
+Occupational Exposure,C0028798,1
+Diabetes with coma (disorder),C1263960,1
+Prostatic Hypertrophy,C1739363,1
+Aerophagy,C0001707,1
+bipolar schizoaffective disorder,C0683407,1
+sinus drainage,C0849791,1
+Diffuse alveolar hemorrhage,C4476767,1
+Latex allergy,C0577628,1
+Citrate toxicity,C0948342,1
+Overnutrition,C1257763,1
+Extravascular Hemolysis,C0312854,1
+Aggressive Periodontitis,C0031106,1
+Chronic obstruction,C0333166,1
+Pins and needles,C0423572,1
+Coronary Artery Vasospasm,C0010073,1
+Phenytoin overdose,C0572883,1
+Fluoxetine overdose,C0572816,1
+AV junctional (nodal) tachycardia,C0428982,1
+Petechiae of skin,C0241144,1
+Pain in left lower limb,C0564822,1
+Malignant tumor of cervix,C0007847,1
+Generalized illness,C0849867,1
+Cryptogenic Ischemic Stroke,C5392097,1
+Protein Deficiency,C0033626,1
+Infected lymphocele,C1167731,1
+Edema of the upper extremity,C0522035,1
+Chronic neutropenia,C0746882,1
+pulmonary edema interstitial,C0748120,1
+asthma well controlled,C4296063,1
+Generalized fatigue,C0241898,1
+HIV Encephalopathy,C0206019,1
+Adjustment Disorders,C0001546,1
+Gingival Hemorrhage,C0017565,1
+Airway edema,C2939065,1
+Scalding pain on urination,C0423736,1
+Scleroderma renal crisis,C1262147,1
+Machado-Joseph Disease,C0024408,1
+Graft infection,C0349725,1
+Pneumococcal sepsis,C0152966,1
+"Aneurysm, Ruptured",C0162869,1
+Puncture wound,C0033119,1
+"Infarction, Lacunar",C0333559,1
+Intestinal necrosis,C2243080,1
+Hematomediastinum,C0340161,1
+Postoperative fever,C0424786,1
+Epidermodysplasia Verruciformis,C0014522,1
+Neck discomfort,C0863104,1
+Bucking,C0852885,1
+Laceration of thumb,C0432982,1
+Injury of ribs,C0262616,1
+Acute renal failure with oliguria,C2315519,1
+Meningococcemia,C0025306,1
+Optic Neuritis,C0029134,1
+Arterial Injury,C0340652,1
+Neurapraxia,C0393872,1
+Postoperative pneumonia,C1279386,1
+Anaphylactic shock,C4316895,1
+Autoimmune vasculitis,C1328843,1
+Unknown Primary Tumors,C0087135,1
+Vertebrobasilar Insufficiency,C0042568,1
+Atrial bigeminy,C0262382,1
+Pleurisy with effusion,C0264551,1
+Cholera,C0008354,1
+Obsessive-Compulsive Disorder,C0028768,1
+Inspiratory wheezing,C0231874,1
+Arm Injuries,C0003794,1
+Mushroom Poisoning,C0026865,1
+Clavicle pain,C0581323,1
+Keratitis,C0022568,1
+Tumor thrombus,C3163918,1
+Berylliosis,C0005138,1
+Acute post-streptococcal glomerulonephritis,C0403414,1
+Metabolic Diseases,C0025517,1
+Tension Headache,C0033893,1
+Distal aortic dissection,C0340647,1
+Old myocardial infarction,C0155668,1
+Keratoconjunctivitis Sicca,C0022575,1
+hemorrhoid pain,C0744805,1
+Injury of left shoulder,C3648600,1
+aspirin toxicity,C0741252,1
+"Edema, Cardiac",C0013608,1
+Peptic Esophagitis,C0014869,1
+heavy drinking,C0687132,1
+Oral infection,C0555971,1
+Placenta Previa,C0032046,1
+Gabapentin overdose,C0572854,1
+Pain in limb,C0030196,1
+Acute liver injury,C2242583,1
+Hemoglobin SS disease with crisis,C0238425,1
+chest syndrome,C0742342,1
+Ulna Fractures,C0041601,1
+Renal Osteodystrophy,C0035086,1
+Laceration of knee,C0561262,1
+Numbness of lower extremities,C0858585,1
+Ulcerated polyp,C1265974,1
+Rectal abscess,C0149770,1
+Compensated metabolic acidosis,C0268032,1
+Cramp in foot,C0178422,1
+Thalassemia trait,C0702157,1
+Lactic acidemia,C0347959,1
+sarcoma of mediastinum,C1334678,1
+Lymphoid interstitial pneumonia,C0264511,1
+Foot Injuries,C0149697,1
+Clonic movements,C0857332,1
+Gastric erosions,C0341177,1
+Acute bronchitis,C0149514,1
+Duodenal ulcer with hemorrhage,C0151966,1
+Full thickness rotator cuff tear,C0410017,1
+Uterine Cancer,C0153567,1
+"Angiomatosis, Bacillary",C0085434,1
+Alveolitis,C0549493,1
+Elephantiasis,C0013882,1
+Chronic venous thrombosis,C2728999,1
+Retinal Artery Occlusion,C0035302,1
+Carditis,C0869523,1
+Tracheal edema,C4721644,1
+Partial obstruction,C0333169,1
+Contusion of head,C2108211,1
+Chronic hyponatremia,C0268007,1
+Kwashiorkor,C0022806,1
+Intracranial Hypotension,C0524812,1
+Anal carcinoma,C0279637,1
+"Carcinoma, Neuroendocrine",C0206695,1
+Opioid abuse,C0029095,1
+Listeria Cerebritis,C0343442,1
+Spinal stenosis of lumbar region,C0158288,1
+Germ cell tumor,C0205851,1
+Bronchorrhea,C0235568,1
+Connective Tissue Diseases,C0009782,1
+ATRA syndrome,C1739128,1
+spatial neglect,C0871399,1
+Adrenal Gland Hyperfunction,C0001622,1
+Abdominal wind pain,C0476289,1
+Werner Syndrome,C0043119,1
+primary respiratory acidosis,C2103591,1
+Hemophilia A,C0019069,1
+Wolff-Parkinson-White Syndrome,C0043202,1
+Colitis caused by bacterium,C0694552,1
+Neutropenic colitis,C0400823,1
+Inattention,C0424101,1
+Asthmatic bronchitis,C1319018,1
+"Arthritis, Gouty",C0003868,1
+Infectious Encephalitis,C0596773,1
+Intestinal infarction,C0241950,1
+Thrombosis of inferior vena cava,C0549289,1
+Pain in thumb,C0241394,1
+hypomotility,C0679317,1
+Lesion of stomach,C0679408,1
+Retinoic acid syndrome,C0860564,1
+Tinnitus,C0040264,1
+Diaper Rash,C0011974,1
+"Aneurysm, Mycotic",C0085808,1
+Undifferentiated (Embryonal) Sarcoma,C0855073,1
+Manic,C0338831,1
+Acute psychosis,C0281774,1
+Adrenal Cancer,C0750887,1
+Capillary Leak Syndrome,C0343084,1
+Intraoperative blood loss,C5208110,1
+Difficulty passing urine,C0241705,1
+Intestinal hemorrhage NOS,C0267373,1
+Mastoid ecchymosis,C4761139,1
+Roberts-SC phocomelia syndrome,C0392475,1
+Hyperproteinemia,C0267988,1
+Chronic fibrosis of lung,C0264526,1
+Absence of sensation,C0278134,1
+Myeloproliferative disease,C0027022,1
+Thyroid Gland Spindle Cell Tumor with Thymus-Like Differentiation,C1266099,1
+Weakness of right arm,C2202996,1
+Altered bowel function,C0278008,1
+Anaplastic astrocytoma,C0334579,1
+Aortic Diseases,C0003493,1
+Biliary pancreatitis,C0747195,1
+Injury of vertebral artery,C0433912,1
+Laceration of foot,C0432993,1
+Atony of colon,C0267516,1
+Desquamative interstitial pneumonia,C0238378,1
+Malignant neoplasm of tongue,C0153349,1
+"Pregnancy, puerperium and perinatal conditions",C0851363,1
+Engraftment syndrome,C0919746,1
+Capillaritis,C0006902,1
+Poisoning by aminoglycosides,C0496960,1
+Pericardial Cyst,C0031038,1
+Radiating pain,C0234254,1
+Squamous cell carcinoma of vulva,C0280856,1
+Subarachnoid hematoma,C1399315,1
+Simple Ovarian Cyst,C0237010,1
+Post procedural hypotension,C0865752,1
+Chemosis of conjunctiva,C0271298,1
+Chronic bullous emphysema,C1261120,1
+"Trauma, Nervous System",C0751792,1
+Polyarthritis,C0162323,1
+Acute Ischemic Stroke,C5392833,1
+Bacterial dysentery,C0589629,1
+Splenic hemorrhage,C0520745,1
+Pain in testicle,C0039591,1
+Cough suppression,C0522046,1
+Hypoplasia,C0243069,1
+Pulmonary pain,C3805066,1
+Cellulitis of abdominal wall,C0263145,1
+Iatrogenic thyrotoxicosis,C0342140,1
+Pressure injury,C4554531,1
+leiomyosarcoma,C0023269,1
+Infective vaginitis,C0404521,1
+Moderate pulmonary hypertension,C5395246,1
+Infectious enteritis,C0021342,1
+trauma to the abdomen,C0848377,1
+Intracranial injury,C0347535,1
+Adrenal hemorrhage,C0151693,1
+Ectopic atrial pacemaker,C1321523,1
+Poisoning by beta-adrenergic blocking drug,C0412874,1
+"Aneurysm, Anterior Communicating Artery",C0740386,1
+ischemia or infarct,C0745412,1
+Swallowing problem,C0392678,1
+Pyogenic abscess,C1304004,1
+Hypertensive Encephalopathy,C0151620,1
+Fetal Alcohol Syndrome,C0015923,1
+Pulmonary arterial hypertension associated with portal hypertension,C1868851,1
+Abscess of perineum,C0263111,1
+Silent myocardial infarction,C0340324,1
+Streptococcal pneumonia,C0155862,1
+buttock hematoma,C0741830,1
+Intraoperative Hemorrhage,C0079027,1
+Secondary malignant neoplasm of liver,C0494165,1
+Chronic cholangitis,C0267918,1
+Megaesophagus,C0025164,1
+"Cholestasis, chronic",C0742395,1
+Aortitis,C0003509,1
+Proliferation (morphologic abnormality),C0334094,1
+Arterial steal syndrome,C0349422,1
+Purulent discharge,C0333274,1
+Glucagonoma,C0017689,1
+Diverticular Diseases,C4317009,1
+"Hematoma, Epidural, Spinal",C0877172,1
+Pulmonary vasculitis,C0234962,1
+Obstruction of colon,C0235328,1
+"Glycosuria, Renal",C0017980,1
+Gastrointestinal complication,C0161819,1
+Metastatic Papillary Renal Cell Carcinoma,C5206803,1
+Enterobacter bacteremia,C1142428,1
+Enterobacter sepsis,C0743525,1
+Acinetobacter bacteremia,C1610619,1
+"Myasthenia Gravis, Ocular",C0751340,1
+Klebsiella sepsis,C0745528,1
+Iodine allergy,C0571818,1
+Dysesthesia,C0392699,1
+mitral leaflet flail,C0746594,1
+Cecal volvulus,C0238047,1
+Adult-Onset Still Disease,C0085253,1
+Vasovagal Reaction,C1710621,1
+Paired ventricular premature complexes,C0429001,1
+Postoperative Complications,C0032787,1
+Radiation injury,C0034530,1
+Friction rub,C0744221,1
+Refractory shock,C0349412,1
+Ileitis,C0020877,1
+Infectious pericarditis,C0265147,1
+Incompetence,C0231189,1

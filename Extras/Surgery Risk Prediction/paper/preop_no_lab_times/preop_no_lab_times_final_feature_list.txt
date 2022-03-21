@@ -1,0 +1,65 @@
+AGE_LT_90
+BICARBONATE
+PROTHROMBIN TIME
+GLUCOSE
+WHITE BLOOD CELL COUNT
+INR
+PULSE
+PLATELET COUNT
+WEIGHT_KG
+UREA NITROGEN
+BNP
+BMI
+AST
+BILIRUBIN TOTAL
+DIAS PAP
+CHLORIDE
+CREATININE
+POTASSIUM
+ALKALINE PHOSPHATASE
+ALT
+SYS BLOOD PRESSURE
+SYS PAP
+ECHO EF
+HEMOGLOBIN
+SODIUM
+DIAS BLOOD PRESSURE
+ALBUMIN
+HEIGHT_IN
+SPO2
+PAT_CLASS_INPATIENT
+PAT_CLASS_OVERNIGHT RECOVERY
+PAT_CLASS_SAME DAY ADMIT
+GENDER_M
+CASE_SRV_NAME_Dentistry-Hospital
+"CASE_SRV_NAME_Medicine, Cardiology"
+"CASE_SRV_NAME_Medicine, Critical Care Medicine"
+"CASE_SRV_NAME_Medicine, Gastroenterology"
+"CASE_SRV_NAME_Medicine, Hematology and Oncology"
+"CASE_SRV_NAME_Medicine, Internal Medicine"
+"CASE_SRV_NAME_Medicine, Pulmonary Disease"
+CASE_SRV_NAME_Neurological Surgery
+CASE_SRV_NAME_Neurology
+CASE_SRV_NAME_Obstetrics and Gynecology
+CASE_SRV_NAME_Ophthalmology
+CASE_SRV_NAME_Orthopaedics
+CASE_SRV_NAME_Otolaryngology
+"CASE_SRV_NAME_Pediatrics, Cardiology / Cardiovascular Disease"
+"CASE_SRV_NAME_Pediatrics, Gastroenterology"
+"CASE_SRV_NAME_Pediatrics, Hematology and Oncology"
+"CASE_SRV_NAME_Pediatrics, Urology"
+CASE_SRV_NAME_Physical Medicine and Rehabilitation
+CASE_SRV_NAME_Podiatry
+CASE_SRV_NAME_Radiation Oncology
+CASE_SRV_NAME_Radiology
+"CASE_SRV_NAME_Surgery, Cardiac"
+"CASE_SRV_NAME_Surgery, General"
+"CASE_SRV_NAME_Surgery, Oncology"
+"CASE_SRV_NAME_Surgery, Oral and Maxillofacial"
+"CASE_SRV_NAME_Surgery, Pediatrics"
+"CASE_SRV_NAME_Surgery, Plastic"
+"CASE_SRV_NAME_Surgery, Surgery"
+"CASE_SRV_NAME_Surgery, Thoracic"
+"CASE_SRV_NAME_Surgery, Transplant"
+"CASE_SRV_NAME_Surgery, Vascular"
+CASE_SRV_NAME_Urology

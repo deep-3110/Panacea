@@ -1,0 +1,440 @@
+{
+    "jobId": "a8d133ac-f031-4df3-92a8-ad298cead873",
+    "lastUpdateDateTime": "2022-01-21T04:00:46Z",
+    "createdDateTime": "2022-01-21T04:00:45Z",
+    "expirationDateTime": "2022-01-22T04:00:45Z",
+    "status": "succeeded",
+    "errors": [],
+    "results": {
+        "documents": [
+            {
+                "id": "1",
+                "entities": [
+                    {
+                        "offset": 7,
+                        "length": 5,
+                        "text": "cough",
+                        "category": "SymptomOrSign",
+                        "confidenceScore": 1.0,
+                        "name": "Coughing",
+                        "links": [
+                            {
+                                "dataSource": "UMLS",
+                                "id": "C0010200"
+                            },
+                            {
+                                "dataSource": "AOD",
+                                "id": "0000000620"
+                            },
+                            {
+                                "dataSource": "BI",
+                                "id": "BI00179"
+                            },
+                            {
+                                "dataSource": "CCPSS",
+                                "id": "1017295"
+                            },
+                            {
+                                "dataSource": "CHV",
+                                "id": "0000003404"
+                            },
+                            {
+                                "dataSource": "COSTAR",
+                                "id": "212"
+                            },
+                            {
+                                "dataSource": "CSP",
+                                "id": "2616-8354"
+                            },
+                            {
+                                "dataSource": "CST",
+                                "id": "COUGH INC"
+                            },
+                            {
+                                "dataSource": "DXP",
+                                "id": "U000880"
+                            },
+                            {
+                                "dataSource": "HPO",
+                                "id": "HP:0012735"
+                            },
+                            {
+                                "dataSource": "ICD10",
+                                "id": "R05"
+                            },
+                            {
+                                "dataSource": "ICD10AM",
+                                "id": "R05"
+                            },
+                            {
+                                "dataSource": "ICD10CM",
+                                "id": "R05"
+                            },
+                            {
+                                "dataSource": "ICD9CM",
+                                "id": "786.2"
+                            },
+                            {
+                                "dataSource": "ICNP",
+                                "id": "10047143"
+                            },
+                            {
+                                "dataSource": "ICPC",
+                                "id": "R05"
+                            },
+                            {
+                                "dataSource": "ICPC2EENG",
+                                "id": "R05"
+                            },
+                            {
+                                "dataSource": "ICPC2ICD10ENG",
+                                "id": "MTHU035357"
+                            },
+                            {
+                                "dataSource": "ICPC2P",
+                                "id": "R05004"
+                            },
+                            {
+                                "dataSource": "LCH",
+                                "id": "U001180"
+                            },
+                            {
+                                "dataSource": "LCH_NW",
+                                "id": "sh85033394"
+                            },
+                            {
+                                "dataSource": "MDR",
+                                "id": "10011224"
+                            },
+                            {
+                                "dataSource": "MEDCIN",
+                                "id": "247"
+                            },
+                            {
+                                "dataSource": "MEDLINEPLUS",
+                                "id": "1543"
+                            },
+                            {
+                                "dataSource": "MSH",
+                                "id": "D003371"
+                            },
+                            {
+                                "dataSource": "NANDA-I",
+                                "id": "00259"
+                            },
+                            {
+                                "dataSource": "NCI",
+                                "id": "C37935"
+                            },
+                            {
+                                "dataSource": "NCI_CTCAE",
+                                "id": "E13364"
+                            },
+                            {
+                                "dataSource": "NCI_NICHD",
+                                "id": "C37935"
+                            },
+                            {
+                                "dataSource": "NOC",
+                                "id": "101020"
+                            },
+                            {
+                                "dataSource": "OMIM",
+                                "id": "MTHU015709"
+                            },
+                            {
+                                "dataSource": "OMS",
+                                "id": "28.03"
+                            },
+                            {
+                                "dataSource": "QMR",
+                                "id": "Q0200085"
+                            },
+                            {
+                                "dataSource": "RCD",
+                                "id": "XE0qn"
+                            },
+                            {
+                                "dataSource": "SNM",
+                                "id": "F-75860"
+                            },
+                            {
+                                "dataSource": "SNMI",
+                                "id": "F-24100"
+                            },
+                            {
+                                "dataSource": "SNOMEDCT_US",
+                                "id": "263731006"
+                            },
+                            {
+                                "dataSource": "WHO",
+                                "id": "0513"
+                            }
+                        ]
+                    },
+                    {
+                        "offset": 17,
+                        "length": 4,
+                        "text": "cold",
+                        "category": "SymptomOrSign",
+                        "confidenceScore": 0.98,
+                        "name": "Common Cold",
+                        "links": [
+                            {
+                                "dataSource": "UMLS",
+                                "id": "C0009443"
+                            },
+                            {
+                                "dataSource": "AOD",
+                                "id": "0000004799"
+                            },
+                            {
+                                "dataSource": "CCPSS",
+                                "id": "0059528"
+                            },
+                            {
+                                "dataSource": "CHV",
+                                "id": "0000003199"
+                            },
+                            {
+                                "dataSource": "CSP",
+                                "id": "3099-9293"
+                            },
+                            {
+                                "dataSource": "CST",
+                                "id": "INFECT"
+                            },
+                            {
+                                "dataSource": "DXP",
+                                "id": "U000388"
+                            },
+                            {
+                                "dataSource": "ICD10",
+                                "id": "J00"
+                            },
+                            {
+                                "dataSource": "ICD10AM",
+                                "id": "J00"
+                            },
+                            {
+                                "dataSource": "ICD10CM",
+                                "id": "J00"
+                            },
+                            {
+                                "dataSource": "ICD9CM",
+                                "id": "460"
+                            },
+                            {
+                                "dataSource": "ICPC",
+                                "id": "R74"
+                            },
+                            {
+                                "dataSource": "ICPC2EENG",
+                                "id": "R74"
+                            },
+                            {
+                                "dataSource": "ICPC2ICD10ENG",
+                                "id": "MTHU079977"
+                            },
+                            {
+                                "dataSource": "ICPC2P",
+                                "id": "R74003"
+                            },
+                            {
+                                "dataSource": "LCH",
+                                "id": "U005392"
+                            },
+                            {
+                                "dataSource": "LCH_NW",
+                                "id": "sh85027912"
+                            },
+                            {
+                                "dataSource": "MDR",
+                                "id": "10010106"
+                            },
+                            {
+                                "dataSource": "MEDCIN",
+                                "id": "31071"
+                            },
+                            {
+                                "dataSource": "MEDLINEPLUS",
+                                "id": "196"
+                            },
+                            {
+                                "dataSource": "MSH",
+                                "id": "D003139"
+                            },
+                            {
+                                "dataSource": "MTH",
+                                "id": "210"
+                            },
+                            {
+                                "dataSource": "MTHICD9",
+                                "id": "460"
+                            },
+                            {
+                                "dataSource": "NCI",
+                                "id": "C34500"
+                            },
+                            {
+                                "dataSource": "NCI_CTCAE",
+                                "id": "E11548"
+                            },
+                            {
+                                "dataSource": "NCI_NICHD",
+                                "id": "C78599"
+                            },
+                            {
+                                "dataSource": "RCD",
+                                "id": "XE0Xl"
+                            },
+                            {
+                                "dataSource": "SNM",
+                                "id": "D-0374"
+                            },
+                            {
+                                "dataSource": "SNMI",
+                                "id": "DE-35210"
+                            },
+                            {
+                                "dataSource": "SNOMEDCT_US",
+                                "id": "82272006"
+                            }
+                        ]
+                    },
+                    {
+                        "offset": 26,
+                        "length": 10,
+                        "text": "heart rate",
+                        "category": "ExaminationName",
+                        "confidenceScore": 1.0,
+                        "name": "heart rate",
+                        "links": [
+                            {
+                                "dataSource": "UMLS",
+                                "id": "C0018810"
+                            },
+                            {
+                                "dataSource": "AOD",
+                                "id": "0000002504"
+                            },
+                            {
+                                "dataSource": "CHV",
+                                "id": "0000005884"
+                            },
+                            {
+                                "dataSource": "CSP",
+                                "id": "1394-2702"
+                            },
+                            {
+                                "dataSource": "ICF",
+                                "id": "b4100"
+                            },
+                            {
+                                "dataSource": "ICF-CY",
+                                "id": "b4100"
+                            },
+                            {
+                                "dataSource": "LNC",
+                                "id": "LP72677-5"
+                            },
+                            {
+                                "dataSource": "MDR",
+                                "id": "10019299"
+                            },
+                            {
+                                "dataSource": "MEDLINEPLUS",
+                                "id": "6288"
+                            },
+                            {
+                                "dataSource": "MSH",
+                                "id": "D006339"
+                            },
+                            {
+                                "dataSource": "NCI",
+                                "id": "C49677"
+                            },
+                            {
+                                "dataSource": "NCI_CDISC",
+                                "id": "SDTM-VSTEST"
+                            },
+                            {
+                                "dataSource": "NCI_NCPDP",
+                                "id": "C49677"
+                            },
+                            {
+                                "dataSource": "NCI_NICHD",
+                                "id": "C49677"
+                            },
+                            {
+                                "dataSource": "PSY",
+                                "id": "22490"
+                            },
+                            {
+                                "dataSource": "RCD",
+                                "id": "X773r"
+                            },
+                            {
+                                "dataSource": "SNM",
+                                "id": "F-73120"
+                            },
+                            {
+                                "dataSource": "SNMI",
+                                "id": "F-33120"
+                            },
+                            {
+                                "dataSource": "SNOMEDCT_US",
+                                "id": "364075005"
+                            }
+                        ]
+                    },
+                    {
+                        "offset": 40,
+                        "length": 2,
+                        "text": "93",
+                        "category": "MeasurementValue",
+                        "confidenceScore": 1.0
+                    },
+                    {
+                        "offset": 43,
+                        "length": 3,
+                        "text": "bpm",
+                        "category": "MeasurementUnit",
+                        "confidenceScore": 1.0
+                    }
+                ],
+                "relations": [
+                    {
+                        "relationType": "ValueOfExamination",
+                        "entities": [
+                            {
+                                "ref": "#/results/documents/0/entities/2",
+                                "role": "Examination"
+                            },
+                            {
+                                "ref": "#/results/documents/0/entities/3",
+                                "role": "Value"
+                            }
+                        ]
+                    },
+                    {
+                        "relationType": "UnitOfExamination",
+                        "entities": [
+                            {
+                                "ref": "#/results/documents/0/entities/2",
+                                "role": "Examination"
+                            },
+                            {
+                                "ref": "#/results/documents/0/entities/4",
+                                "role": "Unit"
+                            }
+                        ]
+                    }
+                ],
+                "warnings": []
+            }
+        ],
+        "errors": [],
+        "modelVersion": "2021-05-15"
+    }
+}
