@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Panacea | Certificate Validation </title>
+
+    <style>
+        .heading {
+            text-align: center;
+        }
+
+        .h1_Heading {
+            font-family: "Lucida Handwriting", "Courier New", monospace;
+        }
+
+        p {
+            font-family: "Lucida Handwriting", "Courier New", monospace;
+        }
+
+        .div_border {
+            border: 10px solid green;
+            padding: 2px;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-column-gap: 5px;
+            grid-template-columns: auto auto auto;
+            background-color: green;
+            padding: 5px;
+        }
+
+        .grid-item {
+            background-color: rgba(255, 255, 255, 0.8);
+            border: 1px solid rgba(0, 0, 0, 0.8);
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="div_border">
+        <div class="heading" style="font-family: MeaCulpa-Regular">
+            <h1 class="h1_Heading"> Certificate </h1>
+        </div>
+
+        <div class="content">
+            <p> This is to Certify that <b>Mr/Mrs. $patient_name</b> was diagnosed by <b>Dr. $doctor_name </b> on
+                <b> $time_stamp </b> for the following Medical Conditions Mentioned Below. </p>
+        </div>
+        <div class="grid-container">
+            <div class="grid-item">
+                <h3 class="heading">Medical Condition</h3>
+                <h4> $medical_condition </h4>
+            </div>
+            <div class="grid-item">
+                <h3 class="heading">Severity</h3>
+                <h4> $severity </h4>
+            </div>
+            <div class="grid-item">
+                <h3 class="heading">Days for Rest</h3>
+                <h4> $days_for_rest </h4>
+            </div>
+        </div>
+        <div class="heading">
+            <p>This is a Valid Certificatte Verified by Ethereum Blockchain with ID <b> $hash </b></p>
+        </div>
+        <div class="heading">
+            <h6>To Check the Validity of the Certificate <a href="/check_certificate_page">Click Here</a></h6>
+        </div>
+    </div>
+</body>
+
+</html>

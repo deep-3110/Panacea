@@ -1,0 +1,117 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+
+    <style>
+        /*Resize the wrap to see the search bar change!*/
+        .wrap {
+            width: 70%;
+            position: absolute;
+            top: 20%;
+            transform: translate(-50%, -50%);
+        }
+
+        .wrap2 {
+            width: 70%;
+            position: absolute;
+            top: 20%;
+            transform: translate(-50%, -50%);
+        }
+
+        .card-list-table {
+            table-layout: fixed;
+            background: transparent;
+            margin-bottom: 0;
+            width: 100%;
+        }
+
+        .card-list-table thead {
+            display: none;
+        }
+
+        .card-list-table tbody tr {
+            box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+            background: #fff;
+            border-bottom: 1px solid #dfdfdf;
+            cursor: pointer;
+            display: block;
+            margin: 0 0 10px 0;
+        }
+
+        .card-list-table tbody td {
+            border: 0;
+            display: block;
+            padding: 10px 10px 20px 40%;
+            position: relative;
+        }
+
+        .card-list-table tbody td:first-of-type::after {
+            visibility: hidden;
+        }
+
+        .card-list-table tbody td:after {
+            content: "";
+            width: calc(100% - 30px);
+            display: block;
+            margin: 0 auto;
+            height: 1px;
+            background: #dfdfdf;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: -6px;
+        }
+
+        .card-list-table tbody td:before {
+            color: rgba(0, 0, 0, 0.35);
+            text-transform: uppercase;
+            font-size: 0.85em;
+            content: attr(data-title);
+            display: table-cell;
+            font-weight: 500;
+            height: 100%;
+            margin: auto;
+            position: absolute;
+            vertical-align: middle;
+            white-space: nowrap;
+            width: 40%;
+        }
+
+        .card-list-table thead th {
+            text-transform: uppercase;
+            font-size: 0.85em;
+            color: rgba(0, 0, 0, 0.35);
+            letter-spacing: 0.5pt;
+        }
+    </style>
+    </style>
+</head>
+
+<body>
+    <h3>
+        Dr. $doctor_name, Mr/Mrs. $name has requested your opinion for the following problem,
+        <br>
+        <br>
+        Problem - $problem
+    </h3>
+
+    <h1>
+        $final_list
+    </h1>
+
+
+
+    <font color="#FF8F8F">Team Panecea ™</font>
+    </h4>
+</body>
+
+</html>

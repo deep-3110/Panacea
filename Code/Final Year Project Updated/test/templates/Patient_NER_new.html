@@ -1,0 +1,846 @@
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Patient Dashboard</title>
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon.png">
+    <!-- Custom Stylesheet -->
+    <link href="../static/assets/vendor/bootstrap-select/dist/css/bootstrap-select.min.css" rel="stylesheet">
+    <link href="../static/assets/css/style.css" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&amp;family=Roboto:wght@100;300;400;500;700;900&amp;display=swap"
+        rel="stylesheet">
+
+    <script>
+        window.console = window.console || function (t) { };
+    </script>
+
+
+
+    <script>
+        if (document.location.search.match(/type=embed/gi)) {
+            window.parent.postMessage("resize", "*");
+        }
+    </script>
+</head>
+
+<body data-typography="poppins" data-theme-version="light" data-layout="vertical" data-nav-headerbg="color_1"
+    data-headerbg="color_1" data-sidebar-style="full" data-sibebarbg="color_1" data-sidebar-position="fixed"
+    data-header-position="fixed" data-container="wide" direction="ltr" data-primary="color_1" style=" 
+">
+
+    <!--*******************
+        Preloader start
+    ********************-->
+    <div id="preloader" style="display: none;">
+        <div class="sk-three-bounce">
+            <div class="sk-child sk-bounce1"></div>
+            <div class="sk-child sk-bounce2"></div>
+            <div class="sk-child sk-bounce3"></div>
+        </div>
+    </div>
+    <!--*******************
+        Preloader end
+    ********************-->
+
+
+    <!--**********************************
+        Main wrapper start
+    ***********************************-->
+    <div id="main-wrapper" class="show">
+
+        <!--**********************************
+            Nav header start
+        ***********************************-->
+        <div class="nav-header">
+            <a href="index.html" class="brand-logo">
+                <img class="logo-abbr" src="./images/logo.png" alt="">
+                <img class="logo-compact" src="./images/logo-text.png" alt="">
+                <img class="brand-title" src="./images/logo-text.png" alt="">
+            </a>
+
+            <div class="nav-control">
+                <div class="hamburger">
+                    <span class="line"></span><span class="line"></span><span class="line"></span>
+                </div>
+            </div>
+        </div>
+        <!--**********************************
+            Nav header end
+        ***********************************-->
+
+        <!--**********************************
+            Chat box start
+        ***********************************-->
+
+        <!--**********************************
+            Chat box End
+        ***********************************-->
+
+
+
+
+        <!--**********************************
+            Header start
+        ***********************************-->
+        <div class="header">
+
+        </div>
+        <!--**********************************
+            Header end ti-comment-alt
+        ***********************************-->
+
+        <!--**********************************
+            Sidebar start
+        ***********************************-->
+        <div class="deznav">
+            <div class="deznav-scroll mm-active ps">
+                <ul class="metismenu mm-show" id="menu">
+                    <li><a href="/login_page" class="ai-icon" aria-expanded="false">
+
+                            <span class="nav-text">Dashboard</span>
+                        </a>
+                    </li>
+                    <li><a href="/create_appointment" class="ai-icon" aria-expanded="false">
+
+                            <span class="nav-text">Schedule Appointment</span>
+                        </a>
+                    </li>
+                    <li><a href="/patient_certificate" class="ai-icon" aria-expanded="false">
+
+                            <span class="nav-text">Request Certificate</span>
+                        </a>
+                    </li>
+
+                    <li><a href="Patient_Profile.html" class="ai-icon" aria-expanded="false">
+
+                            <span class="nav-text">Contact Us</span>
+                        </a>
+                    </li>
+
+
+
+                </ul>
+
+
+                <div class="ps__rail-x" style="left: 0px; bottom: -160px;">
+                    <div class="ps__thumb-x" tabindex="0" style="left: 0px; width: 0px;"></div>
+                </div>
+                <div class="ps__rail-y" style="top: 160px; height: 331px; right: 0px;">
+                    <div class="ps__thumb-y" tabindex="0" style="top: 92px; height: 190px;"></div>
+                </div>
+                <div class="ps__rail-x" style="left: 0px; bottom: 0px;">
+                    <div class="ps__thumb-x" tabindex="0" style="left: 0px; width: 0px;"></div>
+                </div>
+                <div class="ps__rail-y" style="top: 0px; height: 331px; right: 0px;">
+                    <div class="ps__thumb-y" tabindex="0" style="top: 0px; height: 0px;"></div>
+                </div>
+                <div class="ps__rail-x" style="left: 0px; bottom: 0px;">
+                    <div class="ps__thumb-x" tabindex="0" style="left: 0px; width: 0px;"></div>
+                </div>
+                <div class="ps__rail-y" style="top: 0px; right: 0px; height: 181px;">
+                    <div class="ps__thumb-y" tabindex="0" style="top: 0px; height: 66px;"></div>
+                </div>
+                <div class="ps__rail-x" style="left: 0px; bottom: 0px;">
+                    <div class="ps__thumb-x" tabindex="0" style="left: 0px; width: 0px;"></div>
+                </div>
+                <div class="ps__rail-y" style="top: 0px; height: 181px; right: 0px;">
+                    <div class="ps__thumb-y" tabindex="0" style="top: 60px; height: 66px;"></div>
+                </div>
+            </div>
+        </div>
+        <!--**********************************
+            Sidebar end
+        ***********************************-->
+
+        <!--**********************************
+            Content body start
+        ***********************************-->
+        <div class="content-body" style="min-height: 690px;">
+            <div class="container-fluid">
+                <div class="page-titles">
+                    <h4></h4>
+
+                </div>
+                <!-- row -->
+                <div class="row">
+
+
+                    <div style="max-width: 100%; flex: 0 0 100%" class="col-xl-6 col-lg-6">
+                        <!-- <div class="card">
+                            <div class="card-header">
+                                <h4 class="card-title">Textarea</h4>
+                            </div>
+                            <div class="card-body">
+                                <div class="basic-form">
+                                    <form>
+                                        <div class="form-group">
+                                            <select id="inputState" class="form-control default-select" tabindex="-98"
+                                                name="doctor_name" style="max-width: 50%">
+                                                {% for i in name %} -->
+                        <!-- <option selected="" name="doctor_name">Choose...
+																		</option> -->
+                        <!-- <option>{{i}}</option>
+                                                {% endfor %}
+                                            </select>
+
+                                        </div>
+                                        <button type="submit" class="btn btn-primary mb-2">See Recommended
+                                            Medicines</button>
+
+                                    </form>
+                                </div>
+                            </div>
+                        </div> -->
+                        <div class="card">
+                            <div class="card-header">
+                                <h4 class="card-title">Search Medicines</h4>
+                            </div>
+                            <div class="card-body">
+                                <div class="basic-form">
+                                    <form>
+                                        <div class="form-group">
+                                            <textarea class="form-control" rows="4" id="medicine_val"></textarea>
+                                        </div>
+                                        <button type="button" class="btn btn-primary mb-2" data-toggle="modal"
+                                            id="drug_recommendation">See Recommended
+                                            Medicines</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- The Modal -->
+                    <div class="modal" id="myModal">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+
+                                <!-- Modal Header -->
+                                <div class="modal-header">
+                                    <h4 class="modal-title">Drug Recommendation</h4>
+                                    <button type="button" class="close" data-dismiss="modal">×</button>
+                                </div>
+
+                                <!-- Modal body -->
+                                <div class="modal-body">
+                                    <table class="table table-striped">
+                                        <thead>
+                                            <tr>
+                                                <th>Drug Name</th>
+                                                <th></th>
+                                                <th>Mean Normalize Score</th>
+                                            </tr>
+                                        </thead>
+
+                                        <tbody>
+                                            <tr>
+                                                <td name="drug1" id="drug1"></td>
+                                                <td name="disease_name1" id="disease_name1"></td>
+                                                <td name="prediction1" id="prediction1"></td>
+                                            </tr>
+                                            <tr>
+                                                <td name="drug2" id="drug2"></td>
+                                                <td name="disease_name2" id="disease_name2"></td>
+                                                <td name="prediction2" id="prediction2"></td>
+                                            </tr>
+                                            <tr>
+                                                <td name="drug3" id="drug3"></td>
+                                                <td name="disease_name3" id="disease_name3"></td>
+                                                <td name="prediction3" id="prediction3"></td>
+                                            </tr>
+                                            <tr>
+                                                <td name="drug4" id="drug4"></td>
+                                                <td name="disease_name4" id="disease_name4"></td>
+                                                <td name="prediction4" id="prediction4"></td>
+                                            </tr>
+                                            <tr>
+                                                <td name="drug5" id="drug5"></td>
+                                                <td name="disease_name5" id="disease_name5"></td>
+                                                <td name="prediction5" id="prediction5"></td>
+                                            </tr>
+                                        </tbody>
+
+                                    </table>
+                                </div>
+
+                                <!-- Modal footer -->
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style="max-width: 100%; flex: 0 0 100%" class="col-xl-6 col-lg-6">
+                        <div class="card">
+                            <div class="card-header">
+                                <h4 class="card-title">Predict Disease</h4>
+                            </div>
+                            <div class="card-body">
+                                <div class="basic-form">
+                                    <form action="/mimic_tables" method="POST">
+                                        <div class="form-group">
+                                            <textarea class="form-control" rows="4" name="process_text_val"
+                                                id="process_text_val"></textarea>
+                                        </div>
+                                        <button type="button" class="btn btn-primary mb-2" data-toggle="modal2"
+                                            name="process_text" id="process_text">Process Text</button>
+                                        <button type="submit" class="btn btn-primary mb-2"
+                                            action="/mimic_tables">Predict Disease</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- The Modal -->
+                    <div class="modal" id="myModal2">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+
+                                <!-- Modal Header -->
+                                <div class="modal-header">
+                                    <h4 class="modal-title">Process Text</h4>
+                                    <button type="button" class="close" data-dismiss="modal">×</button>
+                                </div>
+
+                                <!-- Modal body -->
+                                <div class="modal-body">
+                                    <table class="table table-striped">
+                                        <thead>
+                                            <tr>
+                                                <th>Text</th>
+                                                <th>Category</th>
+                                                <th>Confidence Score</th>
+                                            </tr>
+                                        </thead>
+
+                                        <tbody>
+                                            <tr>
+                                                <td name="text1" id="text1"></td>
+                                                <td name="category1" id="category1"></td>
+                                                <td name="confidence1" id="confidence1"></td>
+                                            </tr>
+                                            <tr>
+                                                <td name="text2" id="text2"></td>
+                                                <td name="category2" id="category2"></td>
+                                                <td name="confidence2" id="confidence2"></td>
+                                            </tr>
+                                            <tr>
+                                                <td name="text3" id="text3"></td>
+                                                <td name="category3" id="category3"></td>
+                                                <td name="confidence3" id="confidence3"></td>
+                                            </tr>
+                                            <tr>
+                                                <td name="text4" id="text4"></td>
+                                                <td name="category4" id="category4"></td>
+                                                <td name="confidence4" id="confidence4"></td>
+                                            </tr>
+                                            <tr>
+                                                <td name="text5" id="text5"></td>
+                                                <td name="category5" id="category5"></td>
+                                                <td name="confidence5" id="confidence5"></td>
+                                            </tr>
+                                        </tbody>
+
+                                    </table>
+                                </div>
+
+                                <form action="/ask_doctor" method="POST">
+                                    <!-- Modal footer -->
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                        <button type="submit" class="btn btn-danger" data-dismiss="modal">Ask Doctor for
+                                            Opinion</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+                    <div class="col-xl-6 col-lg-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <h4 class="card-title">Careplans</h4>
+                            </div>
+                            <div class="card-body">
+                                <div class="table-responsive">
+                                    <table class="table table-responsive-md">
+                                        <thead>
+                                            <tr>
+
+                                                <th><strong>START</strong></th>
+                                                <th><strong>STOP</strong></th>
+                                                <th><strong>DESCRIPTION</strong></th>
+                                                <th><strong>REASONDESCRIPTION</strong>
+
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            {% for start, stop, description, reasondescription in careplans%}
+                                            <tr>
+
+                                                <td><strong>{{start}}</strong></td>
+                                                <td>
+                                                    <div class="d-flex align-items-center"> <span class="w-space-no">Dr.
+                                                            {{stop}}</span></div>
+                                                </td>
+                                                <td>{{description}}</td>
+                                                <td>{{reasondescription}}</td>
+
+
+
+                                            </tr>
+                                            {%endfor%}
+                                        </tbody>
+                                    </table>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <h4 class="card-title">Conditions</h4>
+                            </div>
+                            <div class="card-body">
+                                <div class="table-responsive">
+                                    <table class="table table-responsive-md">
+                                        <thead>
+                                            <tr>
+
+                                                <th><strong>START</strong></th>
+                                                <th><strong>STOP</strong></th>
+                                                <th><strong>DESCRIPTION</strong></th>
+
+
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            {% for start, stop, description in conditions%}
+                                            <tr>
+
+                                                <td><strong>{{start}}</strong></td>
+                                                <td>
+                                                    <div class="d-flex align-items-center"> <span class="w-space-no">Dr.
+                                                            {{stop}}</span></div>
+                                                </td>
+                                                <td>{{description}}</td>
+                                                <td>{{reasondescription}}</td>
+
+
+
+                                            </tr>
+                                            {%endfor%}
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <h4 class="card-title">Encounters</h4>
+                            </div>
+                            <div class="card-body">
+                                <div class="table-responsive">
+                                    <table class="table table-responsive-md">
+                                        <thead>
+                                            <tr>
+
+                                                <th><strong>START</strong></th>
+                                                <th><strong>STOP</strong></th>
+                                                <th><strong>DESCRIPTION</strong></th>
+                                                <th><strong>REASONDESCRIPTION</strong>
+
+
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            {% for start, stop, description, reasondescription in encounters%}
+                                            <tr>
+
+                                                <td><strong>{{start}}</strong></td>
+                                                <td>
+                                                    <div class="d-flex align-items-center"> <span class="w-space-no">Dr.
+                                                            {{stop}}</span></div>
+                                                </td>
+                                                <td>{{description}}</td>
+                                                <td>{{reasondescription}}</td>
+
+
+
+                                            </tr>
+                                            {%endfor%}
+                                        </tbody>
+                                    </table>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <h4 class="card-title">Imaging Studies</h4>
+                            </div>
+                            <div class="card-body">
+                                <div class="table-responsive">
+                                    <table class="table table-responsive-md">
+                                        <thead>
+                                            <tr>
+
+                                                <th><strong>BODY SITE DESCRIPTION</strong></th>
+
+
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            {% for bodysitedescription in imaging_studies_list%}
+                                            <tr>
+
+                                                <td><strong>{{bodysitedescription}}</strong></td>
+
+                                            </tr>
+                                            {%endfor%}
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <h4 class="card-title">Immunizations</h4>
+                            </div>
+                            <div class="card-body">
+                                <div class="table-responsive">
+                                    <table class="table table-responsive-md">
+                                        <thead>
+                                            <tr>
+
+                                                <th><strong>DATE</strong></th>
+                                                <th><strong>DESCRIPTION</strong></th>
+
+
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            {% for date, description in immunizations_list%}
+                                            <tr>
+
+                                                <td><strong>{{date}}</strong></td>
+                                                <td>{{description}}</td>
+
+                                            </tr>
+                                            {%endfor%}
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <h4 class="card-title">Medications</h4>
+                            </div>
+                            <div class="card-body">
+                                <div class="table-responsive">
+                                    <table class="table table-responsive-md">
+                                        <thead>
+                                            <tr>
+
+                                                <th><strong>START</strong></th>
+                                                <th><strong>STOP</strong></th>
+                                                <th><strong>DESCRIPTION</strong></th>
+                                                <th><strong>REASONDESCRIPTION</strong>
+
+
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            {% for start, stop, description, reasondescription in medications_list%}
+                                            <tr>
+
+                                                <td><strong>{{start}}</strong></td>
+                                                <td>
+                                                    <div class="d-flex align-items-center"> <span class="w-space-no">Dr.
+                                                            {{stop}}</span></div>
+                                                </td>
+                                                <td>{{description}}</td>
+                                                <td>{{reasondescription}}</td>
+
+
+
+                                            </tr>
+                                            {%endfor%}
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <h4 class="card-title">Observations</h4>
+                            </div>
+                            <div class="card-body">
+                                <div class="table-responsive">
+                                    <table class="table table-responsive-md">
+                                        <thead>
+                                            <tr>
+
+                                                <th><strong>DATE</strong></th>
+                                                <th><strong>DESCRIPTION</strong></th>
+                                                <th><strong>VALUE</strong></th>
+                                                <th><strong>UNITS</strong>
+
+
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            {% for start, stop, description, reasondescription in observations_list%}
+                                            <tr>
+
+                                                <td><strong>{{start}}</strong></td>
+                                                <td>
+                                                    <div class="d-flex align-items-center"> <span class="w-space-no">Dr.
+                                                            {{stop}}</span></div>
+                                                </td>
+                                                <td>{{description}}</td>
+                                                <td>{{reasondescription}}</td>
+
+
+
+                                            </tr>
+                                            {%endfor%}
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <h4 class="card-title">Procedures</h4>
+                            </div>
+                            <div class="card-body">
+                                <div class="table-responsive">
+                                    <table class="table table-responsive-md">
+                                        <thead>
+                                            <tr>
+
+                                                <th><strong>DATE</strong></th>
+                                                <th><strong>DESCRIPTION</strong></th>
+                                                <th><strong>REASONDESCRIPTION</strong></th>
+
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            {% for date, description, reasondescription in procedures_list%}
+                                            <tr>
+
+                                                <td><strong>{{date}}</strong></td>
+                                                <td>{{description}}</td>
+                                                <td>{{reasondescription}}</td>
+
+
+
+                                            </tr>
+                                            {%endfor%}
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+                </div>
+            </div>
+        </div>
+        <!--**********************************
+            Content body end
+        ***********************************-->
+
+
+        <!--**********************************
+            Footer start
+        ***********************************-->
+
+        <!--**********************************
+            Footer end
+        ***********************************-->
+
+        <!--**********************************
+           Support ticket button start
+        ***********************************-->
+
+        <!--**********************************
+           Support ticket button end
+        ***********************************-->
+
+
+    </div>
+    <!--**********************************
+        Main wrapper end
+    ***********************************-->
+
+    <!--**********************************
+        Scripts
+    ***********************************-->
+    <!-- Required vendors -->
+    <script src="../static/assets/vendor/global/global.min.js"></script>
+    <script src="../static/assets/vendor/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
+    <script src="../static/assets/js/custom.min.js"></script>
+    <script src="../static/assets/js/deznav-init.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $(drug_recommendation).click(function () {
+                var medicine = $.trim($("#medicine_val").val());
+                $('#myModal').show();
+                $.ajax({
+                    type: "POST",
+                    url: "/drug_recommendation",
+                    data: { param: medicine },
+                    success: function (data) {
+                        console.log(data);
+                        const drug_list = data.list;
+                        console.log(drug_list);
+
+                        console.log(medicine);
+
+                        const drug1 = data.list[0][0];
+                        const disease_name1 = data.list[0][1];
+                        const prediction1 = data.list[0][2];
+                        const drug2 = data.list[1][0];
+                        const disease_name2 = data.list[1][1];
+                        const prediction2 = data.list[1][2];
+                        const drug3 = data.list[2][0];
+                        const disease_name3 = data.list[2][1];
+                        const prediction3 = data.list[2][2];
+                        const drug4 = data.list[3][0];
+                        const disease_name4 = data.list[3][1];
+                        const prediction4 = data.list[3][2];
+                        const drug5 = data.list[4][0];
+                        const disease_name5 = data.list[4][1];
+                        const prediction5 = data.list[4][2];
+
+                        console.log(drug1);
+                        console.log(prediction1);
+
+                        document.getElementById('drug1').innerHTML = drug1;
+                        document.getElementById('category1').innerHTML = category1;
+                        document.getElementById('prediction1').innerHTML = prediction1;
+                        document.getElementById('drug2').innerHTML = drug2;
+                        document.getElementById('category2').innerHTML = category2;
+                        document.getElementById('prediction2').innerHTML = prediction2;
+                        document.getElementById('drug3').innerHTML = drug3;
+                        document.getElementById('category3').innerHTML = category3;
+                        document.getElementById('prediction3').innerHTML = prediction3;
+                        document.getElementById('drug4').innerHTML = drug4;
+                        document.getElementById('category4').innerHTML = category4;
+                        document.getElementById('prediction4').innerHTML = prediction4;
+                        document.getElementById('drug5').innerHTML = drug5;
+                        document.getElementById('category5').innerHTML = category5;
+                        document.getElementById('prediction5').innerHTML = prediction5;
+                    }
+                }).done(function (o) {
+                    // console.log(medicine);
+                    // $('#myModal').show();
+                    return false;
+                });
+            });
+
+            $(process_text).click(function () {
+                var medicine = $.trim($("#process_text_val").val());
+                console.log(medicine);
+                $.ajax({
+                    type: "POST",
+                    url: "/process_text",
+                    data: { param: medicine },
+                    success: function (data) {
+                        console.log(data);
+                        const drug_list = data.text_list;
+                        console.log(drug_list);
+
+                        console.log(medicine);
+
+                        $('#myModal2').show();
+
+                        const text1 = data.text_list[0][0];
+                        const category1 = data.text_list[0][1];
+                        const confidence1 = data.text_list[0][2];
+                        const text2 = data.text_list[1][0];
+                        const category2 = data.text_list[1][1];
+                        const confidence2 = data.text_list[1][2];
+                        const text3 = data.text_list[2][0];
+                        const category3 = data.text_list[2][1];
+                        const confidence3 = data.text_list[2][2];
+                        const text4 = data.text_list[3][0];
+                        const category4 = data.text_list[3][1];
+                        const confidence4 = data.text_list[3][2];
+                        const text5 = data.text_list[4][0];
+                        const category5 = data.text_list[4][1];
+                        const confidence5 = data.text_list[4][2];
+
+                        document.getElementById('text1').innerHTML = text1;
+                        document.getElementById('category1').innerHTML = category1;
+                        document.getElementById('confidence1').innerHTML = confidence1;
+                        document.getElementById('text2').innerHTML = text2;
+                        document.getElementById('category2').innerHTML = category2;
+                        document.getElementById('confidence2').innerHTML = confidence2;
+                        document.getElementById('text3').innerHTML = text3;
+                        document.getElementById('category3').innerHTML = category3;
+                        document.getElementById('confidence3').innerHTML = confidence3;
+                        document.getElementById('text4').innerHTML = text4;
+                        document.getElementById('category4').innerHTML = category4;
+                        document.getElementById('confidence4').innerHTML = confidence4;
+                        document.getElementById('text5').innerHTML = text5;
+                        document.getElementById('category5').innerHTML = category5;
+                        document.getElementById('confidence5').innerHTML = confidence5;
+                    }
+                }).done(function (o) {
+                    // console.log(medicine);
+                    // $('#myModal').show();
+                    return false;
+                });
+            });
+        });
+    </script>
+
+</body>
+
+</html>

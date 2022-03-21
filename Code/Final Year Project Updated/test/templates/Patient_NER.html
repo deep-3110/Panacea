@@ -1,0 +1,557 @@
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Pancea | Patient Details</title>
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="../static/assets/images/favicon.png">
+    <!-- Custom Stylesheet -->
+    <link href="../static/assets/vendor/bootstrap-select/dist/css/bootstrap-select.min.css" rel="stylesheet">
+    <link href="../static/assets/css/style.css" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&amp;family=Roboto:wght@100;300;400;500;700;900&amp;display=swap"
+        rel="stylesheet">
+</head>
+
+<body data-typography="poppins" data-theme-version="light" data-layout="vertical" data-nav-headerbg="color_1"
+    data-headerbg="color_1" data-sidebar-style="full" data-sibebarbg="color_1" data-sidebar-position="fixed"
+    data-header-position="fixed" data-container="wide" direction="ltr" data-primary="color_1" style=" 
+">
+
+    <!--*******************
+        Preloader start
+    ********************-->
+    <div id="preloader" style="display: none;">
+        <div class="sk-three-bounce">
+            <div class="sk-child sk-bounce1"></div>
+            <div class="sk-child sk-bounce2"></div>
+            <div class="sk-child sk-bounce3"></div>
+        </div>
+    </div>
+    <!--*******************
+        Preloader end
+    ********************-->
+
+
+    <!--**********************************
+        Main wrapper start
+    ***********************************-->
+    <div id="main-wrapper" class="show">
+
+        <!--**********************************
+            Nav header start
+        ***********************************-->
+        <div class="nav-header">
+            <a href="index.html" class="brand-logo">
+                <img class="logo-abbr" src="../static/assets/images/logo.png" alt="">
+                <img class="logo-compact" src="../static/assets/images/logo-text.png" alt="">
+                <img class="brand-title" src="../static/assets/images/logo-text.png" alt="">
+            </a>
+
+            <div class="nav-control">
+                <div class="hamburger">
+                    <span class="line"></span><span class="line"></span><span class="line"></span>
+                </div>
+            </div>
+        </div>
+        <!--**********************************
+            Nav header end
+        ***********************************-->
+
+        <!--**********************************
+            Chat box start
+        ***********************************-->
+
+        <!--**********************************
+            Chat box End
+        ***********************************-->
+
+
+
+
+        <!--**********************************
+            Header start
+        ***********************************-->
+        <div class="header">
+
+        </div>
+        <!--**********************************
+            Header end ti-comment-alt
+        ***********************************-->
+
+        <!--**********************************
+            Sidebar start
+        ***********************************-->
+        <div class="deznav">
+            <div class="deznav-scroll mm-active ps ps--active-y">
+                <ul class="metismenu mm-show" id="menu">
+                    <li><a href="Patient_Dashboard.html" class="ai-icon" aria-expanded="false">
+
+                            <span class="nav-text">Dashboard</span>
+                        </a>
+                    </li>
+                    <li><a href="/create_appointment" class="ai-icon" aria-expanded="false">
+
+                            <span class="nav-text">Schedule Appointment</span>
+                        </a>
+                    </li>
+                    <li><a href="/create_appointment" class="ai-icon" aria-expanded="false">
+
+                            <span class="nav-text">Show Scheduled Appointments</span>
+                        </a>
+                    </li>
+                    <li><a href="/patient_certificate" class="ai-icon" aria-expanded="false">
+
+                            <span class="nav-text">Request Certificate</span>
+                        </a>
+                    </li>
+                    <li><a href="Patient_History.html" class="ai-icon" aria-expanded="false">
+
+                            <span class="nav-text">History</span>
+                        </a>
+                    </li>
+                    <li class="mm-active"><a href="Patient_NER.html" class="ai-icon mm-active" aria-expanded="false">
+
+                            <span class="nav-text">Entity Recognition</span>
+                        </a>
+                    </li>
+
+                    <li><a href="Patient_Profile.html" class="ai-icon" aria-expanded="false">
+
+                            <span class="nav-text">My Profile</span>
+                        </a>
+                    </li>
+
+
+
+                </ul>
+
+
+                <div class="ps__rail-x" style="left: 0px; bottom: -160px;">
+                    <div class="ps__thumb-x" tabindex="0" style="left: 0px; width: 0px;"></div>
+                </div>
+                <div class="ps__rail-y" style="top: 160px; height: 331px; right: 0px;">
+                    <div class="ps__thumb-y" tabindex="0" style="top: 92px; height: 190px;"></div>
+                </div>
+                <div class="ps__rail-x" style="left: 0px; bottom: 0px;">
+                    <div class="ps__thumb-x" tabindex="0" style="left: 0px; width: 0px;"></div>
+                </div>
+                <div class="ps__rail-y" style="top: 0px; height: 331px; right: 0px;">
+                    <div class="ps__thumb-y" tabindex="0" style="top: 0px; height: 0px;"></div>
+                </div>
+                <div class="ps__rail-x" style="left: 0px; bottom: 0px;">
+                    <div class="ps__thumb-x" tabindex="0" style="left: 0px; width: 0px;"></div>
+                </div>
+                <div class="ps__rail-y" style="top: 0px; right: 0px; height: 181px;">
+                    <div class="ps__thumb-y" tabindex="0" style="top: 0px; height: 66px;"></div>
+                </div>
+            </div>
+        </div>
+        <!--**********************************
+            Sidebar end
+        ***********************************-->
+
+        <!--**********************************
+            Content body start
+        ***********************************-->
+        <div class="content-body" style="min-height: 690px;">
+            <div class="container-fluid">
+                <div class="page-titles">
+                    <h4>Element</h4>
+
+                </div>
+                <!-- row -->
+                <div class="row">
+
+
+                    <div style="max-width: 100%; flex: 0 0 100%" class="col-xl-6 col-lg-6">
+                        <div class="card">
+                            <div class="card-header">
+                                <h4 class="card-title">Medicine Search</h4>
+                            </div>
+                            <div class="card-body">
+                                <div class="basic-form">
+                                    <form action="/drug_recommendation" method="POST">
+                                        <div class="form-group">
+                                            <textarea class="form-control" rows="4" id="comment"
+                                                name="medicine"></textarea>
+                                        </div>
+                                        <button type="submit" class="btn btn-primary mb-2">Search Medicine</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+
+                    <div class="col-xl-6 col-lg-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <h4 class="card-title">Careplans</h4>
+                            </div>
+                            <div class="card-body">
+                                <div class="table-responsive">
+                                    <table class="table table-responsive-md">
+                                        <thead>
+                                            <tr>
+
+                                                <th><strong>START</strong></th>
+                                                <th><strong>STOP</strong></th>
+                                                <th><strong>DESCRIPTION</strong></th>
+                                                <th><strong>REASONDESCRIPTION</strong>
+
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            {% for start, stop, description, reasondescription in careplans%}
+                                            <tr>
+
+                                                <td><strong>{{start}}</strong></td>
+                                                <td>
+                                                    <div class="d-flex align-items-center"> <span class="w-space-no">Dr.
+                                                            {{stop}}</span></div>
+                                                </td>
+                                                <td>{{description}}</td>
+                                                <td>{{reasondescription}}</td>
+
+
+
+                                            </tr>
+                                            {%endfor%}
+                                        </tbody>
+                                    </table>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <h4 class="card-title">Conditions</h4>
+                            </div>
+                            <div class="card-body">
+                                <div class="table-responsive">
+                                    <table class="table table-responsive-md">
+                                        <thead>
+                                            <tr>
+
+                                                <th><strong>START</strong></th>
+                                                <th><strong>STOP</strong></th>
+                                                <th><strong>DESCRIPTION</strong></th>
+
+
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            {% for start, stop, description in conditions%}
+                                            <tr>
+
+                                                <td><strong>{{start}}</strong></td>
+                                                <td>
+                                                    <div class="d-flex align-items-center"> <span class="w-space-no">Dr.
+                                                            {{stop}}</span></div>
+                                                </td>
+                                                <td>{{description}}</td>
+                                                <td>{{reasondescription}}</td>
+
+
+
+                                            </tr>
+                                            {%endfor%}
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <h4 class="card-title">Encounters</h4>
+                            </div>
+                            <div class="card-body">
+                                <div class="table-responsive">
+                                    <table class="table table-responsive-md">
+                                        <thead>
+                                            <tr>
+
+                                                <th><strong>START</strong></th>
+                                                <th><strong>STOP</strong></th>
+                                                <th><strong>DESCRIPTION</strong></th>
+                                                <th><strong>REASONDESCRIPTION</strong>
+
+
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            {% for start, stop, description, reasondescription in encounters%}
+                                            <tr>
+
+                                                <td><strong>{{start}}</strong></td>
+                                                <td>
+                                                    <div class="d-flex align-items-center"> <span class="w-space-no">Dr.
+                                                            {{stop}}</span></div>
+                                                </td>
+                                                <td>{{description}}</td>
+                                                <td>{{reasondescription}}</td>
+
+
+
+                                            </tr>
+                                            {%endfor%}
+                                        </tbody>
+                                    </table>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <h4 class="card-title">Imaging Studies</h4>
+                            </div>
+                            <div class="card-body">
+                                <div class="table-responsive">
+                                    <table class="table table-responsive-md">
+                                        <thead>
+                                            <tr>
+
+                                                <th><strong>BODY SITE DESCRIPTION</strong></th>
+
+
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            {% for bodysitedescription in imaging_studies_list%}
+                                            <tr>
+
+                                                <td><strong>{{bodysitedescription}}</strong></td>
+
+                                            </tr>
+                                            {%endfor%}
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <h4 class="card-title">Immunizations</h4>
+                            </div>
+                            <div class="card-body">
+                                <div class="table-responsive">
+                                    <table class="table table-responsive-md">
+                                        <thead>
+                                            <tr>
+
+                                                <th><strong>DATE</strong></th>
+                                                <th><strong>DESCRIPTION</strong></th>
+
+
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            {% for date, description in immunizations_list%}
+                                            <tr>
+
+                                                <td><strong>{{date}}</strong></td>
+                                                <td>{{description}}</td>
+
+                                            </tr>
+                                            {%endfor%}
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <h4 class="card-title">Medications</h4>
+                            </div>
+                            <div class="card-body">
+                                <div class="table-responsive">
+                                    <table class="table table-responsive-md">
+                                        <thead>
+                                            <tr>
+
+                                                <th><strong>START</strong></th>
+                                                <th><strong>STOP</strong></th>
+                                                <th><strong>DESCRIPTION</strong></th>
+                                                <th><strong>REASONDESCRIPTION</strong>
+
+
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            {% for start, stop, description, reasondescription in medications_list%}
+                                            <tr>
+
+                                                <td><strong>{{start}}</strong></td>
+                                                <td>
+                                                    <div class="d-flex align-items-center"> <span class="w-space-no">Dr.
+                                                            {{stop}}</span></div>
+                                                </td>
+                                                <td>{{description}}</td>
+                                                <td>{{reasondescription}}</td>
+
+
+
+                                            </tr>
+                                            {%endfor%}
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <h4 class="card-title">Observations</h4>
+                            </div>
+                            <div class="card-body">
+                                <div class="table-responsive">
+                                    <table class="table table-responsive-md">
+                                        <thead>
+                                            <tr>
+
+                                                <th><strong>DATE</strong></th>
+                                                <th><strong>DESCRIPTION</strong></th>
+                                                <th><strong>VALUE</strong></th>
+                                                <th><strong>UNITS</strong>
+
+
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            {% for start, stop, description, reasondescription in observations_list%}
+                                            <tr>
+
+                                                <td><strong>{{start}}</strong></td>
+                                                <td>
+                                                    <div class="d-flex align-items-center"> <span class="w-space-no">Dr.
+                                                            {{stop}}</span></div>
+                                                </td>
+                                                <td>{{description}}</td>
+                                                <td>{{reasondescription}}</td>
+
+
+
+                                            </tr>
+                                            {%endfor%}
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <h4 class="card-title">Procedures</h4>
+                            </div>
+                            <div class="card-body">
+                                <div class="table-responsive">
+                                    <table class="table table-responsive-md">
+                                        <thead>
+                                            <tr>
+
+                                                <th><strong>DATE</strong></th>
+                                                <th><strong>DESCRIPTION</strong></th>
+                                                <th><strong>REASONDESCRIPTION</strong></th>
+
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            {% for date, description, reasondescription in procedures_list%}
+                                            <tr>
+
+                                                <td><strong>{{date}}</strong></td>
+                                                <td>{{description}}</td>
+                                                <td>{{reasondescription}}</td>
+
+
+
+                                            </tr>
+                                            {%endfor%}
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+                </div>
+            </div>
+        </div>
+        <!--**********************************
+            Content body end
+        ***********************************-->
+
+
+        <!--**********************************
+            Footer start
+        ***********************************-->
+
+        <!--**********************************
+            Footer end
+        ***********************************-->
+
+        <!--**********************************
+           Support ticket button start
+        ***********************************-->
+
+        <!--**********************************
+           Support ticket button end
+        ***********************************-->
+
+
+    </div>
+    <!--**********************************
+        Main wrapper end
+    ***********************************-->
+
+    <!--**********************************
+        Scripts
+    ***********************************-->
+    <!-- Required vendors -->
+    <script src="../static/assets/vendor/global/global.min.js"></script>
+    <script src="../static/assets/vendor/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
+    <script src="../static/assets/js/custom.min.js"></script>
+    <script src="../static/assets/js/deznav-init.js"></script>
+
+
+
+
+
+
+</body>
+
+</html>
