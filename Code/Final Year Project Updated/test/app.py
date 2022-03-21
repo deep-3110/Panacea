@@ -1,13 +1,13 @@
 from flask import Flask, Response, render_template, request, redirect, url_for, jsonify
 import sqlite3
-#from hashchain import records, ethereum
+from hashchain import records, ethereum
 import json
 from datetime import datetime
 import random
 import ast
 import hashlib
 import pandas as pd
-#import jwt
+import jwt
 import requests
 import json
 from time import time
@@ -19,7 +19,7 @@ from csv import reader
 import pandas as pd
 import numpy as np
 from collections import Counter
-#from pretty_html_table import build_table
+from pretty_html_table import build_table
 import pdfkit
 import codecs
 import smtplib
