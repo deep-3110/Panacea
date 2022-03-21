@@ -47,7 +47,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-light shadow-sm">
       <div class="container">
-        <a class="navbar-brand" href="#"><span class="text-primary">Pana</span>cea</a>
+        <a class="navbar-brand" href="#"><span class="text-primary" style="font-color:" >Pana</span>cea</a>
 
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupport"
@@ -68,10 +68,10 @@
               <a class="nav-link" href="contact.html">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="btn btn-primary ml-lg-3" href="/doctor_login_page">Doctor Login</a>
+              <a class="btn btn-primary ml-lg-3" style="background-color: #007A64;" href="/doctor_login_page">Doctor Login</a>
             </li>
             <li class="nav-item">
-              <a class="btn btn-primary ml-lg-3" href="/login_page">Patient Login</a>
+              <a class="btn btn-primary ml-lg-3" style="background-color: #007A64;" href="/login_page">Patient Login</a>
             </li>
           </ul>
         </div> <!-- .navbar-collapse -->
@@ -84,11 +84,10 @@
       <div class="container text-center wow zoomIn">
         <span class="subhead">Let's make your life happier</span>
         <h1 class="display-4">Healthy Living</h1>
-        <a href="/login_page" class="btn btn-primary">Let's Consult</a>
+        <a href="/login_page" class="btn btn-primary" style="background-color: #007A64;">Let's Consult</a>
       </div>
     </div>
   </div>
-
 
   <div class="bg-light">
     <div class="page-section py-3 mt-md-n5 custom-index">
@@ -104,7 +103,7 @@
           </div>
           <div class="col-md-4 py-3 py-md-0">
             <div class="card-service wow fadeInUp">
-              <div class="circle-shape bg-primary text-white">
+              <div class="circle-shape bg-primary text-white" style="background-color: #007A64">
                 <span class="mai-shield-checkmark"></span>
               </div>
               <p><span>Blockchain Powered</p>
@@ -186,7 +185,7 @@
             <ul class="footer-menu">
               <li><a href="#">Drug Recommendation</a></li>
               <li><a href="#">Disease Prediction</a></li>
-              <li><a href="#">Entity Recognition</a></li>
+              <li><a href="#">Medical Entity Recognition</a></li>
               <li><a href="#">Blockchain Based Certificate Issue and Verification</a></li>
             </ul>
           </div>
@@ -198,6 +197,45 @@
 
           </div>
         </div>
+        <div class="container">
+          <div class="split left">
+            <h1>The Designer</h1>
+            <a href="#" class="button">Read More</a>
+          </div>
+          <div class="split right">
+            <h1>The Programmer</h1>
+            <a href="#" class="button">Read More</a>
+          </div>
+        </div>
+            <script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-1b93190375e9ccc259df3a57c1abc0e64599724ae30d7ea4c6877eb615f89387.js"></script>
+        
+          
+              <script id="rendered-js">
+        const left = document.querySelector(".left");
+        const right = document.querySelector(".right");
+        const container = document.querySelector(".container");
+        
+        left.addEventListener("mouseenter", () => {
+          container.classList.add("hover-left");
+        });
+        
+        left.addEventListener("mouseleave", () => {
+          container.classList.remove("hover-left");
+        });
+        
+        right.addEventListener("mouseenter", () => {
+          container.classList.add("hover-right");
+        });
+        
+        right.addEventListener("mouseleave", () => {
+          container.classList.remove("hover-right");
+        });
+        //# sourceURL=pen.js
+            </script>
+        
+          
+        
+        
 
         <hr>
 

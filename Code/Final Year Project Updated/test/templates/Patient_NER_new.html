@@ -56,18 +56,18 @@
             Nav header start
         ***********************************-->
         <div class="nav-header">
-            <a href="index.html" class="brand-logo">
-                <img class="logo-abbr" src="./images/logo.png" alt="">
-                <img class="logo-compact" src="./images/logo-text.png" alt="">
-                <img class="brand-title" src="./images/logo-text.png" alt="">
-            </a>
+			<a href="index.html" class="brand-logo">
+				<img class="logo-abbr" src="../static/assets/images/logo.png" alt="">
+				<img class="logo-compact" src="../static/assets/images/logo-text.png" alt="">
+				<img class="brand-title" src="../static/assets/images/logo-text.png" alt="">
+			</a>
 
-            <div class="nav-control">
-                <div class="hamburger">
-                    <span class="line"></span><span class="line"></span><span class="line"></span>
-                </div>
-            </div>
-        </div>
+			<div class="nav-control">
+				<div class="hamburger">
+					<span class="line"></span><span class="line"></span><span class="line"></span>
+				</div>
+			</div>
+		</div>
         <!--**********************************
             Nav header end
         ***********************************-->
@@ -197,17 +197,17 @@
                         </div> -->
                         <div class="card">
                             <div class="card-header">
-                                <h4 class="card-title">Search Medicines</h4>
+                                <h4 class="card-title">Medical Query</h4>
                             </div>
                             <div class="card-body">
                                 <div class="basic-form">
-                                    <form>
+                                    <form action="/mimic_tables" method="POST">
                                         <div class="form-group">
-                                            <textarea class="form-control" rows="4" id="medicine_val"></textarea>
+                                            <textarea class="form-control" rows="4" name="process_text_val"
+                                                id="process_text_val"></textarea>
                                         </div>
-                                        <button type="button" class="btn btn-primary mb-2" data-toggle="modal"
-                                            id="drug_recommendation">See Recommended
-                                            Medicines</button>
+                                        <button type="button" class="btn btn-primary mb-2" data-toggle="modal2"
+                                            name="process_text" id="process_text">Process Text</button>
                                     </form>
                                 </div>
                             </div>
@@ -222,7 +222,7 @@
                                 <!-- Modal Header -->
                                 <div class="modal-header">
                                     <h4 class="modal-title">Drug Recommendation</h4>
-                                    <button type="button" class="close" data-dismiss="modal">×</button>
+                                    <button type="button" class="close" id="close"data-dismiss="modal">×</button>
                                 </div>
 
                                 <!-- Modal body -->
@@ -276,27 +276,7 @@
                         </div>
                     </div>
 
-                    <div style="max-width: 100%; flex: 0 0 100%" class="col-xl-6 col-lg-6">
-                        <div class="card">
-                            <div class="card-header">
-                                <h4 class="card-title">Predict Disease</h4>
-                            </div>
-                            <div class="card-body">
-                                <div class="basic-form">
-                                    <form action="/mimic_tables" method="POST">
-                                        <div class="form-group">
-                                            <textarea class="form-control" rows="4" name="process_text_val"
-                                                id="process_text_val"></textarea>
-                                        </div>
-                                        <button type="button" class="btn btn-primary mb-2" data-toggle="modal2"
-                                            name="process_text" id="process_text">Process Text</button>
-                                        <button type="submit" class="btn btn-primary mb-2"
-                                            action="/mimic_tables">Predict Disease</button>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                   
 
                     <!-- The Modal -->
                     <div class="modal" id="myModal2">
@@ -368,6 +348,43 @@
 
 
 
+                    <div class="col-xl-6 col-lg-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <h4 class="card-title">Commorbidity Prediction</h4>
+                            </div>
+                            <div class="card-body">
+                                <form action="/mimic_tables" method="POST">
+                                    <div class="form-group">
+                                        <textarea class="form-control" rows="4" name="process_text_val"
+                                            id="process_text_val"></textarea>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary mb-2"
+                                        action="/mimic_tables">Predict Disease</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <h4 class="card-title">Drug Recommendation</h4>
+                            </div>
+                            <div class="card-body">
+                                <form>
+                                    <div class="form-group">
+                                        <textarea class="form-control" rows="4" id="medicine_val"></textarea>
+                                    </div>
+                                    <button type="button" class="btn btn-primary mb-2" data-toggle="modal"
+                                        id="drug_recommendation">See Recommended
+                                        Medicines</button>
+                                </form>
+                                
+                                   
+                                
+                            </div>
+                        </div>
+                    </div>
 
 
 
@@ -392,6 +409,7 @@
                                             </tr>
                                         </thead>
                                         <tbody>
+                                            
                                             {% for start, stop, description, reasondescription in careplans%}
                                             <tr>
 
@@ -405,9 +423,11 @@
 
 
 
+
                                             </tr>
                                             {%endfor%}
                                         </tbody>
+                                        
                                     </table>
                                 </div>
 
@@ -719,6 +739,8 @@
 
     <!--**********************************
         Scripts
+    <!--**********************************
+        Scripts
     ***********************************-->
     <!-- Required vendors -->
     <script src="../static/assets/vendor/global/global.min.js"></script>
@@ -839,6 +861,432 @@
                 });
             });
         });
+    </script>
+
+    
+<script>
+    function autocomplete(inp, arr) {
+      /*the autocomplete function takes two arguments,
+      the text field element and an array of possible autocompleted values:*/
+      var currentFocus;
+      /*execute a function when someone writes in the text field:*/
+      inp.addEventListener("input", function(e) {
+          var a, b, i, val = this.value;
+          /*close any already open lists of autocompleted values*/
+          closeAllLists();
+          if (!val) { return false;}
+          currentFocus = -1;
+          /*create a DIV element that will contain the items (values):*/
+          a = document.createElement("DIV");
+          a.setAttribute("id", this.id + "autocomplete-list");
+          a.setAttribute("class", "autocomplete-items");
+          /*append the DIV element as a child of the autocomplete container:*/
+          this.parentNode.appendChild(a);
+          /*for each item in the array...*/
+          for (i = 0; i < arr.length; i++) {
+            /*check if the item starts with the same letters as the text field value:*/
+            if (arr[i].substr(0, val.length).toUpperCase() == val.toUpperCase()) {
+              /*create a DIV element for each matching element:*/
+              b = document.createElement("DIV");
+              /*make the matching letters bold:*/
+              b.innerHTML = "<strong>" + arr[i].substr(0, val.length) + "</strong>";
+              b.innerHTML += arr[i].substr(val.length);
+              /*insert a input field that will hold the current array item's value:*/
+              b.innerHTML += "<input type='hidden' value='" + arr[i] + "'>";
+              /*execute a function when someone clicks on the item value (DIV element):*/
+              b.addEventListener("click", function(e) {
+                  /*insert the value for the autocomplete text field:*/
+                  inp.value = this.getElementsByTagName("input")[0].value;
+                  /*close the list of autocompleted values,
+                  (or any other open lists of autocompleted values:*/
+                  closeAllLists();
+              });
+              a.appendChild(b);
+            }
+          }
+      });
+      /*execute a function presses a key on the keyboard:*/
+      inp.addEventListener("keydown", function(e) {
+          var x = document.getElementById(this.id + "autocomplete-list");
+          if (x) x = x.getElementsByTagName("div");
+          if (e.keyCode == 40) {
+            /*If the arrow DOWN key is pressed,
+            increase the currentFocus variable:*/
+            currentFocus++;
+            /*and and make the current item more visible:*/
+            addActive(x);
+          } else if (e.keyCode == 38) { //up
+            /*If the arrow UP key is pressed,
+            decrease the currentFocus variable:*/
+            currentFocus--;
+            /*and and make the current item more visible:*/
+            addActive(x);
+          } else if (e.keyCode == 13) {
+            /*If the ENTER key is pressed, prevent the form from being submitted,*/
+            e.preventDefault();
+            if (currentFocus > -1) {
+              /*and simulate a click on the "active" item:*/
+              if (x) x[currentFocus].click();
+            }
+          }
+      });
+      function addActive(x) {
+        /*a function to classify an item as "active":*/
+        if (!x) return false;
+        /*start by removing the "active" class on all items:*/
+        removeActive(x);
+        if (currentFocus >= x.length) currentFocus = 0;
+        if (currentFocus < 0) currentFocus = (x.length - 1);
+        /*add class "autocomplete-active":*/
+        x[currentFocus].classList.add("autocomplete-active");
+      }
+      function removeActive(x) {
+        /*a function to remove the "active" class from all autocomplete items:*/
+        for (var i = 0; i < x.length; i++) {
+          x[i].classList.remove("autocomplete-active");
+        }
+      }
+      function closeAllLists(elmnt) {
+        /*close all autocomplete lists in the document,
+        except the one passed as an argument:*/
+        var x = document.getElementsByClassName("autocomplete-items");
+        for (var i = 0; i < x.length; i++) {
+          if (elmnt != x[i] && elmnt != inp) {
+            x[i].parentNode.removeChild(x[i]);
+          }
+        }
+      }
+      /*execute a function when someone clicks in the document:*/
+      document.addEventListener("click", function (e) {
+          closeAllLists(e.target);
+      });
+    }
+    
+    /*An array containing all the country names in the world:*/
+    var disease = ['Communicable Diseases', 'Respiratory Failure', 'Injury wounds', 'Kidney Failure, Acute', 'Anemia', 'Hypertensive disease', 'Abnormal mental state', 'Fever', 'Atrial Fibrillation', 'Pain', 'Deep Vein Thrombosis', 'Leukocytosis', 'Gastrointestinal Hemorrhage', 'Pneumonia', 'Hypoxia', 'Hemorrhage', 'Hypothyroidism', 'Kidney Failure', 'Thrombocytopenia', 'Hypernatremia', 'Septicemia', 'Sepsis', 'Chronic Obstructive Airway Disease', 'Degenerative polyarthritis', 'Hyponatremia', 'Shock', 'Hyperlipidemia', 'Diabetes Mellitus', 'Hyperglycemia', 'Mental Depression', 'Seizures', 'Kidney Failure, Chronic', 'Blood Coagulation Disorders', 'Respiratory distress', 'Barrett Esophagus', 'Dyspnea', 'Anxiety', 'Congestive heart failure', 'Malignant Neoplasms', 'Heart failure', 'Benign hypertension (disorder)', 'Diarrhea', 'Gastroesophageal reflux disease', 'Delirium', 'Bacteremia', 'Liver Cirrhosis', 'Fever of Unknown Origin', 'Metabolic acidosis', 'effusion', 'Pancreatitis', 'Edema', 'Constipation', 'Acute-on-chronic renal failure', 'Abdominal Pain', 'Pulmonary Edema', 'Agitation', 'Sleep Apnea, Obstructive', 'Encephalopathies', 'Diabetes', 'Septic Shock', 'Fluid overload', 'Infiltration', 'Respiratory Distress Syndrome, Adult', 'Acidosis', 'Aspiration Pneumonia', 'Pleural effusion disorder', 'Ischemia', 'Cardiac Arrest', 'Chest Pain', 'Chronic respiratory failure', 'Gout', 'Hypoglycemia', 'Endocrine System Diseases', 'Asthma', 'Acute anaemia', 'Urinary tract infection', 'Stress ulcer', 'Stress ulcer of stomach', 'Acute respiratory distress', 'Exanthema', 'Nausea', 'Cerebrovascular accident', 'Pneumonia, Bacterial', 'Chronic anemia', 'Chronic pain', 'Diabetes Mellitus, Non-Insulin-Dependent', 'Fracture', 'Pulmonary Embolism', 'Chronic Kidney Diseases', 'Non STEMI', 'Pancytopenia', 'Alcohol abuse', 'Obstruction', 'Weakness', 'Mixed anxiety and depressive disorder', 'Diabetes Mellitus, Insulin-Dependent', 'Benign Prostatic Hyperplasia', 'Oliguria', 'Alcohol withdrawal syndrome', 'Coronary Arteriosclerosis', 'Cardiomyopathies', 'Hematuria', 'Shock, Cardiogenic', 'Hemolysis (disorder)', 'Hypoxemic Respiratory Failure', 'Pressure Ulcer', 'Liver Failure', 'Fibrillation', 'Ascites', 'Coughing', 'Hepatitis C', 'Mental disorders', 'Acute onset pain', 'Hypoxic respiratory failure', 'Sinus Tachycardia', 'Hypotensive', 'Metabolic alkalosis', 'Hepatic Encephalopathy', 'Hemoptysis', 'Trauma', 'End Stage Liver Disease', 'Influenza', 'Diabetic Ketoacidosis', 'Meningitis', 'Epilepsy', 'Hematoma, Subdural', 'Pericardial effusion', 'Coronary Artery Disease', 'Cerebral Hemorrhage', 'Subarachnoid Hemorrhage', 'Dementia', 'Hypercalcemia', 'Osteoporosis', 'Cellulitis', 'Wounds and Injuries', 'Abscess', 'Complication', 'Cholangitis', 'Heparin-induced thrombocytopenia', 'Cholecystitis', 'Cardiac Arrhythmia', 'Multiple Myeloma', 'Atelectasis', 'Endocarditis', 'Traumatic injury', 'Vomiting', 'Back Pain', 'Hepatitis', 'Peripheral Vascular Diseases', 'Normocytic anemia', 'Deglutition Disorders', 'Acute failure', 'Intestinal Obstruction', 'Malnutrition', 'Aortic Valve Stenosis', 'Acidosis, Respiratory', 'Infarction', 'Alkalosis', 'Hypercholesterolemia', 'Obesity', 'Adrenal gland hypofunction', 'Neutropenia', 'Lupus Erythematosus', 'Ulcer', 'Hematemesis', 'Carcinoma in Situ', 'Neoplasms', 'Glaucoma', 'Hematoma', 'Presenile dementia', 'Tracheobronchomalacia', 'Colitis', 'Dehydration', 'Psychiatric problem', 'Schizophrenia', 'Acute Kidney Tubular Necrosis', 'Pulmonary Hypertension', 'Kidney Diseases', 'Confusion', 'Pneumonitis', 'Acute respiratory failure', 'Neoplasm Metastasis', 'Headache', 'Lymphoma', 'Hepatorenal Syndrome', 'Hodgkin Disease', 'Syncope', 'Dyslipidemias', 'Endotracheal aspiration', 'Leukopenia', 'Mental status changes', 'Hematochezia', 'Varicosity', 'Acidosis, Lactic', 'Diabetic Retinopathy', 'Upper gastrointestinal hemorrhage', 'Gastritis', 'Peripheral edema', 'Systemic Inflammatory Response Syndrome', 'MRSA - Methicillin resistant Staphylococcus aureus infection', 'Eosinophilia', 'Pathological Dilatation', 'Hypocalcemia', 'Inflammation', 'Ulcerative Colitis', 'Hyperbilirubinemia', 'Cytomegalovirus Infections', 'Malignant Hypertension', 'Neuropathy', 'Alkalosis, Respiratory', 'Wheezing', 'Leukemia, Myelocytic, Acute', 'Chronic Kidney Insufficiency', 'Pulmonary Emphysema', 'Syphilis', 'Aneurysm', 'Melena', 'Sepsis due to urinary tract infection', 'Anoxic Encephalopathy', 'COPD exacerbation', 'Small bowel obstruction', 'Heart Failure, Diastolic', 'Hypoperfusion', 'Lethargy', 'Candidiasis', 'Pneumothorax', 'Peritonitis', 'Embolism', 'Intussusception', 'hypotension and shock', 'Parkinson Disease', 'Type II Mucolipidosis', 'Thrombus', 'Supraventricular tachycardia', 'Anion gap acidosis', 'Crohn Disease', 'Hereditary Coproporphyria', 'Thrombosis', 'Epistaxis', 'diastolic congestive heart failure', 'Graft-vs-Host Disease', 'Rheumatoid Arthritis', 'Bandemia', 'Febrile Neutropenia', 'Rhabdomyolysis', 'Osteomyelitis', 'Liver diseases', 'Depressed mood', 'Alcoholic Intoxication, Chronic', 'Hypertensive urgency', 'Gallstone pancreatitis', 'Hepatitis B', 'ST segment elevation myocardial infarction', 'Hypoventilation', 'Aortic Aneurysm', 'Atrial Flutter', 'Acute Coronary Syndrome', 'Arsenical keratosis', 'Anemia of chronic disease', 'Encephalitis, St. Louis', 'Sinusitis', 'Gastroparesis', 'Blood Clot', 'Acute leukemia', 'Infection', 'Drug Overdose', 'Apnea', 'Chronic back pain', 'Bipolar Disorder', 'Hepatoerythropoietic Porphyria', 'INFECTIOUS PROCESS', 'Ileus', 'Disease Progression', 'Lung Diseases, Interstitial', 'Non-Small Cell Lung Carcinoma', 'Hypoalbuminemia', 'Diverticulitis', 'Thrombocytosis', 'Esophageal Varices', 'Paroxysmal atrial fibrillation', 'Diastolic dysfunction', 'asthma with copd', 'Microcytic anemia', 'Uremia', 'Arthritis', 'Vasculitis', 'Sore to touch', 'Retroperitoneal Hemorrhage', 'Superior Vena Cava Syndrome', 'Peptic Ulcer', 'POPLITEAL PTERYGIUM SYNDROME, LETHAL TYPE', 'Hemothorax', 'Acute lymphocytic leukemia', 'Postherpetic neuralgia', 'Heart Failure, Systolic', 'Anemia, Macrocytic', 'Edema of lower extremity', 'Compartment syndromes', 'Toxic effect', 'Dissection of aorta', 'Iron deficiency anemia', 'Hypovolemic Shock', 'Chronic systolic heart failure', 'Atrial tachycardia', 'Miller Dieker syndrome', "Alzheimer's Disease", 'Acute posthaemorrhagic anaemia', 'Cholelithiasis', 'Hypersensitivity', 'Airway Obstruction', 'Malignant neoplasm of breast', 'Pancreatitis Necrotizing', 'Abdominal Compartment Syndrome', 'Chronic Lymphocytic Leukemia', 'Lung diseases', 'Tremor', 'Sleep Apnea Syndromes', 'Mitral Valve Insufficiency', 'Fungemia', 'Polysubstance abuse', 'Refractory anemias', 'Contraction (finding)', 'Mediastinal Emphysema', 'Peripheral Neuropathy', 'Lymphadenopathy', 'Heart Diseases', 'Discomfort', 'Lung Diseases, Obstructive', 'Infectious Canine Hepatitis', 'Neutral Sidebent Rotated', 'Complete atrioventricular block', 'Pancreatitis, Acute', 'Congestion', 'Pyelonephritis', 'Tachycardia, Ventricular', 'Flare', 'Hypophosphatemia', 'Tobacco Use Disorder', 'Pancreatitis, Chronic', 'Hyperthyroidism', 'Diverticulosis', 'Ischemic cardiomyopathy', 'Pulmonary Fibrosis', 'Angioedema', 'DIARRHEA 5, WITH TUFTING ENTEROPATHY, CONGENITAL', 'Infectious Lung Disorder', 'Iron deficiency anemia secondary to chronic blood loss', 'Myocardial Ischemia', 'Vascular Diseases', 'Desmoplastic infantile ganglioglioma', 'anemia hematocrit', 'Hydronephrosis', 'Myeloid Leukemia, Chronic', 'Renal Insufficiency', 'Sleeplessness', 'has nosebleeds - epistaxis', 'Skin and subcutaneous tissue disorders', 'Bronchospasm', 'Hip Fractures', 'Fatigue', 'Mycoses', 'Signs and Symptoms', 'Coffee ground vomiting', 'Encephalitis', 'Hyperphosphatemia (disorder)', 'Herpes Simplex Infections', 'Acute hemorrhage', 'Chronic disease', 'Staphylococcal Infections', 'Cerebral Edema', 'Equilibration disorder', 'Status Epilepticus', 'Myasthenias', 'Acute hepatitis', 'Hydrocephalus', 'Schizoaffective Disorder', 'Hemodynamic instability', 'Contusions', 'Malignant neoplasm of lung', 'Acalculous Cholecystitis', 'Intestinal Perforation', 'Hepatitis, Alcoholic', 'Hyperlipasaemia', 'Sarcoidosis', 'Carcinoma', 'Esophagitis', 'Liver Cirrhosis, Alcoholic', 'Flash pulmonary oedema', 'Hemorrhoids', 'Toxic Epidermal Necrolysis', 'Plasma cell dyscrasia', 'Chronic diastolic heart failure', 'Impaired health', 'Anasarca', 'Restless Legs Syndrome', 'Critical Illness', 'Inappropriate ADH Syndrome', 'Myopathy', 'Empyema', 'Superinfection', 'Malignant tumor of colon', 'Metastatic melanoma', 'Purpura, Thrombotic Thrombocytopenic', 'Poisoning', 'Dyspnea on exertion', 'Loose stool', 'Somnolence', 'Cardiac Flutter', 'Malaise', 'Renal Cell Carcinoma', 'Pericarditis', 'Aortic Aneurysm, Thoracic', 'Duodenal Ulcer', 'Rib Fractures', 'Pneumocystis jiroveci pneumonia', 'Persistent fever', 'Hospital acquired pneumonia', 'Urinary Incontinence', 'Right upper quadrant pain', 'Erythema', 'Bronchiolitis Obliterans', 'Progressive Disease', 'Ventricular Fibrillation', 'Fracture of cervical spine', 'Immune thrombocytopenic purpura', 'Stupor', 'Wound Infection', 'Dependence', 'Cytomegalovirus viremia', 'Pathological accumulation of air in tissues', 'Thyroid Nodule', 'Malignant neoplasm of prostate', 'Dentatorubral-Pallidoluysian Atrophy', 'Ischemia co-occurrent and due to increased oxygen demand', 'Morbid obesity', 'Muscle strain', 'Intracranial Hemorrhage', 'Azotemia', 'Left Bundle-Branch Block', 'Blushing', 'Respiratory arrest', 'Gastroenteritis', 'Spinal Fractures', 'Chronic multifocal osteomyelitis', 'Tracheomalacia', 'bleeding/hemorrhage nos', 'Obstruction of biliary tree', 'Gastric Varix', 'Injury due to exposure to external cause', 'Severe Sepsis', 'melanoma', 'Vasospasm', 'Abdominal tenderness', 'Disseminated Intravascular Coagulation', 'Choledocholithiasis', 'anaphylaxis', 'Angina Pectoris', 'Polycythemia', 'Adenocarcinoma', 'Pulmonary aspiration', 'Necrosis of pancreas'];  
+    var conditionslist=['ADHD', 'AIDS Related Wasting', 'AV Heart Block',
+           'Abdominal Distension', 'Abnormal Uterine Bleeding', 'Abortion',
+           'Acetaminophen Overdose', 'Acne', 'Actinic Keratosis',
+           'Acute Coronary Syndrome', 'Acute Lymphoblastic Leukemia',
+           'Acute Nonlymphocytic Leukemia', 'Acute Promyelocytic Leukemia',
+           "Addison's Disease", 'Adrenocortical Insufficiency',
+           'Adult Human Growth Hormone Deficiency', 'Aggressive Behavi',
+           'Agitated State', 'Agitation', 'Alcohol Dependence',
+           'Alcohol Withdrawal', 'Allergic Reactions', 'Allergic Rhinitis',
+           'Allergic Urticaria', 'Allergies', 'Alopecia',
+           'Alpha-1 Proteinase Inhibitor Deficiency', "Alzheimer's Disease",
+           'Amenorrhea', 'Amyotrophic Lateral Sclerosis',
+           'Anal Fissure and Fistula', 'Anaphylaxis',
+           'Anaplastic Astrocytoma', 'Anaplastic Oligodendroglioma',
+           'Androgenetic Alopecia', 'Anemia',
+           'Anemia Associated with Chronic Renal Failure',
+           'Anemia, Chemotherapy Induced', 'Anemia, Sickle Cell',
+           'Anesthesia', 'Anesthetic Adjunct', 'Angina',
+           'Angina Pectoris Prophylaxis', 'Ankylosing Spondylitis',
+           'Anorexia', 'Anorexia/Feeding Problems', 'Anthrax',
+           'Anti NMDA Receptor Encephalitis', 'Antiphospholipid Syndrome',
+           'Anxiety', 'Anxiety and Stress', 'Arrhythmia', 'Ascariasis',
+           'Asperger Syndrome', 'Aspergillosis, Aspergilloma', 'Asthma',
+           'Asthma, Maintenance', 'Asthma, acute', 'Asystole',
+           'Atherosclerosis', 'Atopic Dermatitis', 'Atrial Fibrillation',
+           'Atrial Flutte', 'Atrophic Urethritis', 'Atrophic Vaginitis',
+           'Auditory Processing Disorde', 'Autism', 'Autoimmune Hepatitis',
+           'Avian Influenza', 'B12 Nutritional Deficiency', 'Babesiosis',
+           'Back Pain', 'Bacterial Endocarditis Prevention',
+           'Bacterial Infection', 'Bacterial Skin Infection',
+           'Bacterial Vaginitis', "Barrett's Esophagus", 'Bartonellosis',
+           'Basal Cell Carcinoma', "Behcet's Disease",
+           'Benign Essential Trem', 'Benign Prostatic Hyperplasia',
+           'Benzodiazepine Withdrawal', 'Biliary Cirrhosis',
+           'Binge Eating Disorde', 'Bipolar Disorde', 'Birth Control',
+           'Bladder Infection', 'Bleeding Disorde', 'Blepharitis',
+           'Body Dysmorphic Disorde', 'Body Imaging', 'Bone infection',
+           'Borderline Personality Disorde', 'Bowel Preparation', 'Brain Tum',
+           'Breakthrough Pain', 'Breast Cance', 'Breast Cancer, Adjuvant',
+           'Breast Cancer, Metastatic', 'Breast Cancer, Palliative',
+           'Breast Cancer, Prevention', 'Bronchiectasis', 'Bronchitis',
+           'Bronchospasm Prophylaxis', 'Bulimia', 'Bullous Pemphigoid',
+           'Burning Mouth Syndrome', 'Burns, External', 'Bursitis',
+           'CMV Prophylaxis', 'CNS Magnetic Resonance Imaging', 'COPD',
+           'COPD, Acute', 'COPD, Maintenance', 'Cachexia',
+           'Campylobacter Gastroenteritis', 'Cance',
+           'Candida Urinary Tract Infection', 'Candidemia', 'Carcinoid Tum',
+           'Cataplexy', 'Cerebral Edema', 'Cerebrovascular Insufficiency',
+           'Cervical Dystonia', 'Chlamydia Infection', 'Cholera',
+           'Chronic Eosinophilic Leukemia', 'Chronic Fatigue Syndrome',
+           'Chronic Idiopathic Constipation',
+           'Chronic Inflammatory Demyelinating Polyradiculoneuropathy',
+           'Chronic Lymphocytic Leukemia', 'Chronic Myelogenous Leukemia',
+           'Chronic Myofascial Pain', 'Chronic Pain', 'Chronic Pancreatitis',
+           'Chronic Spasticity', 'Clostridial Infection', 'Cluster Headaches',
+           'Cluster-Tic Syndrome', 'Coccidioidomycosis', "Cogan's Syndrome",
+           'Cold Sores', 'Cold Symptoms', 'Colorectal Cance',
+           'Computed Tomography', 'Condylomata Acuminata', 'Conjunctivitis',
+           'Conjunctivitis, Allergic', 'Conjunctivitis, Bacterial',
+           'Constipation', 'Constipation, Acute', 'Constipation, Chronic',
+           'Constipation, Drug Induced', 'Coronary Artery Disease',
+           'Costochondritis', 'Cough', 'Cough and Nasal Congestion',
+           "Crohn's Disease", "Crohn's Disease, Acute",
+           "Crohn's Disease, Maintenance", 'Croup', 'Cutaneous Candidiasis',
+           'Cutaneous Larva Migrans', 'Cutaneous T-cell Lymphoma',
+           'Cyclic Vomiting Syndrome', 'Cyclitis', 'Cyclothymic Disorde',
+           'Cystic Fibrosis', 'Dandruff', 'Deep Neck Infection',
+           'Deep Vein Thrombosis',
+           'Deep Vein Thrombosis Prophylaxis after Hip Replacement Surgery',
+           'Deep Vein Thrombosis Prophylaxis after Knee Replacement Surgery',
+           'Deep Vein Thrombosis, First Event',
+           'Deep Vein Thrombosis, Prophylaxis',
+           'Deep Vein Thrombosis, Recurrent Event', 'Delayed Puberty, Male',
+           'Dementia', 'Dental Abscess', 'Depression', 'Dermatitis',
+           'Dermatitis Herpeti', 'Dermatitis Herpetiformis',
+           'Dermatologic Lesion', 'Dermatological Disorders',
+           'Dermatomyositis', 'Dermatophytosis', 'Diabetes Insipidus',
+           'Diabetes, Type 1', 'Diabetes, Type 2', 'Diabetic Kidney Disease',
+           'Diabetic Macular Edema', 'Diabetic Peripheral Neuropathy',
+           'Diagnosis and Investigation', 'Diagnostic Bronchograms',
+           'Diaper Rash', 'Diarrhea', 'Diarrhea, Acute', 'Diarrhea, Chronic',
+           'Dientamoeba fragilis', 'Dietary Fiber Supplementation',
+           'Dietary Supplementation', 'Dissociative Identity Disorde',
+           'Diverticulitis', 'Dry Eye Disease', 'Dry Skin', 'Duodenal Ulce',
+           'Duodenal Ulcer Prophylaxis', "Dupuytren's contracture",
+           'Dysautonomia', 'Dyspareunia', 'Dysuria', 'Ear Wax Impaction',
+           'Eczema', 'Edema', 'Ehrlichiosis', 'Emergency Contraception',
+           'Endometrial Cance', 'Endometrial Hyperplasia',
+           'Endometrial Hyperplasia, Prophylaxis', 'Endometriosis',
+           'Endoscopy or Radiology Premedication', 'Enterocolitis',
+           'Eosinophilic Esophagitis', 'Epicondylitis, Tennis Elbow',
+           'Epididymitis, Sexually Transmitted', 'Epilepsy',
+           'Erectile Dysfunction', 'Erosive Esophagitis',
+           'Esophageal Candidiasis', 'Euvolemic Hyponatremia',
+           'Expectoration', 'Extrapyramidal Reaction', 'Eye Redness',
+           'Eye Redness/Itching', 'Eyelash Hypotrichosis', 'GERD', 'Gas',
+           'Gastric Cance', 'Gastric Ulcer Maintenance Treatment',
+           'Gastroenteritis', 'Gastrointestinal Decontamination',
+           'Gastrointestinal Stromal Tum', 'Gastroparesis', 'Gaucher Disease',
+           'Gender Dysphoria', 'Generalized Anxiety Disorde',
+           'Gestational Diabetes', 'Giant Cell Tumor of Bone', 'Giardiasis',
+           'Gingivitis', 'Glaucoma', 'Glaucoma, Open Angle',
+           'Glaucoma/Intraocular Hypertension', 'Glioblastoma Multi',
+           'Glioblastoma Multiforme', 'Gonadotropin Inhibition',
+           'Gonococcal Infection, Disseminated',
+           'Gonococcal Infection, Uncomplicated', 'Gout', 'Gout, Acute',
+           'Gout, Prophylaxis', 'Gouty Arthritis', 'Granuloma Annulare',
+           'HIV Infection', 'Hairy Cell Leukemia', "Hashimoto's disease",
+           'Head Injury', 'Head Lice', 'Head and Neck Cance', 'Headache',
+           'Heart Attack', 'Heart Failure', 'Helicobacter Pylori Infection',
+           'Hemangioma', 'Hemophilia A', 'Hemophilia B', 'Hemorrhoids',
+           'Hepatic Encephalopathy', 'Hepatic Tum', 'Hepatitis B',
+           'Hepatitis B Prevention', 'Hepatitis C',
+           'Hepatocellular Carcinoma', 'Herbal Supplementation',
+           'Hereditary Angioedema', 'Herpes Simplex',
+           'Herpes Simplex Dendritic Keratitis',
+           'Herpes Simplex, Mucocutaneous/Immunocompetent Host',
+           'Herpes Simplex, Mucocutaneous/Immunocompromised Host',
+           'Herpes Simplex, Suppression', 'Herpes Zoste',
+           'Herpes Zoster, Prophylaxis', 'Hiccups',
+           'Hidradenitis Suppurativa', 'High Blood Pressure',
+           'High Cholesterol', 'High Cholesterol, Familial Heterozygous',
+           'High Cholesterol, Familial Homozygous', 'Hirsutism',
+           'Histoplasmosis', "Hodgkin's Lymphoma", 'Hot Flashes',
+           'Human Papilloma Virus', 'Human Papillomavirus Prophylaxis',
+           'Hydrocephalus', 'Hyperbilirubinemia',
+           'Hypercalcemia of Malignancy', 'Hyperekplexia', 'Hyperhidrosis',
+           'Hyperkalemia', 'Hyperlipoproteinemia',
+           'Hyperlipoproteinemia Type III, Elevated beta-VLDL   IDL',
+           'Hyperlipoproteinemia Type IIa, Elevated LDL',
+           'Hyperlipoproteinemia Type IV, Elevated VLDL',
+           'Hyperparathyroidism Secondary to Renal Impairment',
+           'Hyperphosphatemia', 'Hyperphosphatemia of Renal Failure',
+           'Hyperprolactinemia', 'Hypersomnia', 'Hypertensive Emergency',
+           'Hyperthyroidism', 'Hypertriglyceridemia',
+           'Hyperuricemia Secondary to Chemotherapy',
+           'Hypoactive Sexual Desire Disorde', 'Hypocalcemia',
+           'Hypodermoclysis', 'Hypoestrogenism', 'Hypoglycemia',
+           'Hypogonadism, Male', 'Hypokalemia',
+           'Hypokalemic Periodic Paralysis', 'Hypoparathyroidism',
+           'Hypothyroidism, After Thyroid Removal', 'ICU Agitation',
+           'Ichthyosis', 'Idiopathic Thrombocytopenic Purpura',
+           'Immunosuppression', 'Impetig', 'Indigestion',
+           'Infection Prophylaxis', 'Infectious Diarrhea',
+           'Inflammatory Bowel Disease', 'Inflammatory Conditions',
+           'Influenza', 'Influenza Prophylaxis', 'Insomnia',
+           'Insomnia, Stimulant-Associated', 'Insulin Resistance Syndrome',
+           'Intermittent Claudication', 'Interstitial Cystitis',
+           'Intraabdominal Infection', 'Intraocular Hypertension', 'Iritis',
+           'Iron Deficiency Anemia', 'Irritable Bowel Syndrome',
+           'Ischemic Stroke', 'Ischemic Stroke, Prophylaxis',
+           'Joint Infection', 'Juvenile Idiopathic Arthritis',
+           'Juvenile Rheumatoid Arthritis', 'Keratitis',
+           'Keratoconjunctivitis Sicca', 'Keratosis', 'Kidney Infections',
+           'Klinefelter Syndrome', 'Labor Induction', 'Labor Pain',
+           'Lactation Augmentation', 'Lactose Intolerance',
+           'Left Ventricular Dysfunction', 'Legionella Pneumonia',
+           'Lennox-Gastaut Syndrome', 'Leukemia', 'Lichen Planus',
+           'Lichen Sclerosus', 'Light Anesthesia', 'Light Sedation',
+           'Linear IgA Disease', 'Lipodystrophy',
+           'Liver Magnetic Resonance Imaging', 'Local Anesthesia',
+           'Lyme Disease', 'Lyme Disease, Arthritis',
+           'Lyme Disease, Neurologic', 'Lymphocytic Colitis',
+           'Macular Degeneration', 'Macular Edema',
+           'Major Depressive Disorde', 'Malaria Prevention',
+           'Malignant Glioma', 'Mania', 'Manscaping Pain',
+           'Melanoma, Metastatic', 'Melasma', "Meniere's Disease",
+           'Meningitis, Meningococcal',
+           'Meningococcal Meningitis Prophylaxis', 'Menopausal Disorders',
+           'Menorrhagia', 'Menstrual Disorders',
+           'Methicillin-Resistant Staphylococcus Aureus Infection',
+           'Microscopic polyangiitis', 'Migraine', 'Migraine Prevention',
+           'Mild Cognitive Impairment', 'Mitral Valve Prolapse',
+           'Mixed Connective Tissue Disease', 'Motion Sickness',
+           'Mountain Sickness / Altitude Sickness', 'Mucositis',
+           'Multiple Endocrine Adenomas', 'Multiple Myeloma',
+           'Multiple Sclerosis', 'Mumps Prophylaxis', 'Muscle Pain',
+           'Muscle Spasm', 'Myasthenia Gravis',
+           'Mycobacterium avium-intracellulare, Treatment',
+           'Mycoplasma Pneumonia', 'Myelodysplastic Syndrome',
+           'Myelofibrosis', 'Myeloproliferative Disorders', 'Myxedema Coma',
+           'NSAID-Induced Gastric Ulce', 'NSAID-Induced Ulcer Prophylaxis',
+           'Narcolepsy', 'Nasal Carriage of Staphylococcus aureus',
+           'Nasal Congestion', 'Nasal Polyps', 'Nausea/Vomiting',
+           'Nausea/Vomiting of Pregnancy',
+           'Nausea/Vomiting, Chemotherapy Induced',
+           'Nausea/Vomiting, Postoperative',
+           'Nausea/Vomiting, Radiation Induced', 'Neck Pain',
+           'Neoplastic Diseases', 'Nephrotic Syndrome', 'Neuralgia',
+           'Neuritis', 'Neuropathic Pain', 'Neurosurgery',
+           'Neurotic Depression', 'Neutropenia',
+           'Neutropenia Associated with Chemotherapy',
+           'New Daily Persistent Headache', 'Niacin Deficiency',
+           'Night Terrors', 'Nightmares', 'Nocardiosis',
+           'Nocturnal Leg Cramps', "Non-Hodgkin's Lymphoma",
+           'Non-Small Cell Lung Cance', 'Nonoccupational Exposure',
+           'Not Listed / Othe', 'Obesity', 'Obsessive Compulsive Disorde',
+           'Obstructive Sleep Apnea/Hypopnea Syndrome', 'Ocular Rosacea',
+           'Oligospermia', 'Onychomycosis, Fingernail',
+           'Onychomycosis, Toenail', 'Oophorectomy', 'Ophthalmic Surgery',
+           'Opiate Adjunct', 'Opiate Dependence', 'Opiate Withdrawal',
+           'Opioid Overdose', 'Opioid-Induced Constipation',
+           'Oppositional Defiant Disorde', 'Oral Thrush',
+           'Oral and Dental Conditions',
+           'Organ Transplant, Rejection Prophylaxis',
+           'Organ Transplant, Rejection Reversal', 'Osteoarthritis',
+           'Osteolytic Bone Lesions of Multiple Myeloma',
+           'Osteolytic Bone Metastases of Solid Tumors', 'Osteoporosis',
+           'Otitis Externa', 'Otitis Media', 'Ovarian Cance', 'Ovarian Cysts',
+           'Overactive Bladde', 'Ovulation Induction', "Paget's Disease",
+           'Pain', 'Pain/Feve', 'Pancreatic Cance',
+           'Pancreatic Exocrine Dysfunction', 'Panic Disorde',
+           'Paragonimus westermani, Lung Fluke', 'Paranoid Disorde',
+           "Parkinson's Disease", 'Parkinsonian Trem', 'Parkinsonism',
+           'Patent Ductus Arteriosus',
+           'Pathological Hypersecretory Conditions',
+           'Pediatric Growth Hormone Deficiency', 'Pemphigus', 'Peptic Ulce',
+           'Percutaneous Coronary Intervention', 'Perimenopausal Symptoms',
+           'Period Pain', 'Periodic Limb Movement Disorde', 'Periodontitis',
+           'Peripheral Arterial Disease', 'Peripheral Neuropathy',
+           'Peripheral T-cell Lymphoma', 'Persistent Depressive Disorde',
+           'Pertussis', "Peyronie's Disease", 'Pharyngitis',
+           'Photoaging of the Skin',
+           'Pinworm Infection (Enterobius vermicularis)',
+           'Pityriasis rubra pilaris', 'Plaque Psoriasis',
+           'Platelet Aggregation Inhibition',
+           'Pneumococcal Disease Prophylaxis', 'Pneumonia',
+           'Polycystic Ovary Syndrome', 'Polycythemia Vera', 'Porphyria',
+           'Portal Hypertension', 'Post Traumatic Stress Disorde',
+           'Postherpetic Neuralgia', 'Postmenopausal Symptoms',
+           'Postoperative Increased Intraocular Pressure',
+           'Postoperative Ocular Inflammation', 'Postoperative Pain',
+           'Postpartum Breast Pain', 'Postpartum Depression',
+           'Postural Orthostatic Tachycardia Syndrome',
+           'Pre-Exposure Prophylaxis', 'Precocious Puberty', 'Premature Lab',
+           'Premature Ventricular Depolarizations',
+           'Premenstrual Dysphoric Disorde',
+           'Prevention of Atherothrombotic Events',
+           'Prevention of Bladder infection',
+           'Prevention of Cardiovascular Disease',
+           'Prevention of Dental Caries', 'Prevention of Hypokalemia',
+           'Prevention of Osteoporosis',
+           'Prevention of Perinatal Group B Streptococcal Disease',
+           'Prevention of Thromboembolism in Atrial Fibrillation',
+           'Primary Hyperaldosteronism',
+           'Primary Hyperaldosteronism Diagnosis',
+           'Primary Immunodeficiency Syndrome', 'Primary Nocturnal Enuresis',
+           'Primary Ovarian Failure', 'Progesterone Insufficiency',
+           'Prostate Cance', 'Prostatitis',
+           'Prosthetic Heart Valves, Tissue Valves - Thrombosis Prophylaxis',
+           'Pruritus', 'Pseudobulbar Affect', 'Pseudogout, Prophylaxis',
+           'Pseudomembranous Colitis', 'Pseudotumor Cerebri', 'Psoriasis',
+           'Psoriatic Arthritis', 'Psychosis', 'Pulmonary Embolism',
+           'Pulmonary Embolism, First Event',
+           'Pulmonary Embolism, Recurrent Event', 'Pulmonary Hypertension',
+           'Q Feve', 'Rabies Prophylaxis',
+           'Radionuclide Myocardial Perfusion Study', 'Ramsay Hunt Syndrome',
+           "Raynaud's Syndrome", 'Reflex Sympathetic Dystrophy Syndrome',
+           "Reiter's Syndrome", 'Renal Cell Carcinoma', 'Renal Transplant',
+           'Restless Legs Syndrome',
+           'Reversal of Nondepolarizing Muscle Relaxants',
+           'Reversal of Opioid Sedation', 'Rheumatoid Arthritis', 'Rhinitis',
+           'Rhinorrhea', 'Rosacea', 'SIADH', 'STD Prophylaxis',
+           'Salivary Gland Cance', 'Scabies', 'Schilling Test',
+           'Schistosoma japonicum', 'Schizoaffective Disorde',
+           'Schizophrenia', 'Schnitzler Syndrome', 'Sciatica', 'Scleroderma',
+           'Seasonal Affective Disorde', 'Seasonal Allergic Conjunctivitis',
+           'Seborrheic Dermatitis',
+           'Secondary Cutaneous Bacterial Infections',
+           'Secondary Hyperparathyroidism', 'Sedation', 'Seizure Prevention',
+           'Seizures', 'Sepsis', 'Sexual Dysfunction, SSRI Induced',
+           'Shift Work Sleep Disorde', 'Sinus Symptoms', 'Sinusitis',
+           "Sjogren's Syndrome", 'Skin Cance', 'Skin Rash',
+           'Skin and Structure Infection', 'Skin or Soft Tissue Infection',
+           'Sleep Paralysis', 'Small Bowel Bacterial Overgrowth',
+           'Small Bowel or Pancreatic Fistula', 'Smoking Cessation',
+           'Social Anxiety Disorde', 'Soft Tissue Sarcoma', 'Solid Tumors',
+           'Sore Throat', 'Spondyloarthritis', 'Sporotrichosis',
+           'Squamous Cell Carcinoma', 'Status Epilepticus', "Still's Disease",
+           'Stomach Cance', 'Stomach Ulce', 'Strabismus', 'Strep Throat',
+           'Streptococcal Infection', 'Stress Ulcer Prophylaxis',
+           'Strongyloidiasis', 'Subarachnoid Hemorrhage',
+           'Submental Fullness', 'Sunburn', 'Supraventricular Tachycardia',
+           'Swine Flu', 'Syringomyelia', 'Systemic Candidiasis',
+           'Systemic Lupus Erythematosus', 'Systemic Mastocytosis',
+           'TSH Suppression', 'Tardive Dyskinesia',
+           'Temporomandibular Joint Disorde', 'Tendonitis',
+           'Testicular Cance', 'Tetanus', 'Thrombocythemia',
+           'Thrombocytopenia', 'Thromboembolic Stroke Prophylaxis',
+           'Thyroid Cance', 'Thyrotoxicosis', 'Tinea Barbae', 'Tinea Capitis',
+           'Tinea Corporis', 'Tinea Cruris', 'Tinea Pedis', 'Tinea Versicol',
+           'Tinnitus', 'Tonsillitis/Pharyngitis', 'Toothache',
+           'Topical Disinfection', "Tourette's Syndrome",
+           'Transverse Myelitis', "Traveler's Diarrhea", 'Trichomoniasis',
+           'Trichotillomania', 'Trigeminal Neuralgia', 'Tuberculosis, Latent',
+           "Turner's Syndrome", 'Typhoid Feve', 'Ulcerative Colitis',
+           'Ulcerative Colitis, Active', 'Ulcerative Colitis, Maintenance',
+           'Ulcerative Proctitis', 'Underactive Thyroid',
+           'Undifferentiated Connective Tissue Disease',
+           'Upper Limb Spasticity', 'Upper Respiratory Tract Infection',
+           'Urinary Incontinence', 'Urinary Tract Infection',
+           'Urinary Tract Stones', 'Urticaria', 'Uterine Bleeding',
+           'Uterine Fibroids', 'Uveitis', 'Vaginal Yeast Infection',
+           'Varicella-Zoste', 'Ventricular Arrhythmia',
+           'Ventricular Tachycardia', 'Vertig', 'Vitamin B12 Deficiency',
+           'Vitamin D Deficiency', 'Vitamin K Deficiency',
+           'Vitamin/Mineral Supplementation and Deficiency',
+           'Vitamin/Mineral Supplementation during Pregnancy/Lactation',
+           'Vulvodynia', "Wegener's Granulomatosis", 'Weight Loss',
+           "Wilson's Disease", 'Wolff-Parkinson-White Syndrome',
+           'Wound Cleansing', 'Xerostomia', 'Zollinger-Ellison Syndrome',
+           'acial Lipoatrophy', 'acial Wrinkles', 'actor IX Deficiency',
+           'amilial Cold Autoinflammatory Syndrome',
+           'amilial Mediterranean Feve', 'atigue',
+           'cal Segmental Glomerulosclerosis', 'emale Infertility', 'eve',
+           'ibrocystic Breast Disease', 'ibromyalgia', 'lic Acid Deficiency',
+           'llicular Lymphoma', 'm Pain Disorde', 'min / rosiglitazone)',
+           'min)', 'moterol)', 't Care', 'unctional Gastric Disorde',
+           'ungal Infection Prophylaxis', 'ungal Pneumonia',
+           "von Willebrand's Disease", 'zen Shoulde'];
+    /*initiate the autocomplete function on the "myInput" element, and pass along the countries array as possible autocomplete values:*/
+    
+    autocomplete(document.getElementById("process_text_val"), conditionslist);
     </script>
 
 </body>

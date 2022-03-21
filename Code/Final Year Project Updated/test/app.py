@@ -1,13 +1,13 @@
 from flask import Flask, Response, render_template, request, redirect, url_for, jsonify
 import sqlite3
-from hashchain import records, ethereum
+#from hashchain import records, ethereum
 import json
 from datetime import datetime
 import random
 import ast
 import hashlib
 import pandas as pd
-import jwt
+#import jwt
 import requests
 import json
 from time import time
@@ -19,7 +19,7 @@ from csv import reader
 import pandas as pd
 import numpy as np
 from collections import Counter
-from pretty_html_table import build_table
+#from pretty_html_table import build_table
 import pdfkit
 import codecs
 import smtplib
@@ -40,6 +40,9 @@ global API_KEY, API_SEC
 global patients_ex_df, patient_problems_ex_df, problems_from_notes_ex_df, problems_subject_id_list, indices, dataframe_problems, counter_df, proba_df, final_proba_df, problem_list, problems_list_unique, df2
 global condition, drug_name, mean_pred
 
+drug_df=pd.read_csv(r'test\dataset\drug-rec\grouped_drugRec.csv')
+Name_list = drug_df["condition"].tolist()
+conditions_list = list(set(Name_list))
 def fetch_data(Patient_ID):
     global p_careplans,p_conditions,p_devices,p_encounters,p_imaging_studies,p_immunizations,p_medications,p_observations,p_organizations,p_patients,p_payer_transitions,p_payers,p_procedures,p_providers
     global p_careplans_list, p_conditions_list, p_encounters_list, p_imaging_studies_list, p_immunizations_list, p_medications_list, p_observations_list, p_procedures_list
@@ -352,7 +355,7 @@ def home_page():
 def drugrec(medicine):
     global condition, drug_name, mean_pred
 
-    drug_df=pd.read_csv('dataset/drug-rec/grouped_drugRec.csv')
+    drug_df=pd.read_csv(r'test\dataset\drug-rec\grouped_drugRec.csv')
     drug_df=drug_df.dropna()
     drug_df.head()
     p_drug_name=drug_df.where(drug_df.condition == medicine)
@@ -360,13 +363,13 @@ def drugrec(medicine):
     condition=p_drug_name['condition'].dropna().values.tolist()
     drug_name=p_drug_name['drug_name'].dropna().values.tolist()
     mean_pred=p_drug_name['mean'].dropna().values.tolist()
-    print('Drug Name: '+ str(drug_name[0:5]))
-    print('\nCondition: '+ str(condition[0:5]))
-    print('\nPrediction: '+ str(mean_pred[0:5]))
+    print('Drug Name: '+ str(drug_name[0:9]))
+    print('\nCondition: '+ str(condition[0:9]))
+    print('\nPrediction: '+ str(mean_pred[0:9]))
 
-    condition = condition[0:5]
-    drug_name = drug_name[0:5]
-    mean_pred = mean_pred[0:5]
+    condition = condition[0:9]
+    drug_name = drug_name[0:9]
+    mean_pred = mean_pred[0:9]
 
     return condition, drug_name, mean_pred
 
@@ -490,8 +493,9 @@ def login():
 
             fetch_data(patient_id)
             print(f"Data Recieved is - \n{p_careplans_list}")
-            p_imaging_studies_list, p_immunizations_list, p_medications_list, p_observations_list, p_procedures_list
-            return render_template('Patient_NER_new.html', careplans = p_careplans_list[0:5], conditions = p_conditions_list[0:5], encounters = p_encounters_list[0:5], imaging_studies_list = p_imaging_studies_list[0:5], immunizations_list = p_immunizations_list[0:5], medications_list = p_medications_list[0:5], observations_list = p_observations_list[0:5], procedures_list = p_procedures_list[0:5])
+            #p_imaging_studies_list, p_immunizations_list, p_medications_list, p_observations_list, p_procedures_list
+            
+            return render_template('Patient_NER_new.html', conditions_val=conditions_list, careplans = p_careplans_list[0:5], conditions = p_conditions_list[0:5], encounters = p_encounters_list[0:5], imaging_studies_list = p_imaging_studies_list[0:5], immunizations_list = p_immunizations_list[0:5], medications_list = p_medications_list[0:5], observations_list = p_observations_list[0:5], procedures_list = p_procedures_list[0:5])
         elif check == 0:
             print("Incorrect Email ID or Password")
             return "Incorrect Email ID or Password"
@@ -503,7 +507,24 @@ def login():
     
     con.commit()
     con.close()
+
+
     
+@app.route('/patient_det', methods=["GET", "POST"])
+def patient_det():
+    patient_id='1d604da9-9a81-4ba9-80c2-de3375d59b40'    
+    fetch_data(patient_id) 
+    
+    return render_template('Patient_details.html', careplans = p_careplans_list[0:5], conditions = p_conditions_list[0:5], encounters = p_encounters_list[0:5], imaging_studies_list = p_imaging_studies_list[0:5], immunizations_list = p_immunizations_list[0:5], medications_list = p_medications_list[0:5], observations_list = p_observations_list[0:5], procedures_list = p_procedures_list[0:5])
+        
+@app.route('/patient_dets', methods=["GET", "POST"])
+def patient_dets():
+    patient_id=request.form["process_text_val"]  
+    fetch_data(patient_id) 
+    
+    return render_template('Patient_details.html', careplans = p_careplans_list[0:5], conditions = p_conditions_list[0:5], encounters = p_encounters_list[0:5], imaging_studies_list = p_imaging_studies_list[0:5], immunizations_list = p_immunizations_list[0:5], medications_list = p_medications_list[0:5], observations_list = p_observations_list[0:5], procedures_list = p_procedures_list[0:5])
+        
+
 @app.route('/patient_certificate', methods=["GET", "POST"])
 def patient_certificate():
     con = sqlite3.connect(r'test\database\doctor_database.db')
