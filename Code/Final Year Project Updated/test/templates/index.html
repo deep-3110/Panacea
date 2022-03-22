@@ -1,258 +1,1338 @@
-<!DOCTYPE html>
-<html lang="en">
+<html lang="en"><head>
 
-<head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="icon" type="image/png" sizes="16x16" href="../static/assets/images/favicon.png">
 
-  <meta name="copyright" content="MACode ID, https://macodeid.com/">
 
   <title>Panacea</title>
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.0.0/css/all.css">
+  
+  
+  
+<style>
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
-  <link rel="stylesheet" href="../static/assets/css/maicons.css">
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
 
-  <link rel="stylesheet" href="../static/assets/css/bootstrap.css">
+body {
+  font-family: "Poppins", sans-serif, "Segoe UI", Tahoma, Geneva, Verdana;
+  font-weight: 500;
+  outline: none;
+}
 
-  <link rel="stylesheet" href="../static/assets/vendor/owl-carousel/css/owl.carousel.css">
+h1,
+h2,
+h3,
+h4 {
+  color: #35323e;
+  font-weight: 700;
+}
 
-  <link rel="stylesheet" href="../static/assets/vendor/animate/animate.css">
+p {
+  color: #9e9aa7;
+  font-weight: 500;
+  line-height: 1.7;
+}
 
-  <link rel="stylesheet" href="../static/assets/css/theme.css">
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.btn {
+  display: inline-block;
+  color: white;
+  background-color: #007A64;
+  text-transform: capitalize;
+  font-weight: 700;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 100px;
+  transition: 0.3s;
+}
+
+.btn.btn-sm {
+  padding: 7px 21px;
+}
+
+.btn.btn-lg {
+  padding: 12px 36px;
+}
+
+.btn.btn-plus-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10px;
+}
+
+.btn.btn-plus-icon .icon {
+  font-size: 22px;
+}
+
+.btn:hover {
+  background-color: #6be1e1;
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+.flex-ver-top {
+  align-items: flex-start;
+}
+
+.scale-effect:active {
+  transform: scale(0.88);
+  transition: 0.2s;
+}
+
+.section-header {
+  text-align: center;
+}
+
+.section-header h2 {
+  font-size: 35px;
+}
+
+@media (max-width: 500px) {
+  .section-header h2 {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 280px) {
+  .section-header h2 {
+    font-size: 22px;
+  }
+}
+
+.section-header p {
+  width: 50%;
+  margin: 7px auto 0;
+}
+
+@media (max-width: 992px) {
+  .section-header p {
+    width: 70%;
+  }
+}
+
+@media (max-width: 500px) {
+  .section-header p {
+    width: 100%;
+  }
+}
+
+.container {
+  position: relative;
+  width: 78%;
+  margin: 0 auto;
+}
+
+@media (max-width: 992px) {
+  .container {
+    width: 90%;
+  }
+}
+
+.header {
+  padding: 45px 0;
+}
+
+.header .logo img {
+  height: 30px;
+}
+
+.header .main-navgation {
+  flex: 1;
+  gap: 0;
+}
+
+@media (max-width: 992px) {
+  .header .main-navgation {
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70%;
+    height: 0;
+    z-index: 999;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 33.33333px;
+    border-radius: 10px;
+    background-color: #007A64;
+    transition: height 0.3s;
+  }
+}
+
+@media (max-width: 767px) {
+  .header .main-navgation {
+    width: 90%;
+  }
+}
+
+@media (max-width: 375px) {
+  .header .main-navgation {
+    width: 100%;
+  }
+}
+
+@media (max-width: 280px) {
+  .header .main-navgation {
+    padding: 0 25px;
+  }
+}
+
+.header .main-navgation > div {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+@media (max-width: 992px) {
+  .header .main-navgation > div {
+    flex-direction: column;
+    width: 100%;
+    padding: 33.33333px 0;
+  }
+}
+
+@media (max-width: 280px) {
+  .header .main-navgation > div {
+    padding: 25px 0;
+  }
+}
+
+.header .main-navgation div:first-child {
+  border-bottom: 1px solid white;
+}
+
+.header .nav-buttons .btn {
+  color: #fff;
+  width: 80%;
+}
+
+@media (max-width: 375px) {
+  .header .nav-buttons .btn {
+    width: 100%;
+  }
+}
+
+.header .burger-menu {
+  font-size: 22px;
+  color: #9e9aa7;
+  cursor: pointer;
+  display: none;
+}
+
+@media (max-width: 992px) {
+  .header .burger-menu {
+    display: block;
+  }
+}
+
+.main-navgation a {
+  font-weight: 700;
+  font-size: 14px;
+  color: #9e9aa7;
+  transition: 0.3s;
+}
+
+.main-navgation a:hover {
+  color: #232127;
+}
+
+@media (max-width: 992px) {
+  .main-navgation a {
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+  }
+  .main-navgation a:hover {
+    color: #007A64;
+  }
+}
+
+.landing {
+  display: flex;
+  align-items: center;
+  padding: 40px 0;
+  margin-left: 11%;
+  overflow-x: hidden;
+}
+
+@media (max-width: 992px) {
+  .landing {
+    flex-direction: column-reverse;
+    margin-left: 0;
+    padding-bottom: 80px;
+    row-gap: 60px;
+  }
+}
+
+@media (max-width: 280px) {
+  .landing {
+    padding-bottom: 40px;
+  }
+}
+
+.landing .landing-text {
+  flex: 1;
+  min-width: 465px;
+}
+
+@media (max-width: 992px) {
+  .landing .landing-text {
+    max-width: 95%;
+    min-width: 0;
+    text-align: center;
+  }
+}
+
+.landing .landing-text h1 {
+  width: 100%;
+  font-size: 3.9em;
+  line-height: 1.15;
+}
+
+@media (max-width: 992px) {
+  .landing .landing-text h1 {
+    font-size: 3em;
+  }
+}
+
+@media (max-width: 500px) {
+  .landing .landing-text h1 {
+    font-size: 2em;
+  }
+}
+
+.landing .landing-text p {
+  font-size: 18px;
+  max-width: 500px;
+  margin: 0 0 29.41176px;
+}
+
+@media (max-width: 992px) {
+  .landing .landing-text p {
+    font-size: 16px;
+    margin: 10px auto 29.41176px;
+  }
+}
+
+@media (max-width: 500px) {
+  .landing .landing-text p {
+    font-size: 15px;
+  }
+}
+
+.landing .landing-image {
+  position: relative;
+  right: -70px;
+}
+
+@media (max-width: 992px) {
+  .landing .landing-image {
+    flex-basis: initial;
+    right: -240px;
+  }
+}
+
+@media (max-width: 767px) {
+  .landing .landing-image {
+    right: -170px;
+  }
+}
+
+@media (max-width: 500px) {
+  .landing .landing-image {
+    right: -110px;
+  }
+}
+
+@media (max-width: 375px) {
+  .landing .landing-image {
+    right: -120px;
+  }
+}
+
+@media (max-width: 280px) {
+  .landing .landing-image {
+    right: -70px;
+  }
+}
+
+@media (min-width: 1100px) {
+  .landing .landing-image {
+    right: -130px;
+  }
+}
+
+.landing .landing-image img {
+  width: 100%;
+}
+
+.features {
+  margin-top: 100px;
+  background-color: #eff0f5;
+}
+
+.url-shorten-form {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  background: #007A64 url(../images/bg-shorten-desktop.svg) no-repeat right top;
+  background-size: cover;
+  padding: 45px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  transform: translateY(-50%);
+  transition: gap 0.3s;
+}
+
+@media (max-width: 850px) {
+  .url-shorten-form {
+    flex-direction: column;
+    background: #007A64 url(../images/bg-shorten-mobile.svg) no-repeat right top;
+    padding: 25px;
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 280px) {
+  .url-shorten-form {
+    padding: 20px;
+  }
+}
+
+.url-shorten-form > div {
+  position: relative;
+  flex: 1;
+}
+
+.url-shorten-form .url-input {
+  width: 100%;
+  font-family: "Poppins", sans-serif, "Segoe UI", Tahoma, Geneva, Verdana;
+  font-size: 18px;
+  padding: 8px 20px;
+  background: white;
+  border: 2px solid transparent;
+  border-radius: 6px;
+  outline: none;
+  transition: 0.2s;
+}
+
+.url-shorten-form .url-input::placeholder {
+  font-family: "Poppins", sans-serif, "Segoe UI", Tahoma, Geneva, Verdana;
+  font-size: 16px;
+  font-weight: 500;
+  color: #9e9aa7;
+}
+
+.url-shorten-form .alert {
+  position: absolute;
+  left: 0;
+  top: calc(100% + 4px);
+  font-style: italic;
+  font-size: 16px;
+  color: #f46262;
+  opacity: 0;
+  transition: 0.2s opacity;
+}
+
+@media (max-width: 500px) {
+  .url-shorten-form .alert {
+    font-size: 14px;
+  }
+}
+
+.url-shorten-form .btn {
+  text-align: center;
+  border-radius: inherit;
+  white-space: nowrap;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+@media (max-width: 850px) {
+  .url-shorten-form .btn {
+    font-size: 19px;
+    padding: 10px 30px;
+  }
+}
+
+.url-shorten-form.empty {
+  gap: 37px;
+}
+
+.url-shorten-form.empty .url-input {
+  border-color: #f46262;
+}
+
+.url-shorten-form.empty .url-input::placeholder {
+  color: #f46262;
+  opacity: 0.5;
+}
+
+.url-shorten-form.empty .alert {
+  opacity: 1;
+}
+
+.url-shorten-form.success button {
+  background: #30c59b;
+}
+
+.url-shorten-results {
+  position: relative;
+  top: -60px;
+}
+
+.url-shorten-results .url-shorten-result {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  padding: 15px 25px;
+  background: white;
+  border-radius: 6px;
+  margin-bottom: 15.15152px;
+}
+
+.url-shorten-results .url-shorten-result > div p {
+  font-size: 17px;
+  word-break: break-word;
+}
+
+.url-shorten-results .url-shorten-result > div a:hover {
+  text-decoration: underline wavy #30c59b 2px;
+}
+
+@media (max-width: 850px) {
+  .url-shorten-results .url-shorten-result {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    gap: 0;
+  }
+  .url-shorten-results .url-shorten-result > div {
+    width: 100%;
+    align-items: flex-start;
+    padding: 12px 18px;
+  }
+}
+
+.url-shorten-results .delete-all-urls {
+  display: block;
+  margin: auto;
+  font-size: 15px;
+  background-color: #f24a4a;
+}
+
+.url-shorten-results .delete-all-urls:hover {
+  background-color: #f46262;
+}
+
+.url-shorten-result .old-url p {
+  color: #35323e;
+  font-weight: 500;
+}
+
+.url-shorten-result .old-url a {
+  color: inherit;
+}
+
+@media (max-width: 850px) {
+  .url-shorten-result .old-url {
+    border-bottom: 1px solid #bfbfbf;
+  }
+}
+
+.url-shorten-result .new-url {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.url-shorten-result .new-url a {
+  color: #007A64;
+}
+
+@media (max-width: 850px) {
+  .url-shorten-result .new-url {
+    flex-direction: column;
+    gap: 12px;
+  }
+}
+
+.url-shorten-result .options {
+  display: flex;
+  gap: 10px;
+}
+
+@media (max-width: 850px) {
+  .url-shorten-result .options {
+    width: 100%;
+  }
+}
+
+.url-shorten-result .options button {
+  width: 95px;
+  font-size: 15px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.url-shorten-result .options button.copied {
+  background: #007A64;
+}
+
+.url-shorten-result .options button.delete-url {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  background: #f46262;
+  border: none;
+  color: white;
+  font-size: 18px;
+  transition: 0.2s;
+}
+
+.url-shorten-result .options button.delete-url:hover {
+  color: #f46262;
+  background-color: #eff0f5;
+  font-size: 20px;
+}
+
+@media (max-width: 850px) {
+  .url-shorten-result .options button {
+    width: 100%;
+    font-size: 18px;
+    padding: 10px 30px;
+  }
+}
+
+.more-features-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+  padding: 80px 0 90px 0;
+}
+
+@media (max-width: 666px) {
+  .more-features-content {
+    gap: 80px;
+  }
+}
+
+@media (max-width: 280px) {
+  .more-features-content {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+}
+
+.more-features-content .feature {
+  position: relative;
+  background: white;
+  border-radius: 6px;
+}
+
+.more-features-content .feature:before,
+.more-features-content .feature::after {
+  position: absolute;
+  content: "";
+  background: #007A64;
+}
+
+@media (max-width: 666px) {
+  .more-features-content > div:nth-child(2):before,
+  .more-features-content > div:nth-child(2)::after {
+    width: 6px;
+    height: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .more-features-content > div:nth-child(2):before {
+    top: -80px;
+  }
+  .more-features-content > div:nth-child(2):after {
+    bottom: -80px;
+  }
+}
+
+@media (min-width: 1130px) {
+  .more-features-content {
+    align-items: flex-start;
+  }
+  .more-features-content > div:nth-child(2) {
+    margin-top: 30px;
+  }
+  .more-features-content > div:nth-child(2):before,
+  .more-features-content > div:nth-child(2)::after {
+    height: 6px;
+    width: 25px;
+    top: 40%;
+  }
+  .more-features-content > div:nth-child(2):before {
+    left: -25px;
+  }
+  .more-features-content > div:nth-child(2):after {
+    right: -25px;
+  }
+  .more-features-content > div:nth-child(3) {
+    margin-top: 60px;
+  }
+}
+
+.feature .feature-illustration {
+  position: absolute;
+  top: -32.5px;
+  left: 25px;
+  display: grid;
+  place-items: center;
+  width: 65px;
+  height: 65px;
+  background: #007A64;
+  border-radius: 50%;
+}
+
+@media (max-width: 666px) {
+  .feature .feature-illustration {
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 80px;
+  }
+}
+
+.feature .feature-illustration img {
+  max-width: 50%;
+}
+
+.feature .feature-details {
+  padding: 0 25px 30px;
+  margin-top: 60px;
+}
+
+@media (max-width: 666px) {
+  .feature .feature-details {
+    text-align: center;
+    margin-top: 80px;
+  }
+}
+
+@media (max-width: 280px) {
+  .feature .feature-details {
+    padding: 0 20px 25px;
+  }
+}
+
+@media (max-width: 500px) {
+  .feature .feature-details h3 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 280px) {
+  .feature .feature-details h3 {
+    font-size: 18px;
+  }
+}
+
+.feature .feature-details p {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.pricing {
+  padding: 50px 0;
+  background: #007A64 url(../images/bg-boost-desktop.svg) no-repeat right;
+  background-size: cover;
+}
+
+@media (max-width: 500px) {
+  .pricing {
+    padding: 90px 0;
+    background-image: url(../images/bg-boost-mobile.svg);
+  }
+}
+
+.pricing .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.pricing h2 {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.footer {
+  padding-top: 50px;
+  background: #232127;
+}
+
+.footer .container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 70px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 705px) {
+  .footer .container {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+}
+
+.footer .logo {
+  flex: 1 0 auto;
+}
+
+.footer .logo img {
+  filter: brightness(10);
+}
+
+.footer .quick-links {
+  display: flex;
+  gap: 60px;
+}
+
+@media (max-width: 705px) {
+  .footer .quick-links {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+  }
+}
+
+.footer .quick-links .links-group {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer .links-group span {
+  color: white;
+  font-weight: 700;
+}
+
+.footer .links-group > div {
+  display: flex;
+  flex-direction: column;
+  gap: 6.66667px;
+}
+
+.footer .links-group a {
+  color: #bfbfbf;
+  font-size: 13px;
+  transition: 0.2s color;
+}
+
+.footer .links-group a:hover {
+  color: #007A64;
+}
+
+.footer .social-media {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer .social-media img {
+  max-width: 85%;
+  transition: 0.2s transform;
+}
+
+.footer .social-media img:hover {
+  transform: scale(1.1);
+  filter: invert(0%) sepia(59%) saturate(6585%) hue-rotate(125deg)
+    brightness(86%) contrast(85%);
+}
+
+.attribution {
+  padding: 30px 0 25px 0;
+  text-align: center;
+  font-size: 13px;
+  color: #fff;
+}
+
+.attribution .outer-link {
+  font-size: 15px;
+  color: #007A64;
+  margin-left: 2px;
+  cursor: pointer;
+}
+
+.attribution .outer-link:hover {
+  text-decoration: underline wavy #007A64 2px;
+}
+
+.attribution .social-media {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  list-style: none;
+  margin-left: 5px;
+}
+
+.attribution .social-media .icon {
+  font-size: 20px;
+  color: #fff;
+}
+
+.attribution .social-media .image {
+  width: 23px;
+}
+
+.attribution .social-media .image:hover {
+  filter: none;
+  background-color: none;
+}
+</style>
+
+  <script>
+  window.console = window.console || function(t) {};
+</script>
+
+  
+  
+  <script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
+
+
 </head>
 
-<body>
-
-  <!-- Back to top button -->
-  <div class="back-to-top"></div>
-
-  <header>
-    <div class="topbar">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-8 text-sm">
-          </div>
-          <div class="col-sm-4 text-right text-sm">
-            <div class="social-mini-button">
-              <a href="#"><span class="mai-logo-facebook-f"></span></a>
-              <a href="#"><span class="mai-logo-twitter"></span></a>
-              <a href="#"><span class="mai-logo-dribbble"></span></a>
-              <a href="#"><span class="mai-logo-instagram"></span></a>
-            </div>
-          </div>
-        </div> <!-- .row -->
-      </div> <!-- .container -->
-    </div> <!-- .topbar -->
-
-    <nav class="navbar navbar-expand-lg navbar-light shadow-sm">
-      <div class="container">
-        <a class="navbar-brand" href="#"><span class="text-primary" style="font-color:" >Pana</span>cea</a>
-
-
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupport"
-          aria-controls="navbarSupport" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupport">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About Us</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a class="btn btn-primary ml-lg-3" style="background-color: #007A64;" href="/doctor_login_page">Doctor Login</a>
-            </li>
-            <li class="nav-item">
-              <a class="btn btn-primary ml-lg-3" style="background-color: #007A64;" href="/login_page">Patient Login</a>
-            </li>
-          </ul>
-        </div> <!-- .navbar-collapse -->
-      </div> <!-- .container -->
-    </nav>
-  </header>
-
-  <div class="page-hero bg-image overlay-dark" style="background-image: url(../static/assets/img/bg_image_1.jpg);">
-    <div class="hero-section">
-      <div class="container text-center wow zoomIn">
-        <span class="subhead">Let's make your life happier</span>
-        <h1 class="display-4">Healthy Living</h1>
-        <a href="/login_page" class="btn btn-primary" style="background-color: #007A64;">Let's Consult</a>
+<body translate="no">
+  <main class="main">
+  <!-- Header -->
+  <header class="header">
+    <div class="container flex-between">
+      <div class="logo">
+        <a href="#">
+         <h2>Panacea</h2>
+        </a>
+      </div>
+      <nav class="main-navgation flex-between flex-ver-top">
+        <div class="nav-links">
+    
+        </div>
+        <div class="nav-buttons">
+          <a href="/doctor_login_page" class="log-in">Doctor Login</a>
+          
+          <a href="/login_page" class="">Patient Login</a>
+        </div>
+      </nav>
+      <div class="burger-menu">
+        <i class="fa-regular fa-bars icon"></i>
       </div>
     </div>
-  </div>
-
-  <div class="bg-light">
-    <div class="page-section py-3 mt-md-n5 custom-index">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-md-4 py-3 py-md-0">
-            <div class="card-service wow fadeInUp">
-              <div class="circle-shape bg-secondary text-white">
-                <span class="mai-chatbubbles-outline"></span>
-              </div>
-              <p><span>Chat</span> with a doctors</p>
-            </div>
+  </header>
+  <!-- Landing -->
+  <section class="landing">
+    <div class="landing-text">
+      <h1>More than just an Electronic Healthcare Record</h1>
+      <p>
+        
+      </p>
+      <a href="#url-shorten-form" class="btn btn-lg">Register as a new user</a>
+    </div>
+    <div class="landing-image" style="
+    padding-right: 300px;
+">
+      <img src="..\static\assets\img\vector.png" stye="" alt="Working Illustration">
+    </div>
+  </section>
+  <!-- Features -->
+  <section class="features" id="features">
+    <div class="container">
+      <!-- Short URL Feature -->
+      <div class="url-shorten-feature">
+        <form class="url-shorten-form" id="url-shorten-form">
+          <div>
+            
           </div>
-          <div class="col-md-4 py-3 py-md-0">
-            <div class="card-service wow fadeInUp">
-              <div class="circle-shape bg-primary text-white" style="background-color: #007A64">
-                <span class="mai-shield-checkmark"></span>
-              </div>
-              <p><span>Blockchain Powered</p>
-            </div>
-          </div>
-          <div class="col-md-4 py-3 py-md-0">
-            <div class="card-service wow fadeInUp">
-              <div class="circle-shape bg-accent text-white">
-                <span class="mai-basket"></span>
-              </div>
-              <p><span>Enhanced AI Tools</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> <!-- .page-section -->
-
-    <!-- <div class="page-section">
-      <div class="container">
-        <h1 class="text-center wow fadeInUp">Make an Appointment</h1>
-
-        <form class="main-form">
-          <div class="row mt-5 ">
-            <div class="col-12 col-sm-6 py-2 wow fadeInLeft">
-              <input type="text" class="form-control" placeholder="Full name">
-            </div>
-            <div class="col-12 col-sm-6 py-2 wow fadeInRight">
-              <input type="text" class="form-control" placeholder="Email address..">
-            </div>
-            <div class="col-12 col-sm-6 py-2 wow fadeInLeft" data-wow-delay="300ms">
-              <input type="date" class="form-control">
-            </div>
-            <div class="col-12 col-sm-6 py-2 wow fadeInRight" data-wow-delay="300ms">
-              <select name="departement" id="departement" class="custom-select">
-                <option value="general">General Health</option>
-                <option value="cardiology">Cardiology</option>
-                <option value="dental">Dental</option>
-                <option value="neurology">Neurology</option>
-                <option value="orthopaedics">Orthopaedics</option>
-              </select>
-            </div>
-            <div class="col-12 py-2 wow fadeInUp" data-wow-delay="300ms">
-              <input type="text" class="form-control" placeholder="Number..">
-            </div>
-            <div class="col-12 py-2 wow fadeInUp" data-wow-delay="300ms">
-              <textarea name="message" id="message" class="form-control" rows="6"
-                placeholder="Enter message.."></textarea>
-            </div>
-          </div>
-
-          <button type="submit" class="btn btn-primary mt-3 wow zoomIn">Submit Request</button>
         </form>
+        <div class="url-shorten-results"></div>
       </div>
-    </div> .page-section -->
-
-
-    <footer class="page-footer">
-      <div class="container">
-        <div class="row px-md-3">
-          <div class="col-sm-6 col-lg-3 py-3">
-            <h5>Company</h5>
-            <ul class="footer-menu">
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Career</a></li>
-              <li><a href="#">Editorial Team</a></li>
-              <li><a href="#">Protection</a></li>
-            </ul>
+      <!-- Advanced Features -->
+      <div class="more-features">
+        <div class="section-header">
+          <h2>Advanced Statistics and Tools</h2>
+          <p>
+            Track your Patient History, our AI based Drug Tools and many more.
+          </p>
+        </div>
+        <div class="more-features-content">
+          <div class="feature">
+            <div class="feature-illustration">
+              <img src="https://raw.githubusercontent.com/MohamedAridah/frontendmentor_url-shortening-api/main/images/icon-brand-recognition.svg" alt="Feature Illustration Icon">
+            </div>
+            <div class="feature-details">
+              <h3>AI Drug Recommendation and Post Recovery Commorbidity Prediction</h3>
+              <p>
+                Artificial intellegicen powered drug recommendation system and 
+                post recovery commorbidity prediction powered by MIMIC - III and UCI Datasets
+              </p>
+            </div>
           </div>
-          <div class="col-sm-6 col-lg-3 py-3">
-            <h5>More</h5>
-            <ul class="footer-menu">
-              <li><a href="#">Terms & Condition</a></li>
-              <li><a href="#">Privacy</a></li>
-              <li><a href="#">Join as Doctors</a></li>
-            </ul>
+          <div class="feature">
+            <div class="feature-illustration">
+              <img src="https://raw.githubusercontent.com/MohamedAridah/frontendmentor_url-shortening-api/main/images/icon-detailed-records.svg" alt="Feature Illustration Icon">
+            </div>
+            <div class="feature-details">
+              <h3>Blockchain Powered CertificateDetailed Records</h3>
+              <p>
+                Improved and secured Ethereum blockchain powered decentralised medical certificate isssuing system.            </p>
+            </div>
           </div>
-          <div class="col-sm-6 col-lg-3 py-3">
-            <h5>Our Services</h5>
-            <ul class="footer-menu">
-              <li><a href="#">Drug Recommendation</a></li>
-              <li><a href="#">Disease Prediction</a></li>
-              <li><a href="#">Medical Entity Recognition</a></li>
-              <li><a href="#">Blockchain Based Certificate Issue and Verification</a></li>
-            </ul>
-          </div>
-          <div class="col-sm-6 col-lg-3 py-3">
-            <h5>Contact</h5>
-            <p class="footer-link mt-2">Mumbai, India</p>
-            <a href="#" class="footer-link">701-573-7582</a>
-            <a href="#" class="footer-link">connect@panacea.com</a>
-
+          <div class="feature">
+            <div class="feature-illustration">
+              <img src="https://raw.githubusercontent.com/MohamedAridah/frontendmentor_url-shortening-api/main/images/icon-fully-customizable.svg" alt="Feature Illustration Icon">
+            </div>
+            <div class="feature-details">
+              <h3>Detailed Records</h3>
+              <p>
+                Detailed Real World Records powered by Synthetic Data
+  
+              </p>
+            </div>
           </div>
         </div>
-        <div class="container">
-          <div class="split left">
-            <h1>The Designer</h1>
-            <a href="#" class="button">Read More</a>
-          </div>
-          <div class="split right">
-            <h1>The Programmer</h1>
-            <a href="#" class="button">Read More</a>
-          </div>
-        </div>
-            <script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-1b93190375e9ccc259df3a57c1abc0e64599724ae30d7ea4c6877eb615f89387.js"></script>
-        
-          
-              <script id="rendered-js">
-        const left = document.querySelector(".left");
-        const right = document.querySelector(".right");
-        const container = document.querySelector(".container");
-        
-        left.addEventListener("mouseenter", () => {
-          container.classList.add("hover-left");
-        });
-        
-        left.addEventListener("mouseleave", () => {
-          container.classList.remove("hover-left");
-        });
-        
-        right.addEventListener("mouseenter", () => {
-          container.classList.add("hover-right");
-        });
-        
-        right.addEventListener("mouseleave", () => {
-          container.classList.remove("hover-right");
-        });
-        //# sourceURL=pen.js
-            </script>
-        
-          
-        
-        
-
-        <hr>
-
-        <p id="copyright">Copyright &copy; 2022 <a href="" target="_blank">Panacea</a>. All right reserved</p>
       </div>
-    </footer>
+    </div>
+  </section>
+  <!-- Pricing -->
 
-    <script src="../static/assets/js/jquery-3.5.1.min.js"></script>
+  <!-- Footer -->
+  <footer class="footer" id="resources">
+    <div class="container">
+      <!-- Website Logo -->
+      <div class="logo">
+        <a href="#">
+          <p>Panacea</p>
+        </a>
+      </div>
+      <!-- Quick Links -->
+    
+      <!-- Social Media -->
+      <div class="social-media">
+        <a href="#">
+          <img src="https://raw.githubusercontent.com/MohamedAridah/frontendmentor_url-shortening-api/main/images/icon-facebook.svg" alt="Facebook Logo">
+        </a>
+        <a href="#">
+          <img src="https://raw.githubusercontent.com/MohamedAridah/frontendmentor_url-shortening-api/main/images/icon-twitter.svg" alt="Twitter Logo">
+        </a>
+        <a href="#">
+          <img src="https://raw.githubusercontent.com/MohamedAridah/frontendmentor_url-shortening-api/main/images/icon-pinterest.svg" alt="Pinterest Logo">
+        </a>
+        <a href="#">
+          <img src="https://raw.githubusercontent.com/MohamedAridah/frontendmentor_url-shortening-api/main/images/icon-instagram.svg" alt="Instagram Logo">
+        </a>
+      </div>
+    </div>
+    <!-- Made By -->
+  
+  </footer>
+</main>
+    <script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-1b93190375e9ccc259df3a57c1abc0e64599724ae30d7ea4c6877eb615f89387.js"></script>
 
-    <script src="../static/assets/js/bootstrap.bundle.min.js"></script>
+  
+      <script id="rendered-js">
+/*
 
-    <script src="../static/assets/vendor/owl-carousel/js/owl.carousel.min.js"></script>
+  ////// NOTE ///////
+  
+LocalStorage Doesn't Wok On Coden Pen [Access Denied]. So When Refreshing The Browser All The Generated URLs will Be Removed.
 
-    <script src="../static/assets/vendor/wow/wow.min.js"></script>
+To View The Full Functionality Of The Website, You Can Visit My Github Page
 
-    <script src="../static/assets/js/theme.js"></script>
+https://github.com/MohamedAridah/frontendmentor_url-shortening-api
 
-</body>
+*/
 
-</html>
+// Global Variables
+let shortURLsWrapper = document.querySelector(".url-shorten-results");
+let shortUrlForm = document.querySelector("#url-shorten-form");
+let submitButton = shortUrlForm.querySelector("button");
+let input = shortUrlForm.querySelector(".url-input");
+let alertMessage = shortUrlForm.querySelector(".alert");
+
+// Build Short URL HTML Structure
+function generatedShortUrlHtml(id, originalURL, shortUrl) {
+  shortURLsWrapper.insertAdjacentHTML(
+  "beforeend",
+  `
+  <div class="url-shorten-result" id='${id}'>
+    <div class="old-url">
+    <p><a href="${originalURL}" target="_blank">${originalURL}</a></p>
+    </div>
+    <div class="new-url">
+      <p><a href="${shortUrl}" target="_blank">${shortUrl}</a></p>
+      <div class="options">
+        <button type="button" class="copy-new-url btn btn-sm scale-effect">
+          copy
+        </button>
+
+        <button type="button" class="delete-url scale-effect">
+          <i class="fa-regular fa-trash-can icon"></i>
+        </button>
+      </div>
+    </div>
+  </div>`);
+
+  removeURL();
+  copyURL();
+  removeAllGeneratedURLs();
+}
+
+// Put Delete Button At The End Of The Generated Links Function
+function insertAfter(newNode, existingNode) {
+  existingNode.parentNode.insertBefore(newNode, existingNode.nextSibling);
+}
+
+// Add Remove All Generated URls
+function removeAllGeneratedURLs() {
+  // When There Is More Than One Generated URL & Delete Button Is Already Exists Delete It And Then Add It To The End Of The URLs List.
+  if (shortURLsWrapper.querySelectorAll(".url-shorten-result").length >= 2) {
+    if (shortURLsWrapper.querySelector(".delete-all-urls")) {
+      shortURLsWrapper.querySelector(".delete-all-urls").remove();
+    }
+    // Create Delete Generated URLs Button
+    let button = document.createElement("button");
+    button.type = "button";
+    button.classList = "btn btn-sm delete-all-urls scale-effect";
+    button.textContent = "delete all";
+    insertAfter(button, shortURLsWrapper.lastElementChild);
+    // Delete All Genetared URLs & LocalStorage
+    let deleteAll = shortURLsWrapper.querySelector(".delete-all-urls");
+    deleteAll.addEventListener("click", () => {
+      shortURLsWrapper.innerHTML = "";
+      savedURLs = [];
+      localStorage.removeItem("saved");
+    });
+  } else {
+    if (shortURLsWrapper.querySelector(".delete-all-urls")) {
+      shortURLsWrapper.querySelector(".delete-all-urls").remove();
+    }
+  }
+}
+
+// Remove Sindle URL
+function removeURL() {
+  let deleteURLButton = shortURLsWrapper.querySelectorAll(".delete-url");
+  deleteURLButton.forEach(button => {
+    button.addEventListener("click", () => {
+      // Get URL ID
+      let linkId = button.closest(".url-shorten-result").id;
+      // Remove URL From The List
+      button.closest(".url-shorten-result").remove();
+      // Get Index Of This URL And Remove It From Array
+      const index = savedURLs.findIndex(url => url.id == linkId);
+      // Remove URL From The Array
+      savedURLs.splice(index, 1);
+      // Resave The Array & LocalStorage
+      localStorage.setItem("saved", JSON.stringify(savedURLs));
+      removeAllGeneratedURLs();
+    });
+  });
+}
+
+// Copy URl
+function copyURL() {
+  let copyButtons = shortURLsWrapper.querySelectorAll(".copy-new-url");
+  copyButtons.forEach(button => {
+    button.addEventListener("click", () => {
+      // Get URL Content
+      let urlText = button.
+      closest(".url-shorten-result").
+      querySelector(".new-url p").textContent;
+      const body = document.querySelector("body");
+      const area = document.createElement("textarea");
+      body.appendChild(area);
+      area.value = urlText;
+      area.select();
+      document.execCommand("copy");
+      button.classList.add("copied");
+      button.innerHTML = "copied!";
+      setTimeout(() => {
+        button.classList.remove("copied");
+        button.innerHTML = "copy";
+      }, 1500);
+      body.removeChild(area);
+    });
+  });
+}
+
+// Generate Random IDs
+function reandomIds() {
+  let currentTime = Date.now();
+  let currentTimeString = currentTime.toString(32).slice(0, 8);
+  let reandomNumber = Math.floor(Math.random() * Number.MAX_SAFE_INTEGER).
+  toString().
+  slice(0, 4);
+  let reabdomId = `${currentTimeString}-${reandomNumber}`;
+  return reabdomId;
+}
+
+// shrtcode API
+const makeShortURL = async userUrl => {
+  let apiBaseURL = "https://api.shrtco.de/v2/";
+  let shortenQuery = `shorten?url=`;
+  let fetchLink = `${apiBaseURL}${shortenQuery}${userUrl}`;
+
+  try {
+    let response = await fetch(fetchLink);
+    let data = await response.json();
+    let status = data.ok;
+
+    // Response With Data
+    if (status) {
+      let originalURL = data.result.original_link;
+      let shortUrl = data.result.full_short_link;
+      // Make Object For [originalURL, shortUrl]
+      let generatedURL = {
+        id: reandomIds(),
+        originalURL: originalURL,
+        shortUrl: shortUrl };
+
+      // Change Submit Button Text & Style
+      shortUrlForm.classList.add("success");
+      submitButton.innerHTML = `<i class="fa-solid fa-check icon"></i> shortened!`;
+      setTimeout(() => {
+        shortUrlForm.classList.remove("success");
+        submitButton.innerHTML = "shorten it!";
+      }, 1700);
+      generatedShortUrlHtml(reandomIds(), originalURL, shortUrl);
+      // Save [link] Object To Localstorage After Pushing It To The [savedURLs] Array
+      savedURLs.push(generatedURL);
+      localStorage.setItem("saved", JSON.stringify(savedURLs));
+    }
+    // Response With Error Message [No Data].
+    else {
+        // Change Submit Button Text
+        submitButton.innerHTML = "shorten it!";
+        let errorCode = data.error_code;
+        switch (errorCode) {
+          // If Input Is Empty
+          case 1:
+            alerts("Please add a link first");
+            break;
+          // If URL Is Not Valid
+          case 2:
+            alerts(data.error.split(",")[0] + ", Please check your link again.");
+            break;
+          // If URL Is Not Allowed To Be Shortened
+          case 10:
+            alerts("The link you entered is not allowed to be shortened.");
+            break;
+          // Any Other Problem
+          default:
+            alerts(data.error);}
+
+      }
+  } catch (error) {
+    // Incase Can't Connect To The Api [Ex: No Internet Connection]
+    alerts("Sorry, unknown error happened please try again later.");
+  }
+};
+
+shortUrlForm.addEventListener("submit", e => {
+  e.preventDefault();
+  // Get Input Value & Remove Extra Spaces.
+  let inputValue = input.value.trim().replace(" ", "");
+  // Change Submit Button Text
+  submitButton.innerHTML = `<i class="fa-solid fa-spinner icon fa-spin"></i> Generating...`;
+  makeShortURL(inputValue);
+  // Clear Input
+  shortUrlForm.reset();
+});
+
+// Show Alerts
+function alerts(message) {
+  shortUrlForm.classList.add("empty");
+  alertMessage.textContent = message;
+
+  setTimeout(() => {
+    shortUrlForm.classList.remove("empty");
+  }, 5000);
+}
+
+// Expand Header Navgation Function
+function expandNavgation() {
+  let navgation = document.querySelector(".header .main-navgation");
+  let toggleMenu = document.querySelector(".header .burger-menu");
+  let icon = toggleMenu.querySelector(".icon");
+  let closed = true;
+
+  toggleMenu.addEventListener("click", () => {
+    // Change Icon
+    if (icon.classList.contains("fa-bars")) {
+      icon.className = "fa-regular fa-xmark icon";
+    } else {
+      icon.className = "fa-regular fa-bars icon";
+    }
+
+    // Open Or Close Navgation Menu
+    let navgationHeight = navgation.scrollHeight;
+    if (closed) {
+      navgation.style.height = `${navgationHeight}px`;
+    } else {
+      navgation.style.height = "";
+    }
+    closed = !closed;
+  });
+  // Close Navgation For Devices Greater Than 992px Width.
+  window.addEventListener("resize", () => {
+    if (window.innerWidth > 992) {
+      icon.className = "fa-regular fa-bars icon";
+      navgation.style.height = "";
+      closed = true;
+    }
+  });
+}
+expandNavgation();
+//# sourceURL=pen.js
+    </script>
+
+  
+
+
+
+
+ 
+</body></html>
