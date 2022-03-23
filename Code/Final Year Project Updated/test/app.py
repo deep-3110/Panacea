@@ -1,13 +1,14 @@
+from unicodedata import category
 from flask import Flask, Response, render_template, request, redirect, url_for, jsonify
 import sqlite3
-from hashchain import records, ethereum
+#from hashchain import records, ethereum
 import json
 from datetime import datetime
 import random
 import ast
 import hashlib
 import pandas as pd
-import jwt
+#import jwt
 import requests
 import json
 from time import time
@@ -39,6 +40,7 @@ global requested_patient, requested_reason
 global API_KEY, API_SEC
 global patients_ex_df, patient_problems_ex_df, problems_from_notes_ex_df, problems_subject_id_list, indices, dataframe_problems, counter_df, proba_df, final_proba_df, problem_list, problems_list_unique, df2
 global condition, drug_name, mean_pred
+global text,category,confidenceScore
 
 drug_df=pd.read_csv(r'test\dataset\drug-rec\grouped_drugRec.csv')
 Name_list = drug_df["condition"].tolist()
@@ -139,7 +141,7 @@ def send_mail(name, email_id, doctor_name, date, time, meeting_link, meeting_pas
 
     #For Patient
     # html = Template(Path('index.html').read_text())
-    html = Template(Path('test\templates\email_templates\email_template.html').read_text())
+    html = Template(Path('email_template.html').read_text())
     email = EmailMessage()
     email['from'] = user_email
     email['subject'] = 'Appointment Confirmation'
@@ -155,7 +157,7 @@ def send_mail(name, email_id, doctor_name, date, time, meeting_link, meeting_pas
         print('Done!')
 
     #For Doctor
-    html = Template(Path('test\templates\email_templates\email_template2.html').read_text())
+    html = Template(Path('email_template2.html').read_text())
     email = EmailMessage()
     email['from'] = user_email
     email['subject'] = 'Appointment Confirmation'
@@ -1206,6 +1208,9 @@ def process_text():
 
     print(len(updated_reponse))
 
+    global text
+    global category
+    global confidenceScore
     text = []
     category = []
     confidenceScore = []
@@ -1225,18 +1230,18 @@ def process_text():
     print(text)
     print(category)
     print(confidenceScore)
-
+    
     if len(text) >=5:
-        text = text[0:5]
-        category = category[0:5]
-        confidenceScore = confidenceScore[0:5]
+        text1 = text[0:5]
+        category1 = category[0:5]
+        confidenceScore1 = confidenceScore[0:5]
     elif len(text) < 5:
         for i in range(0, 5 - len(text)):
             text.append("")
             category.append("")
             confidenceScore.append("")
     
-    text_list = list(zip(text, category, confidenceScore))
+    text_list = list(zip(text1, category1, confidenceScore1))
 
     return jsonify({"text_list": text_list})
 
@@ -1278,37 +1283,7 @@ def request_ask_doctor():
     
     reason = request.form["reason"]
     patient_name = request.form["full_name"]
-
-    myheader = {"Content-Type":"application/json"}
-    print(myheader)
-    mydata={"text":reason}
-    ##mydata="i have cough and cold. My heart rate is 93 bpm"
-    print(mydata)
-    api_url='https://prod-92.eastus.logic.azure.com:443/workflows/13e932579f28457d898c99e70f3fca3a/triggers/manual/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=-GaClSwSHk5Cr2KL4nAVB8yQOmA7OTClbtqTCoriS68'
-    print(api_url)
-    response = requests.post(api_url, headers=myheader,json = mydata)
-    print(response.json())
-
-    updated_reponse = response.json()["results"]["documents"]
-    print(updated_reponse)
-
-    print(len(updated_reponse))
-
-    text = []
-    category = []
-    confidenceScore = []
-
-    for i in updated_reponse:
-        print(i)
-        print(type(i))
-        print(i["entities"])
-        for j in i["entities"]:
-            print(j["text"])
-            print(j["category"])
-            print(j["confidenceScore"])
-            text.append(j["text"])
-            category.append(j["category"])
-            confidenceScore.append(j["confidenceScore"])
+    print('Request Doctor')
 
     print(text)
     print(category)
@@ -1347,7 +1322,7 @@ def request_ask_doctor():
 
     #For Patient
     # html = Template(Path('index.html').read_text())
-    html = Template(Path('test\templates\email_templates\email_template3.html').read_text())
+    html = Template(Path('email_template3.html').read_text())
     email = EmailMessage()
     email['from'] = user_email
     email['subject'] = 'Opinion Requested by Mr/Mrs' + patient_name
